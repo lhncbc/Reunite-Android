@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--                -->
+    <!-- 1st part start -->
+    <!--                -->
+
+    <!-- General commands - start -->
+    <string name="ok">
+        OK
+    </string>
+    <string name="cancel">
+        Cancel
+    </string>
+    <string name="yes">
+        Yes
+    </string>
+    <string name="no">
+        No
+    </string>
+    <string name="continue_word">
+        Continue
+    </string>
+    <string name="retry">
+        Retry
+    </string>
+    <string name="none">
+        None
+    </string>
+    <string name="home">
+        Home
+        <!-- return to main screen -->
+    </string>
+    <string name="save">
+        Save
+    </string>
+    <string name="delete">
+        Delete
+    </string>
+    <string name="delete_q">
+        Delete?
+    </string>
+    <string name="delete_all">
+        Delete All
+    </string>
+    <string name="select">
+        Select
+    </string>
+    <string name="please">
+        Please
+    </string>
+    <string name="return_word">
+        Return
+    </string>
+    <string name="next">
+        Next
+    </string>
+    <string name="back">
+        Back
+        <!-- move backwards -->
+    </string>
+    <string name="forward">
+        Forward
+        <!-- move forwards -->
+    </string>
+    <string name="warning">
+        Warning
+    </string>
+    <string name="error">
+        Error
+    </string>
+    <string name="correct">
+        Correct
+    </string>
+    <string name="open">
+        Open
+    </string>
+    <string name="close">
+        Close
+    </string>
+    <string name="camera">
+        Camera
+    </string>
+    <string name="gallery">
+        Gallery
+    </string>
+    <string name="defined">
+        Defined
+    </string>
+    <string name="undefined">
+        Undefined
+    </string>
+    <string name="language">
+    	English
+    </string>
+    <!-- General commands - end -->
+
+    <!-- omb and privacy statement - start -->
+    <string name="expiration_date_1st_part">
+        Omitted
+    </string>
+    <string name="ome_number">
+        Omitted
+    </string>
+    <string name="omb_notice">
+        Omitted
+    </string>
+    <string name="omb_submission">
+        Omitted
+    </string>
+    <string name="omb_text1">
+        Omitted
+    </string>
+    <string name="omb_text2">
+        Omitted
+    </string>
+    <string name="omb_sub">
+        I have read this and agree
+    </string>
+    <string name="i_refuse">
+        I decline
+    </string>
+    <!-- omb and privacy statement - end -->
+
+    <!-- home screen - start -->
+    <string name="welcome">
+        Welcome
+    </string>
+    <string name="username">
+        Username
+    </string>
+    <string name="password">
+        Password
+    </string>
+    <string name="login">
+        Login
+    </string>
+    <string name="logout">
+        Logout
+    </string>
+    <string name="login_or_logout">
+        Login/Logout
+    </string>
+    <string name="guest">
+        Guest
+    </string>
+    <string name="login_was_successful">
+        Login was successful
+    </string>
+    <string name="good_bye">
+        Good bye
+    </string>
+    <string name="you_are_now_a_developer">
+        You are now a developer!
+    </string>
+    <string name="web_server">
+        Web Server
+    </string>
+    <string name="server_status">
+        Server Status
+        <!-- online or offline, connected or dis-connected -->
+    </string>
+    <string name="check">
+        Check
+    </string>
+    <string name="latency">
+        Latency
+        <!-- server response time -->
+    </string>
+    <string name="time_out">
+        Time out
+    </string>
+    <string name="event">
+        Event
+    </string>
+    <string name="change">
+        Change
+    </string>
+    <string name="date">
+        Date
+    </string>
+    <string name="event_location">
+        Event Location
+    </string>
+    <string name="find">
+        Find
+        <!-- find a missing person -->
+    </string>
+    <string name="report">
+        Report
+        <!-- report a missong person -->
+    </string>
+    <string name="organize">
+        Organize
+        <!-- organize files which saved in folders -->
+    </string>
+    <string name="do_you_want_to_login">
+        Do you want to login?
+    </string>
+    <string name="do_you_want_to_login_dis">
+        As a guest, you may have some limited functions to use. To login is highly suggested.
+    </string>
+    <!-- home screen - end -->
+
+    <!-- missing person list - start -->
+    <string name="filter">
+        Filter
+        <!-- make selections to narrow down the searching -->
+    </string>
+    <string name="name">
+        Name
+        <!-- search by input missing person's name -->
+    </string>
+    <string name="photo">
+        Photo
+        <!-- search by input missing person's photo -->
+    </string>
+    <string name="page">
+        Page
+    </string>
+    <string name="search">
+        Search
+    </string>
+    <string name="more">
+        More
+        <!-- more to next page -->
+    </string>
+    <!-- missing person list - end -->
+
+    <!-- missing person information - start -->
+    <string name="draft">
+        Draft
+        <!-- folder to save uncompleted records -->
+    </string>
+    <string name="send">
+        Send
+        <!-- command to send the report -->
+    </string>
+    <string name="primary_image">
+        Primary Image
+        <!-- first image of a missing person -->
+    </string>
+    <string name="secondary_image">
+        Secondary Image
+        <!-- second or third, etc image of a missing person -->
+    </string>
+    <string name="press_button_on_right_side_to_add_caption">
+        Press button on right side to add caption
+        <!-- description -->
+    </string>
+    <string name="caption">
+        Caption
+    </string>
+    <string name="missing_person_information">
+        Missing Person Information
+    </string>
+    <string name="first_name">
+        First Name
+    </string>
+    <string name="last_name">
+        Last Name
+    </string>
+    <string name="other_names">
+        Other Names
+    </string>
+    <string name="approximate_age">
+        Age
+    </string>
+    <string name="gender">
+        Gender
+    </string>
+    <string name="male">
+        Male
+    </string>
+    <string name="female">
+        Female
+    </string>
+    <string name="unknown">
+        Unknown
+    </string>
+    <string name="complex">
+        Complex
+    </string>
+    <string name="status">
+        Status
+        <!-- missing person's status: missing, alive and well, injured, deceased, unknown or found -->
+    </string>
+    <string name="missing">
+        Missing
+    </string>
+    <string name="alive_and_well">
+        Alive and Well
+    </string>
+    <string name="injured">
+        Injured
+    </string>
+    <string name="deceased">
+        Deceased
+    </string>
+    <string name="found">
+        Found
+    </string>
+    <string name="last_seen_location">
+        Last Seen Location
+    </string>
+    <string name="additional_details">
+        Additional Details
+    </string>
+    <string name="missing_person_uuid">
+        Missing Person UUID
+    </string>
+    <string name="last_updated_date">
+        Last Updated Date
+    </string>
+    <string name="follow">
+        Follow
+    </string>
+    <string name="why_follow_a_record">
+        Why follow a record?
+    </string>
+    <string name="follow_record_des">
+        To receive email alert when this record is updated with new information, you can select to
+        follow this person. You will only receive an email when the record is updated with new
+        information or when someone leaves a comment.
+    </string>
+    <string name="why_follow_record">
+        To receive email alerts when this record is updated with new information, you can elect to
+        follow this person. You will only receive an email when the record is updated with new
+        information or when someone leaves a comment.
+    </string>
+    <!-- missing person information - end -->
+
+    <!-- Report missing person - start -->
+    <string name="input_by_right_side_button">
+        Input by right side button
+    </string>
+    <string name="google_map_view">
+        Google Map View
+    </string>
+    <string name="gps_cannot_detect_current_location">
+        GPS cannot detect current location
+    </string>
+    <string name="let_gps_fill_your_address">
+        Let GPS fill your address
+    </string>
+    <string name="get_address_from_google_map">
+        Get address from Google Map
+    </string>
+    <string name="address_book_is_empty">
+        Address book is empty
+    </string>
+    <string name="select_from_adress_book">
+        Select from address book
+    </string>
+    <string name="street">
+        Street
+    </string>
+    <string name="city">
+        City
+    </string>
+    <string name="state">
+        State
+    </string>
+    <string name="zip">
+        Zip
+    </string>
+    <string name="country">
+        Country
+    </string>
+    <string name="comments">
+        Comments
+    </string>
+    <string name="maximum_500_characters">
+        Maximum 500 characters
+    </string>
+    <string name="required_field">
+        Required field
+        <!-- the field that the user must input -->
+    </string>
+    <!-- Report missing person - end -->
+
+    <!-- Organize - start -->
+    <string name="lost_person_files">
+        Lost Person Files
+    </string>
+    <string name="file_found">
+        file found
+    </string>
+    <string name="files_found">
+        files found
+    </string>
+    <string name="no_file_is_found">
+        No file is found
+    </string>
+    <!-- Organize - end -->
+
+    <!-- web server latency - start -->
+    <string name="excellent">
+        Excellent
+    </string>
+    <string name="good">
+        Good
+    </string>
+    <string name="poor">
+        Poor
+    </string>
+    <string name="disconnected">
+        Disconnected
+    </string>
+    <!-- web server latency - end -->
+
+    <!-- toast messages - start -->
+    <string name="this_option_is_not_available">
+        This option is not available
+    </string>
+    <string name="all_photos_are_deleted">
+        All photos are deleted
+    </string>
+    <string name="all_records_are_deleted">
+        All records are deleted
+    </string>
+    <string name="email">
+        Email
+    </string>
+    <string name="sending_email">
+        Sending email...
+    </string>
+    <string name="there_is_no_email_client_installed">
+        There is no email client installed
+    </string>
+    <string name="html_file_is_empty">
+        HTML file is empty
+    </string>
+    <string name="done">
+        Done
+    </string>
+    <string name="canceled">
+        Canceled
+    </string>
+    <string name="succeed">
+        Succeed
+    </string>
+    <string name="not_succeed">
+        Not succeed
+    </string>
+    <string name="completed">
+        Completed
+    </string>
+    <string name="implemented">
+        Implemented
+    </string>
+    <string name="not_implemented">
+        Not implemented
+    </string>
+    <string name="no_record_is_found">
+        No record is found
+    </string>
+    <string name="need_to_login">
+        Need to login
+    </string>
+    <string name="no_photo">
+        No photo
+    </string>
+    <string name="no_photo_is_found">
+        No photo is found
+    </string>
+    <string name="a_photo_is_selected">
+        A photo is selected
+    </string>
+    <string name="moving_to_photo_number">
+        Moving to photo number
+    </string>
+    <string name="you_are_about_to_delete_all_the_photos_saved_in_cache">
+        You are about to delete all the photos saved in cache
+    </string>
+    <string name="are_you_sure_you_want_to_delete_the_selected_photo">
+        Are you sure you want to delete the selected photo?
+    </string>
+    <string name="no_photo_is_selected_do_you_really_want_to_quit">
+        No photo is selected. Do you really want to quit?
+    </string>
+    <string name="file_is_saved">
+        File is saved
+    </string>
+    <string name="report_abuse_and_its_explanation_are_sent">
+        Report abuse and its explanation are sent
+    </string>
+    <string name="all_files_in_outbox_are_deleted">
+        All files in outbox are deleted
+    </string>
+    <string name="searching_images_took_seconds">
+        Search images took seconds
+    </string>
+    <string name="google_authenticated_token_is_empty">
+        Google authenticated token is empty
+    </string>
+    <!-- toast messages - end -->
+
+    <!-- dialogue box message - start -->
+    <string name="processing_please_wait">
+        Processing, please wait...
+    </string>
+    <string name="updating_the_status_please_wait">
+        Updating the status, please wait...
+    </string>
+    <string name="retrieving_events_please_wait">
+        Retrieving events, please wait...
+    </string>
+    <string name="retrieving_information_on_selected_event_please_wait">
+        Retrieving information on selected event, please wait...
+    </string>
+    <string name="detecting_the_speed_please_wait">
+        Detecting the speed, please wait...
+    </string>
+    <string name="logging_in_please_wait">
+        Logging in, please wait...
+    </string>
+    <string name="saving_data_to_database_please_wait">
+        Saving data in database, please wait...
+    </string>
+    <string name="reporting_missing_person_please_wait">
+        Reporting missing person information, please wait...
+    </string>
+    <string name="reporting_abuse_please_wait">
+        "Reporting abuse, please wait...
+    </string>
+    <string name="loading_images_please_wait">
+        Loading images, please wait...
+    </string>
+    <string name="searching_the_selected_record_">
+        Searching the selected missing person file, please wait...
+    </string>
+    <string name="un_flowing_all_the_records_please_wait">
+        Un-following all the records, please wait...
+    </string>
+    <string name="information_is_sent">
+        Information is sent
+    </string>
+    <string name="save_a_copy_to_local">
+        Save a copy to local
+    </string>
+    <string name="registration_is_successful_">
+        Registration is successful! Please login or find more information from your email
+    </string>
+    <string name="first_name_is_empty">
+        First name is empty!
+    </string>
+    <string name="last_name_is_empty">
+        Last name is empty!
+    </string>
+    <string name="email_is_empty">
+        Email is empty!
+    </string>
+    <string name="username_is_empty">
+        Username is empty!
+    </string>
+    <string name="password_is_empty">
+        Password is empty!
+    </string>
+    <string name="confirmation_password_is_empty">
+        Confirmation password is empty!
+    </string>
+    <string name="two_passwords_are_not_identical">
+        Two passwords are not identical.
+    </string>
+    <string name="password_requires_at_least_8_characters">
+        Password requires at least 8 characters.
+    </string>
+    <string name="password_cannot_have_more_than_16_characters">
+        Password cannot have more than 16 characters.
+    </string>
+    <string name="password_must_have_at_least_one_uppercase_character">
+        Password must have at least one uppercase character.
+    </string>
+    <string name="password_must_have_at_least_one_lowercase_character">
+        Password must have at least one lowercase character.
+    </string>
+    <string name="password_must_have_at_least_one_numeral_">
+        Password must have at least one numeral (0-9).
+    </string>
+    <string name="password_cannot_contain_your_username">
+        Password cannot contain your username.
+    </string>
+    <string name="you_need_to_select_the_event">
+        You need to select the event
+    </string>
+    <string name="do_you_want_to_delete_this_image">
+        Do you want to delete this image?
+    </string>
+    <string name="as_a_guest_you_">
+        As a guest, you can report a missing person anonymously. But you wil have some limited functions.
+    </string>
+    <string name="are_you_sure_you_want_to_quite_current_work_q">
+        Are you sure you want to quit current work?
+    </string>
+    <string name="you_do_not_have_any_following_records">
+        You do not have any following records
+    </string>
+    <string name="you_do_not_have_internet_connection">
+        You do not have internet connection
+    </string>
+    <string name="as_a_guest_you_may_report_">
+        As a guest, you may report a missing person anonymously. But you will have limited functions to use.
+    </string>
+    <string name="as_a_guest_you_may_have_">
+        As a guest, you may have some limited function to use, To login is highly suggested.
+    </string>
+    <string name="change_is_made_">
+        Change is made. Please restart the APP.
+    </string>
+    <!-- dialogue box message - end -->
+
+    <!-- text shown on menu - start -->
+    <string name="social_media">
+        Social Media
+    </string>
+    <string name="tutorials">
+        Tutorials
+    </string>
+    <string name="email_us">
+        Email Us
+    </string>
+    <string name="version_history">
+        Version History
+    </string>
+    <string name="cache">
+        Cache
+    </string>
+    <string name="clean_cache">
+        Clean Cache
+    </string>
+    <string name="refresh">
+        Refresh
+    </string>
+    <string name="email_html_file">
+        Email HTML File
+    </string>
+    <string name="developer_tools">
+        Developer Tools
+    </string>
+    <string name="enter_username_and_password">
+        Enter Username and Password
+    </string>
+    <string name="about">
+        About
+    </string>
+    <string name="report_abuse">
+        Report Abuse
+    </string>
+    <string name="update_image">
+        Update Image
+    </string>
+    <string name="get_male_name">
+        Get Male Name
+    </string>
+    <string name="get_female_name">
+        Get Female Name
+    </string>
+    <string name="notification">
+        Notification
+    </string>
+    <string name="show_omb">
+        Show OMB
+    </string>
+    <string name="future_developments">
+        Future Developments
+    </string>
+    <string name="display_gcm_token">
+        Display GCM Token
+    </string>
+    <string name="gcm_token_upload_status">
+        GCM Token Upload Status
+    </string>
+    <string name="send_gcm_message">
+        Send GCM Message
+    </string>
+    <string name="email_gcm_token">
+        Email GCM Token
+    </string>
+    <string name="select_web_server">
+        Select Web Server
+    </string>
+    <!-- text shown on menu - end -->
+
+    <!-- error codes - start -->
+    <string name="plusError1">
+        Error: invalid username or password
+        <!-- "context": "Error message presented when a user provides the incorrect username and/or password." -->
+    </string>
+    <string name="plusError2">
+        Error: your account is temporarily locked for repeatedly failing to login, try again later
+        <!-- "context": "Error message presented when a user fails to login repeatedly." -->
+    </string>
+    <string name="plusError6">
+        Error: a user already exists with provided the provided email address
+        <!-- "context": "Error message presented when user tries to use an email address already in use." -->
+    </string>
+    <string name="plusError7">
+        Error: the username you provided is not available
+        <!-- "context": "Error message presented when a user attempts to register with a username that is already in use by another user." -->
+    </string>
+    <string name="plusError8">
+        Error: invalid email address
+        <!-- "context": "Error message presented when a user provides an invalid email address." -->
+    </string>
+    <string name="plusError9">
+        Error: password must be 8-16 characters in length, must have at least one uppercase, one lowercase, and one numeric character
+        <!-- "context": "Error message presented when user enters an invalid password." -->
+    </string>
+    <string name="plusError11">
+        Error: the email address provided is not associated with any user account
+        <!-- "context": "Error message presented when user attempts to reset password with an unregistered email address-->
+    </string>
+    <string name="plusError14">
+        Error: incorrect human validation test result, please reload the page
+        <!-- "context": "Error message presented when the captcha system encounters invalid data-->
+    </string>
+    <string name="plusError15">
+        Error: reCaptcha session expired, please reload the page
+        <!-- "context": "Error message presented when the reCaptcha session has expired and the user must reload the page to continue-->
+    </string>
+    <string name="plusError16">
+        Error: passwords do not match
+        <!-- "context": "Error message presented when entered password do not match one another-->
+    </string>
+    <string name="plusError20">
+        Error: password must be 8-16 characters long
+        <!-- "context": "Error message presented when entered password is of incorrect length, must be 8-16 characters long-->
+    </string>
+    <string name="plusError21">
+        Error: password must contain at least one uppercase letter (A-Z)
+        <!-- "context": "Error message presented when entered password does not contain at least one uppercase letter-->
+    </string>
+    <string name="plusError22">
+        Error: password must contain at least one lowercase letter (a-z)
+        <!-- "context": "Error message presented when entered password does not contain at least one lowercase letter-->
+    </string>
+    <string name="plusError23">
+        Error: password must contain at least one number (0-9)
+        <!-- "context": "Error message presented when entered password does not contain at least one digit-->
+    </string>
+    <string name="plusError100">
+        Network error. Please check your connection and try again.
+        <!-- "context": "Error message presented when there is a network / internet issue-->
+    </string>
+    <string name="plusError600">
+        Error: cannot follow a record that does not exist or you do not have privilege to access
+        <!-- "context": "Error message presented when user attempts to follow a record they have no permission to access-->
+    </string>
+    <string name="plusError601">
+        Error: cannot follow this record since you are already following it
+        <!-- "context": "Error message presented when attempting to follow a record the user is already following-->
+    </string>
+    <string name="plusError602">
+        Error: cannot unfollow this record since you are not currently following it
+        <!-- "context": "Error message presented when "-->
+    </string>
+    <string name="plusError9999">
+        An unknown error has occurred.
+    </string>
+    <!-- error codes - end -->
+
+    <!--              -->
+    <!-- 1st part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 2nd part start -->
+    <!--                -->
+
+    <!-- new - start -->
+    <string name="quit">
+        Quit
+    </string>
+    <string name="select_language">
+        Select Language
+    </string>
+    <string name="offline">
+        Offline
+    </string>
+    <string name="connected">
+        Connected
+    </string>
+    <string name="follow_record">
+        Follow Record
+    </string>
+    <string name="follow_nothing">
+        Follow nothing
+    </string>
+    <string name="no_follow">
+        No follow
+    </string>
+    <string name="logout_first">
+        Logout first
+    </string>
+    <string name="undetected">
+        Undetected
+    </string>
+    <string name="address_book">
+        Address book
+    </string>
+    <string name="enter_a_name_">
+        Enter a name in the search box. Use the asterisk (*) to match any group of characters.
+    </string>
+    <string name="example">
+        Example
+    </string>
+    <string name="are_you_sure_q">
+        Are you sure?
+    </string>
+    <string name="input_empty_error_code">
+        Input empty error code
+    </string>
+    <string name="show_password">
+        Show password
+    </string>
+    <string name="forgot_q">
+        Forgot?
+    </string>
+    <string name="forgot_username">
+        Forgot username
+    </string>
+    <string name="forgot_password">
+        Forgot password
+    </string>
+    <string name="new_user">
+        New user
+    </string>
+    <string name="please_enter_your_username_and_password">
+        Please enter your username and password
+    </string>
+    <string name="forgot_your_username_q">
+        Forgot your username? Please enter your e-mail address, we will send information back to you shortly
+    </string>
+    <string name="submit">
+        Submit
+    </string>
+    <string name="email_address_is_sent">
+        Email address is sent
+    </string>
+    <string name="forgot_your_password_q">
+        Forgot your password? Please enter your e-mail address, we will send information back to you shortly
+    </string>
+    <string name="register_as_a_new_user">
+        Register as a new user
+    </string>
+    <string name="passwords_must_adhere_">
+        Passwords must adhere to the following rules
+    </string>
+    <string name="re_enter_password">
+        Re-enter password
+    </string>
+    <string name="register">
+        Register
+    </string>
+    <string name="child_0_17">
+        Child (0-17)
+    </string>
+    <string name="adult_18_plus">
+        Adult (18+)
+    </string>
+    <string name="view_persons_with">
+        View persons with
+    </string>
+    <string name="photo_only">
+        photo only
+    </string>
+    <string name="both_recommended">
+        both - recommended
+    </string>
+    <string name="number_of_records_per_load">
+        Number of records per load
+    </string>
+    <string name="_5_seconds">
+        5
+    </string>
+    <string name="_10_seconds">
+        <!-- 10 seconds -->
+        10
+    </string>
+    <string name="_10_seconds_recommended">
+        10 - recommended
+    </string>
+    <string name="_15_seconds">
+        15
+    </string>
+    <string name="_15_seconds_recommended">
+        15 - recommended
+    </string>
+    <string name="_20_seconds">
+        20
+    </string>
+    <string name="tap_right_button_to_add_photo_caption">
+        Tap right button to add photo caption
+    </string>
+    <string name="open_for_reporting">
+        Open for reporting
+    </string>
+    <string name="closed_reporting">
+        Closed reporting
+    </string>
+    <string name="you_have_selected">
+        You have selected
+    </string>
+    <string name="start">
+        Start
+    </string>
+    <string name="no_photo_is_selected">
+        No photo is selected
+    </string>
+    <string name="sent_box_is_empty">
+        Sent box is empty
+    </string>
+    <string name="out_box_is_empty">
+        Outbox is empty
+    </string>
+    <string name="draft_box_is_empty">
+        Draft box is empty
+    </string>
+    <string name="saved_box_is_empty">
+        Saved box is empty
+    </string>
+    <string name="all_boxes_are_empty">
+        All boxes are empty
+    </string>
+    <string name="sent">
+        Sent
+    </string>
+    <string name="outbox">
+        Outbox
+    </string>
+    <string name="saved_from_search">
+        Saved from search
+    </string>
+    <string name="you_are_about_to_delete_all_files">
+        You are about to delete all files
+    </string>
+    <string name="all_files_are_deleted">
+        All files are deleted
+    </string>
+    <string name="web_server_is_not_found">
+        Web server is not found
+    </string>
+    <string name="this_file_was_downloaded_earlier_">
+        This file was downloaded earlier. It may not be the most updated. To see the most updated file, go back to home and try \"Find\" again
+    </string>
+    <string name="you_are_an_anonymous_user">
+        You are an anonymous user
+    </string>
+    <string name="saved">
+        Saved
+    </string>
+    <string name="deleted">
+        Deleted
+    </string>
+    <string name="local_file_id">
+        Local file ID
+    </string>
+    <string name="there_is_only_one_photo">
+        There is only one photo
+    </string>
+    <string name="add_text">
+        Add text
+    </string>
+    <string name="age_is_missing">
+        Age is missing
+    </string>
+    <string name="exceeds_maximum_age">
+        Exceeds maximum age
+    </string>
+    <string name="error_in_age">
+        Error in age
+    </string>
+    <string name="error_in_event">
+        Error in event
+    </string>
+    <string name="error_in_gender">
+        Error in gender
+    </string>
+    <string name="error_in_status">
+        Error in status
+    </string>
+    <string name="no_data_returned">
+        No data returned
+    </string>
+    <string name="updated">
+        Updated
+    </string>
+    <string name="updating_the_persons_information_please_wait_dots">
+        Uploading the person\'s information, please wait...
+    </string>
+    <string name="is_sent">
+        is sent
+    </string>
+    <string name="is_not_sent">
+        is not sent
+    </string>
+    <string name="is_saved">
+        is saved
+    </string>
+    <string name="no_permission">
+        No permission
+    </string>
+    <string name="you_are_about_to_delete_this_file">
+        You are about to delete this file
+    </string>
+    <string name="uuid_is_missing">
+        UUID is missing
+    </string>
+    <string name="permission_is_denied">
+        Permission is denied
+    </string>
+    <string name="subscribe_to_email_updates">
+        Subscribe to email updates
+    </string>
+    <string name="no_valid_token">
+        No valid token
+    </string>
+    <string name="slide_to_move_page">
+        Slide to move page
+    </string>
+    <string name="tutorial_on_the_starting_page">
+        Tutorial on the starting page
+    </string>
+    <string name="tutorial_on_rules_of_user_registration">
+        Tutorial on rules of user registration
+    </string>
+    <string name="tutorial_on_finding_a_missing_person">
+        Tutorial on finding a missing person
+    </string>
+    <string name="tutorial_on_reporting_a_missing_person">
+        Tutorial on reporting a missing person
+    </string>
+    <string name="tutorial_on_managing_files_in_sent_saved_draft_and_outbox">
+        Tutorial on managing files in sent, saved, draft and outbox
+    </string>
+
+    <string name="privacy_statement_title">PRIVACY STATEMENT</string>
+    <string name="privacy_statement_content">
+        The U.S. National Library of Medicine (NLM), part of the U.S. Department of Health and Human Services,
+        has in its mission the development of communication systems technology to improve the delivery of health information.
+        The Reunite app is designed to speed uploading necessary personal information about missing (and found)
+        people to NLM\'s People Locator (PL) service available at https://pl.nlm.nih.gov.
+        This service being provided for the explicit purpose of assisting in post-disaster family reunification as well as
+        studying the utility of such tools in responding to disasters. More information on the PL service and
+        the Lost Person Finder Project can be found at http://lpf.nlm.nih.gov
+        \nNote:
+    </string>
+
+    <string name="ps_note_01">
+        Submission of information using this app is voluntary.
+    </string>
+    <string name="ps_note_02">
+        All submitted information may be made publicly available.
+    </string>
+    <string name="ps_note_03">
+        Data stored using this tool may not be moderated and could be searchable by all visitors to NLM\'s PL Web site.
+    </string>
+    <string name="ps_note_04">
+        Data stored within the app is not encrypted at this time.
+    </string>
+    <string name="ps_note_05">
+        The user of this app must have a PL service account to upload information about missing or found people.
+    </string>
+    <string name="ps_note_06">
+        No PL login is necessary to search the site.
+    </string>
+    <string name="ps_note_07">
+        Information reported on an individual and sender\'s provided contact information may be disseminated to other
+        Government agencies or other institutions assisting the reunification efforts after any disaster where U.S.
+        Government relief efforts are being provided.
+    </string>
+    <string name="ps_note_08">
+        For missing person data provided following a disaster: If you hear from the person you are concerned about,
+              please follow instructions at the PL Web Site to update their status.
+    </string>
+    <string name="ps_note_09">
+        The application does not track user location.
+    </string>
+    <string name="ps_note_10">
+        User location is detected on explicit user action to aid address lookup.
+    </string>
+    <!--              -->
+    <!-- 2nd part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 3rd part start -->
+    <!--                -->
+    <string name="in_order_to_use_this_app_">
+        In order to use this app you must accept the Privacy Statement. Would you like to reconsider?
+    </string>
+    <string name="saving_data_to_database_please_wait_dot">
+        Saving data to database, please wait...
+    </string>
+    <string name="update">
+        Update
+    </string>
+
+    <!--              -->
+    <!-- 3rd part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 4th part start -->
+    <!--                -->
+
+    <string name="permission_is_granted_">
+        Permission is granted, Now you can try again.
+    </string>
+    <string name="permission_is_denied_">
+        Permission was denied. Please consider granting it in order to access the data!
+    </string>
+    <string name="message_checking_permission_">
+        Checking permission...
+    </string>
+    <string name="message_requesting_permission_">
+        Requesting permission...
+    </string>
+    <!--              -->
+    <!-- 4th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 5th part start -->
+    <!--              -->
+    <string name="confirmation_was_successful">
+        Confirmation was successful.
+    </string>
+    <string name="click_button_to_complete_confirmation">
+        Please click the button to complete the confirmation process.
+    </string>
+    <string name="invalid_preference_value">
+        invalid preference value
+    </string>
+    <string name="reporting_locale_dot">
+        Reporting locale...
+    </string>
+
+    // abuse
+    <string name="what_would_you_like_to_report">
+        What would you like to report?
+    </string>
+    <string name="spam">
+        Spam
+    </string>
+    <string name="sexually_explicit">
+        Sexually Explicit
+    </string>
+    <string name="hate_speech">
+        Hate Speech
+    </string>
+    <string name="violence">
+        Violence
+    </string>
+    <string name="something_else">
+        Something Else
+    </string>
+    <string name="abuse_thanks">
+        Thanks. We have received your abuse claim. Our site staff will review this record and remove any inappropriate content.
+    </string>
+
+    <!-- forgot -->
+    <string name="enter_your_email_">
+        Enter your email address and we will send you instructions how to reset your password.
+    </string>
+
+    // change password
+    <string name="old_password">
+        Old Password
+    </string>
+    <string name="new_password">
+        New Password
+    </string>
+    <string name="new_password_again">
+        New Password Again
+    </string>
+    <string name="your_password_must_contain_a_number_etc">
+        Your password must contain a number, a lowercase letter, an uppercase letter, and be 8-16 characters long.
+    </string>
+    <string name="change_password">
+        Change Password
+    </string>
+
+    <!-- error code -->
+    <string name="exceeded_authentication_failure_limit_">
+        exceeded authentication failure limit (8 failures in 24 hours/per ip)
+    </string>
+    <string name="user_account_is_inactive_">
+        user account is inactive; user must confirm email address
+    </string>
+    <string name="a_user_already_exists_with_">
+        a user already exists with the provided email address
+    </string>
+    <string name="invalid_email_address">
+        invalid email address
+    </string>
+    <string name="invalid_confirmation_code">
+        invalid confirmation code
+    </string>
+
+    <!--              -->
+    <!-- 5th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 6th part start -->
+    <!--              -->
+    <string name="menu_settings">
+        Settings
+    </string>
+    <string name="ncmec_declaim">
+	    <!-- same as pl "ncmed1" -->
+        We suggest you also send this report to the National Center for Missing and Exploited Children as well.
+    </string>
+    <string name="do_not_show_again">
+        Do not show again
+    </string>
+    <!--              -->
+    <!-- 6th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 7th part start -->
+    <!--              -->
+    <string name="enter_email">
+        Enter email
+    </string>
+    <string name="enter_password">
+        Enter password
+    </string>
+    <!--              -->
+    <!-- 7th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 8th part start -->
+    <!--              -->
+    <string name="pad3subStatusUnsubscribed">
+        UNSUBSCRIBED
+        <!-- "This text label tells of the status of the user not being subscribed to recieve notifications."-->
+    </string>
+    <string name="pad3subStatusSubscribed">
+        SUBSCRIBED
+        <!-- "This text label tells the status of the user being subscribed to recieve notifications."-->
+    </string>
+    <string name="pad3subscribeTo">
+        Subscribe to notifications
+        <!--"context": "This is the title text to the section that allows a user to opt-in to recieve push notifications."-->
+    </string>
+    <string name="pad3Time">
+        From time to time, we may send out notifications to our users when a new event is created.
+        <!-- "context": "This verbiage describes the extent to which we use the push notification subscription a user provides to send out information."-->
+    </string>
+    <!--              -->
+    <!-- 8th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 9th part start -->
+    <!--              -->
+    <string name="age_child_pius_unknown">
+        Child (0-17) + Unknown
+        <!-- "context": "This verbiage describes the extent to which we use the push notification subscription a user provides to send out information."-->
+    </string>
+    <!--              -->
+    <!-- 9th part end -->
+    <!--              -->
+    <!-- notification -->
+    <!-- 10th part start -->
+    <!--                -->
+    <string name="pad3record">
+    	Receive updates to records that you are following via
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive messages from PL via push or email when a record they are following is updated."-->
+    </string>
+    <string name="pad3event">
+    	Receive a message when a new event is created via
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive messages from PL via push or email when a new event is created."-->
+    </string>
+    <string name="pad3admin">
+    	Receive Admin messages via
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive admin messages from PL via push or email."-->
+    </string>
+    <string name="pushNotification">
+    	Push Notification
+        <!-- "context": "This describes a button label for a Push Notification option."-->
+    </string>
+    <!-- notification -->
+    <!-- 10th part end -->
+    <!--              -->
+    <!-- person animal -->
+    <!-- 11th part start -->
+    <!--                -->
+    <string name="person">
+    	Person
+    </string>
+    <string name="animal">
+        Animal
+    </string>
+    <string name="both">
+        Both
+    </string>
+    <!-- notification -->
+    <!-- 11th part end -->
+    <!--              -->
+</resources>

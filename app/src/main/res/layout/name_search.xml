@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp" >
+    <TextView
+        android:id="@+id/tvEventName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Event Name"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <View
+       	android:layout_width="match_parent"
+       	android:layout_height="1dp" 
+       	android:background="#555555"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Files to search" />
+    <ProgressBar
+        android:id="@+id/progressBarTotalNumber"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:id="@+id/tvTotalNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="0" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <View
+       	android:layout_width="match_parent"
+       	android:layout_height="1dp" 
+       	android:background="#555555"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Enter a name in the search box. Use the asterisk (*) to match any group of characters." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Examples:" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joseph Doe" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doe, Jane" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="J* Doe" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="fill_horizontal" >
+	    <EditText
+       		android:id="@+id/editName"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:ems="10"
+            android:layout_weight="1"
+        	android:inputType="textPersonName" >
+        	<requestFocus />
+    	</EditText>
+        <Button
+        	android:id="@+id/buttonNameSearch"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|right"
+            android:layout_weight="1"
+            android:background="@drawable/select_button" />
+	</LinearLayout>    
+     <View
+       	android:id="@+id/view1"
+       	android:layout_width="match_parent"
+       	android:layout_height="1dp" 
+       	android:background="#555555"/>    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Narrow down search of files" />
+    <ProgressBar
+        android:id="@+id/progressBarNewTotalNumber"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:id="@+id/tvNewTotalNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+     <View
+       	android:layout_width="match_parent"
+       	android:layout_height="1dp" 
+       	android:background="#555555"/>
+   		<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="fill_horizontal" >
+   		<Button
+        	android:id="@+id/buNext2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+             android:layout_gravity="center|center_horizontal"
+            android:paddingBottom="10dp"
+            android:background="@drawable/next_button" />
+     </LinearLayout>
+		
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/footer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/buttonEvents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/reunite_button_height"
+                    android:background="@color/com_facebook_blue"
+                    android:textColor="@color/white1"
+                    android:text="@string/event" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/buttonFilters"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/reunite_button_height"
+                    android:background="@color/com_facebook_blue"
+                    android:textColor="@color/white1"
+                    android:text="@string/filter" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextNameSearch"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/reunite_button_height"
+                android:ems="10"
+                android:layout_weight="1"
+                android:layout_gravity="center|bottom"
+                android:hint="d*s*"
+                android:inputType="textPersonName" >
+                <requestFocus />
+
+            </EditText>
+
+                </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <RadioGroup android:id="@+id/radioGroupSearchOption"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/reunite_button_height"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reunite_button_height"
+                    android:text="@string/name"
+                    android:textColor="@color/black3"
+                    android:id="@+id/radioButtonByName"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/abc_text_size_small_material" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/reunite_button_height"
+                    android:text="@string/photo"
+                    android:textColor="@color/black3"
+                    android:id="@+id/radioButtonByPhoto"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/abc_text_size_small_material" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/buttonNameSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/reunite_button_height"
+                android:background="@color/com_facebook_blue"
+                android:textColor="@color/white1"
+                android:padding="2dp"
+                android:text="@string/search"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <TextView
+            android:id="@+id/textViewInfo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="@string/enter_a_name_" />
+
+        <TextView
+            android:id="@+id/textViewInfo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/example" />
+
+        <TextView
+            android:id="@+id/textViewInfo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Joseph Doe"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textViewInfo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doe, Jane"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textViewInfo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="J* Doe"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:persistentDrawingCache="scrolling"
+        android:hardwareAccelerated="true" />
+
+</LinearLayout>

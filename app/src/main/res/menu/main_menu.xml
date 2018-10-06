@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<!-- 
+    <item android:id="@+id/itemWebServerSelect" 
+        android:title="Web Server">
+    </item>
+-->
+    <item android:id="@+id/itemFollowingRecords"
+        android:title="@string/follow_record">
+    </item>
+    <item android:id="@+id/itemContactUs"
+        android:title="@string/email_us">
+    </item>
+    <item android:id="@+id/itemSettings"
+        android:title="@string/menu_settings">
+        <menu >
+            <item android:id="@+id/itemChangePassword"
+                android:title="@string/change_password">
+            </item>
+            <item android:id="@+id/itemCache"
+                android:title="@string/clean_cache">
+            </item>
+            <item android:id="@+id/itemFcmSection"
+                android:title="@string/pushNotification"
+                android:orderInCategory="0">
+                <menu>
+                    <item android:id="@+id/itemSubcribeFcm"
+                        android:title="@string/yes">
+                    </item>
+                    <item android:id="@+id/itemUnsubcribeFcm"
+                        android:title="@string/no">
+                    </item>
+                    <item android:id="@+id/itemSetFirebaseCloudMessagingAndEmail"
+                        android:title="@string/more">
+                    </item>
+                </menu>
+            </item>
+            <item android:id="@+id/itemSocialMedia"
+                android:title="@string/social_media"
+                android:orderInCategory="0">
+                <menu>
+                    <item android:id="@+id/itemFacebook"
+                        android:icon="@drawable/facebook"
+                        android:title="Facebook">
+                    </item>
+                    <item android:id="@+id/itemGooglePlus"
+                        android:icon="@drawable/google_plus"
+                        android:title="Google+">
+                    </item>
+                    <item android:id="@+id/itemTwitter"
+                        android:icon="@drawable/twitter"
+                        android:title="Twitter">
+                    </item>
+                </menu>
+            </item>
+    	</menu>
+    </item>
+    <item android:id="@+id/itemTutorials"
+        android:title="@string/tutorials">
+    </item>
+    <item android:id="@+id/itemChangeLog"
+        android:title="@string/version_history">
+    </item>
+    <item android:id="@+id/itemAbout"
+        android:title="@string/about">
+    </item>
+</menu>

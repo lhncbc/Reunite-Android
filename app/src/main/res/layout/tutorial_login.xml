@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:orientation="vertical" >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:gravity="fill_horizontal" >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="@string/slide_to_move_page"
+        android:gravity="left" 
+    		android:layout_weight="1"
+        />
+    <TextView 
+        android:id="@+id/textViewWhere"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="@string/slide_to_move_page"
+        android:gravity="right" 
+    		android:layout_weight="1"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_horizontal" >
+        <Button
+            android:id="@+id/buttonPrev"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+	        android:background="@drawable/ic_btn_find_prev"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+		<android.support.v4.view.ViewPager
+    		android:layout_width="match_parent" 
+    		android:layout_height="match_parent" 
+    		android:layout_weight="1"
+    		android:id="@+id/threepageviewer"/>
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall" 
+	        android:background="@drawable/ic_btn_find_next" />
+	    </LinearLayout>
+</LinearLayout>

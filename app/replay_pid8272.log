@@ -1,0 +1,39 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 173 ciObject found
+instanceKlass java/util/Vector$Itr
+instanceKlass org/objectweb/asm/Handler
+instanceKlass org/objectweb/asm/tree/TryCatchBlockNode
+instanceKlass org/objectweb/asm/Opcodes
+instanceKlass java/util/zip/ZipOutputStream$XEntry
+instanceKlass sun/util/calendar/CalendarUtils
+instanceKlass sun/util/calendar/CalendarDate
+instanceKlass java/util/TimeZone$1
+instanceKlass sun/util/calendar/ZoneInfoFile$ZoneOffsetTransitionRule
+instanceKlass java/io/DataInput
+instanceKlass sun/util/calendar/ZoneInfoFile$1
+instanceKlass sun/util/calendar/ZoneInfoFile
+instanceKlass java/util/TimeZone
+instanceKlass sun/util/calendar/CalendarSystem
+instanceKlass java/util/Date
+instanceKlass org/objectweb/asm/Edge
+instanceKlass org/objectweb/asm/tree/LocalVariableNode
+instanceKlass org/objectweb/asm/tree/InsnList
+instanceKlass org/objectweb/asm/Type
+instanceKlass org/objectweb/asm/Frame
+instanceKlass com/google/devtools/build/android/desugar/BitFlags
+instanceKlass org/objectweb/asm/tree/AbstractInsnNode
+instanceKlass org/objectweb/asm/Item
+instanceKlass org/objectweb/asm/ByteVector
+instanceKlass org/objectweb/asm/commons/Remapper
+instanceKlass org/objectweb/asm/FieldVisitor
+instanceKlass org/objectweb/asm/AnnotationVisitor
+instanceKlass org/objectweb/asm/Label
+instanceKlass org/objectweb/asm/Context
+instanceKlass org/objectweb/asm/Attribute
+instanceKlass org/objectweb/asm/MethodVisitor
+instanceKlass java/util/zip/CRC32
+instanceKlass java/util/zip/Checksum
+instanceKlass java/util/zip/Deflater
+instanceKlass com/google/devtools/build/android/desugar/ZipOutputFileProvider

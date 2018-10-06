@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pl.reunite"
+    android:versionCode="7030701"
+    android:versionName="7.3.7.01">
+    <!--
+    Note: 4 things to be done before release:
+    1. Update version name and code in manifest file
+    2. Update version name and code in project via menu-File-Project Structure...-app-Flavors
+    3. Update version history.
+    4. Add release date to res/values/donottranslate/release_date
+    -->
+    <!--
+    ReUnite information got from Joe Potvin:
+    Package name
+    gov.nih.nlm.reunite
+    Fingerprint :
+    9F:A4:81:ED:A0:8B:7A:CF:D6:38:4A:E5:B5:B9:C0:DD:F2:92:86:B3
+    The API Key for Google Map
+    AIzaSyD3x4I_Tc7yW33KU3oJmZtnHKuBQ9WplxQ
+
+    https://play.google.com/store/apps/details?id=com.pl.reunite&referrer=utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_term%3Dfind%252Breport%252Bmissing%252Bperson%252Bdisaster%252Bfamily%252Breunification%252Bpeople%252Blocator%26utm_content%3Dlogolink%26utm_campaign%3Dfind%2520and%2520report%2520missing%2520persons%26anid%3Dadmob
+    -->
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="27" />
+
+    <!-- The following 3 items added are for google map - start -->
+    <permission
+        android:name="com.pl.reunite.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.pl.reunite.permission.MAPS_RECEIVE" />
+    <!-- added for google map - end -->
+
+    // TriagePic
+    <!--
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    -->
+
+    // for sdk 23 or above
+    <!--
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    -->
+
+    // reunite
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    // gps location
+    <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".ReUnite"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!-- android:value="@integer/google_play_services_version" -->
+        <!-- fcm start -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/notification_channel_id" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyFirebaseInstanceIDService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- fcm end -->
+
+
+        <!-- Modified for APP indexing -->
+        <!-- Version 7.1.1 -->
+        <activity
+            android:name=".ReUniteActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <!-- temporary disabled in version 7.1.2 -->
+                <!--
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                -->
+
+
+                <!-- temporary disabled for 7.1.2 -->
+                <!-- took the following 3 lines off and icon shows up in app drawer.  7.1.2 -->
+                <!--
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:host="pl.nlm.nih.gov" />
+                -->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutReUnite"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.ABOUTREUNITE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutLpf"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.ABOUTLPF" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutBhepp"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.ABOUTBHEPP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutNlm"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.ABOUTNLM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutHhs"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.ABOUTHHS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutNih"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.ABOUTNIH" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FindPeople"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.FINDPEOPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventListForReportActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.EVENTLISTFORREPORTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatientListExActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.pl.reunite.PATIENTLISTEXACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SearchByPhotoActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.pl.reunite.SearchByPhotoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatientSavedListActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.PATIENTSAVEDLISTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatientSentListActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.PATIENTSENTLISTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatientOutboxListActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.PATIENTOUTBOXLISTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatientDraftListActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.PATIENTDRAFTLISTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatientInfoActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.PATIENTINFOACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatientInfoDisplayOnlyActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.PATIENTINFODISPLAYONLYACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PatientInfoForLoggedInUserActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.PATIENTINFOFORLOGGEDINUSERACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.LOGINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.pl.reunite.REPORTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReportProceedActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.pl.reunite.REPORTPROCEEDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReportProceedUpdateActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="com.pl.reunite.REPORTPROCEEDUPDATEACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ForgotUsernameActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.FORGOTUSERNAMEACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.REGISTERACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FiltersActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.FILTERSACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OrganizeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.ORGANIZEACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--
+        <activity
+            android:name=".AgeFilterActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.pl.reunite.AGEFILTERACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name=".LpWebPuuidActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.LPWEBPUUIDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SqliteDbActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.SQLITEDBACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddressListActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.ADDRESSLISTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.VIEWACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LatencyActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.LATENCYACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CacheActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.CACHEACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ImagePreviewActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.IMAGEPREVIEWACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TutorialListActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.TUTORIALLISTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TutorialFindActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.TUTORIALFINDACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TutorialHomeScreenActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.TUTORIALHOMESCREENACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TutorialLoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.TUTORIALLOGINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TutorialReportActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.TUTORIALREPORTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TutorialOrganizeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.TUTORIALORGANIZEACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CommentActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.COMMENTACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- android:theme="@style/MyTheme" -->
+        <activity
+            android:name=".ChangeLogActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.ChangeLogActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FutureDevelopmentActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.FutureDevelopmentActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GoogleMapActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.GoogleMapActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".RestfulActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.RestfulActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="fb620223481391648" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationName"
+            android:value="ReUnite" />
+
+        <!--
+        Google Place Picker
+        added in version 7.2.10
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCxJS35ULBhO_go-NwkYn6YUVLRedbEYWQ" />
+        <!--
+        original
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBvKqTP_HCkXpTLo43xjWUF6yeaailGDIQ" />
+        -->
+
+
+        <!--  -->
+        <!-- GCM starts -->
+        <!--  -->
+        <!-- [START gcm_receiver] -->
+        <!--
+        <receiver
+            android:name=".gcm.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.pl.reunite" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.pl.reunite" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".gcm.GcmMessageHandler">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.pl.reunite" />
+            </intent-filter>
+        </service>
+        -->
+        <!-- [END gcm_receiver] -->
+
+
+        <!-- Used for Google Play Store Campaign Measurement -->
+        /////////////////
+        <!-- Google Analytics -->
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- [END gcm_receiver] -->
+
+        <activity android:name=".SendGcmMessageActivity" />
+        <activity
+            android:name=".ConfirmationActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.COMFIRMATIONACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:host="pl.nlm.nih.gov" />
+                <data android:host="plstage.nlm.nih.gov" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.ChangeLogActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutNcmecActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.pl.reunite.AboutNcmecActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity">
+            <intent-filter>
+                <action android:name="OPEN_ACTIVITY_1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FcmActivity" />
+        <activity android:name=".SetFirebaseCloudMessagingAndEmailActivity"></activity>
+    </application>
+
+</manifest>

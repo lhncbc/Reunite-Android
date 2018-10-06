@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--                -->
+    <!-- 1st part start -->
+    <!--                -->
+
+    <!-- General commands - start -->
+    <string name="ok">
+       オッケー
+     </string>
+    <string name="cancel">
+       キャンセル
+    </string>
+    <string name="yes">
+        はい
+    </string>
+    <string name="no">
+        いいえ
+    </string>
+    <string name="continue_word">
+        続ける
+    </string>
+    <string name="retry">
+        もう一度
+    </string>
+    <string name="none">
+        無し
+    </string>
+    <string name="home">
+        ホーム
+        <!-- return to main screen -->
+    </string>
+    <string name="save">
+        保存
+    </string>
+    <string name="delete">
+        削除
+    </string>
+    <string name="delete_q">
+        削除しますか？
+    </string>
+    <string name="delete_all">
+    全部削除
+    </string>
+    <string name="select">
+        選択
+    </string>
+    <string name="please">
+        どうぞ
+    </string>
+    <string name="return_word">
+        リターン
+    </string>
+    <string name="next">
+        次
+    </string>
+    <string name="back">
+        戻る
+        <!-- move backwards -->
+    </string>
+    <string name="forward">
+        前進
+        <!-- move forwards -->
+    </string>
+    <string name="warning">
+        注意
+    </string>
+    <string name="error">
+        エラー
+    </string>
+<string name="correct">
+        正しい
+    </string>
+<string name="open">
+        開く
+    </string>
+<string name="close">
+        閉じる
+    </string>
+<string name="camera">
+        カメラ
+    </string>
+<string name="gallery">
+        ギャラリー
+    </string>
+<string name="defined">
+        定義済み
+    </string>
+<string name="undefined">
+        未定義
+    </string>
+<string name="language">
+    	English
+    </string>
+    <!-- General commands - end -->
+
+    <!-- omb and privacy statement - start -->
+    <string name="expiration_date_1st_part">
+        Omitted
+    </string>
+<string name="ome_number">
+        Omitted
+    </string>
+
+<string name="omb_notice">
+        Omitted
+    </string>
+<string name="omb_submission">
+        Omitted
+    </string>
+<string name="omb_text1">
+        Omitted
+    </string>
+<string name="omb_text2">
+        <!-- do not translate this line -->
+    Omitted
+    </string>
+<string name="omb_sub">
+        私は、これお読み、同意しました。
+    </string>
+<string name="i_refuse">
+        私は、拒否します
+    </string>
+    <!-- omb and privacy statement - end -->
+
+    <!-- home screen - start -->
+<string name="welcome">
+        ようこそ
+    </string>
+<string name="username">
+        ユーザ名
+    </string>
+<string name="password">
+        パスワード
+    </string>
+<string name="login">
+        ログイン
+    </string>
+<string name="logout">
+        ログアウト
+    </string>
+<string name="login_or_logout">
+        ログイン／ログアウト
+    </string>
+    <string name="guest">
+        ゲスト
+    </string>
+    <string name="login_was_successful">
+        ログインに成功
+    </string>
+    <string name="good_bye">
+        グッバイ
+    </string>
+    <string name="you_are_now_a_developer">
+        あなたは今、開発者です！
+    </string>
+    <string name="web_server">
+        ウェブサーバ
+    </string>
+    <string name="server_status">
+        サーバーの状態
+        <!-- online or offline, connected or dis-connected -->
+    </string>
+<string name="check">
+        チェック
+    </string>
+<string name="latency">
+        遅延
+        <!-- server response time -->
+    </string>
+<string name="time_out">
+        タイムアウト
+    </string>
+<string name="event">
+        イベント
+    </string>
+<string name="change">
+        変更
+    </string>
+<string name="date">
+        日付
+    </string>
+<string name="event_location">
+        イベントの場所
+    </string>
+<string name="find">
+        検索
+        <!-- find a missing person -->
+    </string>
+<string name="report">
+        報告
+        <!-- report a missong person -->
+    </string>
+<string name="organize">
+        オーガナイズ
+        <!-- organize files which saved in folders -->
+    </string>
+<string name="do_you_want_to_login">
+        ログインしますか？
+    </string>
+<string name="do_you_want_to_login_dis">
+        ゲストとして、あなたは限られた機能をつかうことができます。ログインをつよく推奨します。
+    </string>
+    <!-- home screen - end -->
+
+    <!-- missing person list - start -->
+<string name="filter">
+        フィルター
+        <!-- make selections to narrow down the searching -->
+    </string>
+<string name="name">
+        名前
+        <!-- search by input missing person's name -->
+    </string>
+<string name="photo">
+        写真
+        <!-- search by input missing person's photo -->
+    </string>
+<string name="page">
+        ページ
+    </string>
+<string name="search">
+        検索
+    </string>
+<string name="more">
+        さらに
+        <!-- more to next page -->
+    </string>
+    <!-- missing person list - end -->
+
+    <!-- missing person information - start -->
+<string name="draft">
+        ドラフト
+        <!-- folder to save uncompleted records -->
+    </string>
+<string name="send">
+        送信
+        <!-- command to send the report -->
+    </string>
+<string name="primary_image">
+        最初の画像
+        <!-- first image of a missing person -->
+    </string>
+<string name="secondary_image">
+        ２番目の画像
+        <!-- second or third, etc image of a missing person -->
+    </string>
+<string name="press_button_on_right_side_to_add_caption">
+        キャプションを加えるには、右側のボタンを押して下さい。
+        <!-- description -->
+    </string>
+<string name="caption">
+        キャプション
+    </string>
+<string name="missing_person_information">
+        人の情報が見つかりません
+    </string>
+    <string name="first_name">
+        名（ファーストネーム）
+    </string>
+    <string name="last_name">
+        姓（ラストネーム）
+    </string>
+    <string name="other_names">
+        Other Names
+    </string>
+    <string name="approximate_age">
+        年齢
+    </string>
+    <string name="gender">
+        性別
+    </string>
+    <string name="male">
+        男性
+    </string>
+    <string name="female">
+        女性
+    </string>
+    <string name="unknown">
+        不明
+    </string>
+    <string name="complex">
+        コンプレックス
+    </string>
+    <string name="status">
+        状況
+        <!-- missing person's status: missing, alive and well, injured, deceased, unknown or found -->
+    </string>
+<string name="missing">
+        不明
+    </string>
+<string name="alive_and_well">
+        健在
+    </string>
+<string name="injured">
+        負傷
+    </string>
+<string name="deceased">
+        死亡
+    </string>
+<string name="found">
+        見つかった
+    </string>
+<string name="last_seen_location">
+        最終確認位置
+    </string>
+<string name="additional_details">
+        さらなる詳細
+    </string>
+<string name="missing_person_uuid">
+        行方不明者のUUID
+    </string>
+<string name="last_updated_date">
+        最終更新日時
+    </string>
+<string name="follow">
+        フォロー
+    </string>
+<string name= "why_follow_a_record">
+        何故レーコードをフォローしますか？
+    </string>
+<string name="follow_record_des">
+        このレコードが新しい情報で更新されたときに通知メールを受け取るために、
+        この人についてのフォローを選択出来ます。レコードが新しい情報により更新された場合或いは、誰かがコメントを残した場合にのみ
+        メールを受け取ります。
+    </string>
+<string name="why_follow_record">
+        新しい情報によりレコードが更新されたときに、メールによるお知らを受ける為に
+        この人についてのフォローすることができます。レコードが新しい情報で更新された場合、或いは、誰かがコメントした場合にのみ
+        メールを受け取ります。
+    </string>
+    <!-- missing person information - end -->
+
+    <!-- Report missing person - start -->
+<string name="input_by_right_side_button">
+        右側のボタンにより入力して下さい
+    </string>
+<string name="google_map_view">
+        グーグルマップ閲覧
+    </string>
+<string name="gps_cannot_detect_current_location">
+        GPSは今の場所を検出出来ません
+    </string>
+<string name="let_gps_fill_your_address">
+        GPSにあなたのいる場所を入力してください
+    </string>
+    <string name="get_address_from_google_map">
+        Get address from Google Map
+    </string>
+<string name="address_book_is_empty">
+        アドレス帳は空欄です
+    </string>
+<string name="select_from_adress_book">
+        アドレス帳から選んで下さい
+    </string>
+    <string name="street">
+        番地（町、通り）
+    </string>
+<string name="city">
+        市
+    </string>
+<string name="state">
+        都道府県
+    </string>
+<string name="zip">
+        郵便番号
+    </string>
+<string name="country">
+        国
+    </string>
+<string name="comments">
+        コメント
+    </string>
+<string name="maximum_500_characters">
+        最大全角２５０文字（半角500文字）
+    </string>
+<string name="required_field">
+        フィールドに入力してください
+        <!-- the field that the user must input -->
+    </string>
+    <!-- Report missing person - end -->
+
+    <!-- Organize - start -->
+<string name="lost_person_files">
+        行方不明人のファイル
+    </string>
+<string name="file_found">
+        ファイルが見つかりました
+    </string>
+    <string name="files_found">
+        ファイルが見つかりました
+    </string>
+    <string name="no_file_is_found">
+        複数ファイルが見つかりません
+    </string>
+    <!-- Organize - end -->
+
+    <!-- web server latency - start -->
+<string name="excellent">
+        素晴らしい
+    </string>
+<string name="good">
+        良い
+    </string>
+<string name="poor">
+        良くない
+    </string>
+<string name="disconnected">
+        切断されました
+    </string>
+    <!-- web server latency - end -->
+
+    <!-- toast messages - start -->
+    <string name="this_option_is_not_available">
+    このオプションは利用できません
+    </string>
+<string name="all_photos_are_deleted">
+        全ての写真は削除される
+    </string>
+<string name="all_records_are_deleted">
+        全てのレコードは削除される
+    </string>
+<string name="email">
+        メール
+    </string>
+<string name="sending_email">
+        メール送信中
+    </string>
+<string name="there_is_no_email_client_installed">
+        メールソフトがインストールされていません
+    </string>
+<string name="html_file_is_empty">
+        HTMLファイルがありません
+    </string>
+<string name="done">
+        終了しました
+    </string>
+<string name="canceled">
+        キャンセルされました
+    </string>
+<string name="succeed">
+        成功しました
+    </string>
+<string name="not_succeed">
+        成功しませんでした。
+    </string>
+<string name="completed">
+        完成しました
+    </string>
+<string name="implemented">
+        Implemented
+    </string>
+<string name="not_implemented">
+        Not implemented
+    </string>
+<string name="no_record_is_found">
+        レコードは見つかりません
+    </string>
+<string name="need_to_login">
+        ログインが必要です
+    </string>
+<string name="no_photo">
+        写真がありません
+    </string>
+<string name="no_photo_is_found">
+        写真が見つかりません。
+    </string>
+<string name="a_photo_is_selected">
+        写真が選択されました
+    </string>
+<string name="moving_to_photo_number">
+        写真の番号を変更します
+    </string>
+<string name="you_are_about_to_delete_all_the_photos_saved_in_cache">
+        キャッシュに保存されている全ての写真を削除しようとしています
+    </string>
+<string name="are_you_sure_you_want_to_delete_the_selected_photo">
+        選択された写真を削除してもよろしいですか？
+    </string>
+<string name="no_photo_is_selected_do_you_really_want_to_quit">
+        写真は選択されていません終了したいですか？
+    </string>
+<string name="file_is_saved">
+        ファイルは保存されます。
+    </string>
+<string name="report_abuse_and_its_explanation_are_sent">
+        乱用の報告とその説明が送信されます
+    </string>
+<string name="all_files_in_outbox_are_deleted">
+        送信済みにある全てのファイルは削除されます
+    </string>
+<string name="searching_images_took_seconds">
+        イメージの検索には数秒かかりました
+    </string>
+<string name="google_authenticated_token_is_empty">
+        グーグルの証明の印がありません
+    </string>
+    <!-- toast messages - end -->
+
+    <!-- dialogue box message - start -->
+<string name="processing_please_wait">
+        処理中、お待ち下さい...
+    </string>
+<string name="updating_the_status_please_wait">
+        状態を更新しています、お待ち下さい...
+    </string>
+<string name="retrieving_events_please_wait">
+        イベントを呼び出しています、お待ち下さい...
+    </string>
+<string name="retrieving_information_on_selected_event_please_wait">
+        選択されたイベントの情報を呼び出しています、お待ち下さい...
+    </string>
+<string name="detecting_the_speed_please_wait">
+        スピードを測定しています、お待ち下さい...
+    </string>
+<string name="logging_in_please_wait">
+        ログインする手続き中です, お待ち下さい...
+    </string>
+<string name="saving_data_to_database_please_wait">
+        データベースに保存中です、お待ち下さい...
+    </string>
+<string name="reporting_missing_person_please_wait">
+        行方不明者の情報を報告中です、お待ち下さい...
+    </string>
+<string name="reporting_abuse_please_wait">
+        乱用を報告中, お待ち下さい...
+    </string>
+<string name="loading_images_please_wait">
+        イメージをローディング中、お待ち下さい...
+    </string>
+<string name="searching_the_selected_record_">
+        選択された行方不明者ファイルを検索中です、お待ち下さい...
+    </string>
+<string name="un_flowing_all_the_records_please_wait">
+        全てのレコードのフォローを止めています、お待ち下さい...
+    </string>
+<string name="information_is_sent">
+        情報は送られました
+    </string>
+<string name="save_a_copy_to_local">
+        コピーをローカルに保存します
+    </string>
+<string name="registration_is_successful_">
+        登録は成功しましたどうぞ、ログインするか、あなたのメールから情報を確認してください
+    </string>
+<string name="first_name_is_empty">
+        名（ファーストネーム）が空欄です！
+    </string>
+<string name="last_name_is_empty">
+        姓（ラストネーム）が空欄です！
+    </string>
+<string name="email_is_empty">
+        メールが空欄です	
+    </string>
+<string name="username_is_empty">
+        ユーザ名が空欄です	
+    </string>
+<string name="password_is_empty">
+        パスワードが空欄です！
+    </string>
+<string name="confirmation_password_is_empty">
+        再確認パスワードが空欄です！
+    </string>
+<string name="two_passwords_are_not_identical">
+        二つのパスワードが一致していません。
+    </string>
+<string name="password_requires_at_least_8_characters">
+        パスワードは最低８文字必要です。
+    </string>
+<string name="password_cannot_have_more_than_16_characters">
+        パスワードは16文字以上は受け付けません。
+    </string>
+<string name="password_must_have_at_least_one_uppercase_character">
+パスワードは少なくとも一文字以上の大文字を必要とします。
+</string>
+<string name="password_must_have_at_least_one_lowercase_character">
+パスワードは少なくとも一文字以上の小文字を必要とします。
+</string>
+    <string name="password_must_have_at_least_one_numeral_">
+        パスワードは一つ以上の数字(0-9)を必要とします。
+    </string>
+    <string name="password_cannot_contain_your_username">
+        パスワードにはあなたの名前を含めることはできません。
+    </string>
+    <string name="you_need_to_select_the_event">
+        イベントを選択する必要があります
+    </string>
+    <string name="do_you_want_to_delete_this_image">
+        このイメージを削除したいですか？
+    </string>
+    <string name="as_a_guest_you_">
+        ゲストとして、匿名で行方不明者を報告することができます。しかし、いくつかの機能が限定されます。
+    </string>
+    <string name="are_you_sure_you_want_to_quite_current_work_q">
+        今の作業を終了したいですか？
+    </string>
+    <string name="you_do_not_have_any_following_records">
+        あなたは、以下のレコードを持っていません。
+    </string>
+    <string name="you_do_not_have_internet_connection">
+    あなたは、インターネットに接続されていません。
+    </string>
+<string name="as_a_guest_you_may_report_">
+        ゲストとして、匿名で行方不明者の報告をすることができます。しかし、いくつかの機能が限定されます。
+    </string>
+<string name="as_a_guest_you_may_have_">
+        ゲストとして、いくつかの限られた機能を使うことが出来ます。ログインすることを強くお勧めします。
+    </string>
+<string name="change_is_made_">
+        変更されました。APPを再起動させてください。
+    </string>
+    <!-- dialogue box message - end -->
+
+    <!-- text shown on menu - start -->
+<string name="social_media">
+        ソーシャルメディア
+    </string>
+<string name="tutorials">
+        指導
+    </string>
+<string name="email_us">
+        我々にメールしてください
+    </string>
+<string name="version_history">
+        履歴のバージョン
+    </string>
+<string name="cache">
+        キャッシュ
+    </string>
+<string name="clean_cache">
+        キャッシュを削除
+    </string>
+<string name="refresh">
+        情報を更新
+    </string>
+<string name="email_html_file">
+        HTMLファイルをメール送信
+    </string>
+<string name="developer_tools">
+        開発用ツール
+    </string>
+<string name="enter_username_and_password">
+        ユーザ名とパスワードを入力してください
+    </string>
+<string name="about">
+        ついて
+    </string>
+<string name="report_abuse">
+        乱用報告
+    </string>
+<string name="update_image">
+        更新イメージ
+    </string>
+<string name="get_male_name">
+        男性の名前を取得
+    </string>
+<string name="get_female_name">
+        女性の名前を取得
+    </string>
+<string name="notification">
+        通知
+    </string>
+<string name="show_omb">
+        OMBを表示
+    </string>
+<string name="future_developments">
+        将来開発
+    </string>
+<string name="display_gcm_token">
+        GCMの印を表示
+    </string>
+<string name="gcm_token_upload_status">
+GCMの印の更新状態
+</string>
+<string name="send_gcm_message">
+        Send GCM Message
+    </string>
+<string name="email_gcm_token">
+        GCMの印をメール
+    </string>
+<string name="select_web_server">
+        ウェブサーバを選択
+    </string>
+    <!-- text shown on menu - end -->
+
+    <!-- error codes - start -->
+<string name="plusError1">
+        エラー：ユーザ名或いはパスワードが違います
+        <!-- "context": 「Error message presented when a user provides the incorrect username and/or password."-->
+    </string>
+<string name="plusError2">
+        エラー：あなたのアカウントは、複数回のログイン失敗の為に、一時的にロックされています。 後ほどトライしてください。
+        <!-- "context": 「Error message presented when a user fails to login repeatedly."-->
+    </string>
+<string name="plusError6">
+        エラー：そのユーザはすでにすでに登録されています。
+        <!-- "context": 「Error message presented when user tries to use an email address already in use."-->
+    </string>
+<string name="plusError7">
+        エラー：入力されたユーザ名は、利用できません。
+        <!-- "context": 「Error message presented when a user attempts to register with a username that is already in use by another user."-->
+    </string>
+<string name="plusError8">
+        エラー:メールアドレスは無効です
+        <!-- "context": 「Error message presented when a user provides an invalid email address."-->
+    </string>
+<string name="plusError9">
+        エラー：パスワードは、8-16文字の長さで、少なくとも一つの大文字、一つの小文字、そして一つ以上の数字を含まなければなりません。
+        <!-- "context": 「Error message presented when user enters an invalid password."-->
+    </string>
+<string name="plusError11">
+        エラー：入力されたメールアドレスは、登録されていません。
+        <!-- "context": 「Error message presented when user attempts to reset password with an unregistered email address-->
+    </string>
+<string name="plusError14">
+        エラー： 人検証テストは失敗です、ページをリロードしてください。
+        <!-- "context": 「Error message presented when the captcha system encounters invalid data-->
+    </string>
+<string name="plusError15">
+        エラー：reCaptchaのセッションは失効しました、再度ページをロードしてください。
+        <!-- "context": 「Error message presented when the reCaptcha session has expired and the user must reload the page to continue-->
+    </string>
+<string name="plusError16">
+        エラー：パスワードは一致しません
+        <!-- "context": 「Error message presented when entered password do not match one another-->
+    </string>
+<string name="plusError20">
+        エラー：パスワードは8-16文字数でなければなりません
+        <!-- "context": 「Error message presented when entered password is of incorrect length, must be 8-16 characters long-->
+    </string>
+<string name="plusError21">
+        エラー：和すワードは一つ以上の大文字を含んでいなければなりません
+        <!-- "context": 「Error message presented when entered password does not contain at least one uppercase letter-->
+    </string>
+<string name="plusError22">
+        エラー：パスワードは一つ以上の小文字を含んでいなければなりません。
+        <!-- "context": 「Error message presented when entered password does not contain at least one lowercase letter-->
+    </string>
+<string name="plusError23">
+        エラー：パスワードは一つ以上の数字（0-9）を含んでいなければなりません。
+        <!-- "context": 「Error message presented when entered password does not contain at least one digit-->
+    </string>
+<string name="plusError100">
+        ネットワーク・エラー接続をチェックし、再度トライして下さい。
+        <!-- "context": 「Error message presented when there is a network / internet issue-->
+    </string>
+<string name="plusError600">
+        エラー：そのレコードは存在しないか、或いは、それに対するアクセス権がないか、フォローすることができません。
+        <!-- "context": 「Error message presented when user attempts to follow a record they have no permission to access-->
+    </string>
+<string name="plusError601">
+        エラー：あなたはこのレコードを既にフォローしているので、さらにはフォローできません。
+        <!-- "context": 「Error message presented when attempting to follow a record the user is already following-->
+    </string>
+<string name="plusError602">
+        エラー:今は、そのレコードをフォローしていないので、アンフォローはできません。
+        <!-- "context": "Error message presented when "-->
+    </string>
+<string name="plusError9999">
+        不明のエラーが起きました。
+    </string>
+    <!-- error codes - end -->
+
+    <!--              -->
+    <!-- 1st part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 2nd part start -->
+    <!--                -->
+
+    <!-- new - start -->
+<string name="quit">
+        終了
+    </string>
+<string name="select_language">
+        言語を選択
+    </string>
+<string name="offline">
+        オフライン
+    </string>
+<string name="connected">
+        接続中
+    </string>
+<string name="follow_record">
+        レコードをフォロー
+    </string>
+<string name="follow_nothing">
+        フォローは無し
+    </string>
+<string name="no_follow">
+    フローしていません
+    </string>
+<string name="logout_first">
+        先に、ログアウトしてください
+    </string>
+<string name="undetected">
+        検出できません
+    </string>
+<string name="address_book">
+        住所録
+    </string>
+<string name="enter_a_name_">
+        検索覧に名前を入れて下さい。Use the asterisk (*) to match any group of characters.
+    </string>
+<string name="example">
+        例
+    </string>
+<string name="are_you_sure_q">
+        よろしいですか？
+    </string>
+<string name="input_empty_error_code">
+        エラーコードを入力してください
+    </string>
+<string name="show_password">
+        パスワードを表示
+    </string>
+<string name="forgot_q">
+        忘れましたか？
+    </string>
+<string name="forgot_username">
+    ユーザ名を忘れました
+    </string>
+<string name="forgot_password">
+        パスワードを忘れました
+    </string>
+<string name="new_user">
+        新しいユーザ
+    </string>
+<string name="please_enter_your_username_and_password">
+        ユーザ名とパスワードを入力してください
+    </string>
+<string name="forgot_your_username_q">
+        ユーザ名を忘れましたか？メールアドレスを入力してください、そうすれば直ちに情報を送り返します
+    </string>
+<string name="submit">
+        提出
+    </string>
+<string name="email_address_is_sent">
+        メールアドレスが送信されます
+    </string>
+<string name="forgot_your_password_q">
+        パスワードを忘れましたか？メールアドレスを入力してください、そうすれば直ちに情報を送り返します
+    </string>
+<string name="register_as_a_new_user">
+        新しいユーザとして登録します
+    </string>
+<string name="passwords_must_adhere_">
+        パスワードは以下のルールに従わねば成りません
+    </string>
+<string name="re_enter_password">
+        パスワード再入力
+    </string>
+<string name="register">
+        登録
+    </string>
+<string name="child_0_17">
+        子供 (0-17歳)
+    </string>
+<string name="adult_18_plus">
+        大人 (18＋歳)
+    </string>
+<string name="view_persons_with">
+        で人を見る
+    </string>
+<string name="photo_only">
+        写真だけ
+    </string>
+<string name="both_recommended">
+        両方：推奨
+    </string>
+<string name="number_of_records_per_load">
+        ロード毎のレコード数
+    </string>
+<string name="_5_seconds">
+        5
+    </string>
+<string name="_10_seconds">
+        <!-- 10 seconds -->
+        10
+    </string>
+<string name="_10_seconds_recommended">
+        10 - 推奨
+    </string>
+<string name="_15_seconds">
+        15
+</string>
+<string name="_15_seconds_recommended">
+        15 - 推奨
+    </string>
+<string name="_20_seconds">
+        20
+    </string>
+<string name="tap_right_button_to_add_photo_caption">
+        写真のキャプションを加えるには右ボタンタップ
+    </string>
+<string name="open_for_reporting">
+        報告するためにオープン
+    </string>
+<string name="closed_reporting">
+        報告を終了
+    </string>
+<string name="you_have_selected">
+        あなたが選択した
+    </string>
+<string name="start">
+        スタート
+    </string>
+<string name="no_photo_is_selected">
+        写真は選択されていません
+    </string>
+<string name="sent_box_is_empty">
+        おくられたデータは空欄
+    </string>
+<string name="out_box_is_empty">
+        送信ボックスは空です
+    </string>
+<string name="draft_box_is_empty">
+        ドラフトボックスは空です
+    </string>
+<string name="saved_box_is_empty">
+        保存ボックスは空です
+    </string>
+<string name="all_boxes_are_empty">
+        全てのボックスが空です
+    </string>
+    <string name="sent">
+        送信
+    </string>
+    <string name="outbox">
+        送信ボックス
+    </string>
+    <string name="saved_from_search">
+        検索を保存
+    </string>
+    <string name="you_are_about_to_delete_all_files">
+        全てのファイルを削除しようとしています
+    </string>
+    <string name="all_files_are_deleted">
+        全てのファイルガ削除されます
+    </string>
+    <string name="web_server_is_not_found">
+        ウェブサーバが見つかりません
+    </string>
+    <string name="this_file_was_downloaded_earlier_">
+        このファイルは、以前にダウンロードされましたこれは最も最新のものではないかもしれません最新の更新ファイルをみるためには、ホームに戻り\”再検索\"してください
+    </string>
+<string name="you_are_an_anonymous_user">
+        あなたは匿名ユーザです
+    </string>
+<string name="saved">
+        保存されました
+    </string>
+<string name="deleted">
+    削除されました
+    </string>
+<string name="local_file_id">
+    ローカルファイルのID
+    </string>
+<string name="there_is_only_one_photo">
+        一枚の写真誌か有りません
+    </string>
+<string name="add_text">
+        テキストを付加
+    </string>
+<string name="age_is_missing">
+        年齢の記載無し
+    </string>
+<string name="exceeds_maximum_age">
+        最大年齢を超えています
+    </string>
+<string name="error_in_age">
+        年齢のエラー
+    </string>
+<string name="error_in_event">
+        イベントのエラー
+    </string>
+<string name="error_in_gender">
+        性別のエラー
+    </string>
+<string name="error_in_status">
+        状態のエラー
+    </string>
+<string name="no_data_returned">
+        データはありません
+    </string>
+<string name="updated">
+        更新されました
+    </string>
+<string name="updating_the_persons_information_please_wait_dots">
+        その人の情報のアップロード中、お待ち下さい...
+    </string>
+<string name="is_sent">
+        送られています
+    </string>
+<string name="is_not_sent">
+    送られていません
+    </string>
+<string name="is_saved">
+        保存されます
+    </string>
+<string name="no_permission">
+        権限がありません
+    </string>
+<string name="you_are_about_to_delete_this_file">
+        このファイルを削除しようとしています
+    </string>
+<string name="uuid_is_missing">
+        UUIDが見つかりません
+    </string>
+<string name="permission_is_denied">
+        権限がありません。
+    </string>
+<string name="subscribe_to_email_updates">
+        購読のメールが更新されました。
+    </string>
+<string name="no_valid_token">
+        認証された印がありません
+    </string>
+<string name="slide_to_move_page">
+        ページを動かすのにスライドしてください
+    </string>
+<string name="tutorial_on_the_starting_page">
+        開始ページの使用説明
+    </string>
+<string name="tutorial_on_rules_of_user_registration">
+        ユーザ登録ルールの説明
+    </string>
+<string name="tutorial_on_finding_a_missing_person">
+        行方不明者捜索の仕方
+    </string>
+<string name="tutorial_on_reporting_a_missing_person">
+        行方不明者登録の仕方
+    </string>
+<string name="tutorial_on_managing_files_in_sent_saved_draft_and_outbox">
+送信、保存、ドラフト、送信済みボックスのファイルの取り扱いの仕方
+</string>
+
+<string name="privacy_statement_title">
+    プライバシーに関する声明
+</string>
+<string name="privacy_statement_content">
+        米国国立医学図書館 (NLM), 米国保健福祉省の一部
+        健康情報の提供を改善するコミュニケーションシステム技術の開発ミッション
+        Reuniteアプリケーションは、不明者の必要な情報をアップロードし、探し出すように作られています。
+        人々は、NLM\'s People Locator (PL) serviceが、ここで（https://pl.nlm.nih.gov）利用できます。
+        このサービスは、災害後の家族を結びつけるのを明示的に援助するだけでなく、
+        災害時に対応するツールの研究に使われています。さらにPL serviceについてと
+        Lost Person Finder Projectについては、ここでです http://lpf.nlm.nih.gov
+        \n注
+    </string>
+
+<string name="ps_note_01">
+        このアプリケーションを使っての情報提供は自由です
+    </string>
+<string name="ps_note_02">
+        提供された全ての情報は、公開される利用されるかも知れません。
+    </string>
+<string name="ps_note_03">
+        このツールを使って貯められたデータは、モデレータによるチェックはなく、NLM\'s PL ウェブサイトを訪れた人による検索は可能です。
+    </string>
+<string name="ps_note_04">
+        このアプリケーションに蓄えられたデータは今は暗号化されていません。
+    </string>
+<string name="ps_note_05">
+        このアプリケーションで、不明者の情報を提供あるいは探すには、PLサービスのアカウントが必要です。
+    </string>
+<string name="ps_note_06">
+        このサイトの検索には、 PLへのログインは必要ではありません。.
+    </string>
+<string name="ps_note_07">
+        災害後に米国政府から援助活動の要請があれば、
+        個人について報告された情報及び、報告した人の連絡情報は
+        他の政府機関や捜索援助組織へ伝えられす。
+    </string>
+<string name="ps_note_08">
+        災害による行方不明者の提供された情報について：もし、あなたが心配な人について、伝え聞くことがあれば、
+              PLウェブサイトの指示に従って、情報を更新して下さい。
+    </string>
+<string name="ps_note_09">
+        このアプリケーションは、ユーザの位置情報を追跡しません。
+    </string>
+<string name="ps_note_10">
+        ユーザの位置情報は、アドレスを参照を明示的に示した時のみ検出されます。
+    </string>
+
+    <!--              -->
+    <!-- 2nd part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 3rd part start -->
+    <!--                -->
+<string name="in_order_to_use_this_app_">
+        このアプリケーションを使用する為には、プライバシー宣言を受け入れる必要があります。考え直しますか？
+    </string>
+<string name="saving_data_to_database_please_wait_dot">
+        データをデータベースに保存中でです、お待ち下さい...
+    </string>
+<string name="update">
+        更新
+    </string>
+    <!--              -->
+    <!-- 3rd part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 4th part start -->
+    <!--                -->
+    <string name="permission_is_granted_">
+        <!-- Permission is granted. Now you can try again. -->
+        権限が承認されました。もう一度、試すことができます。
+    </string>
+    <string name="permission_is_denied_">
+        <!-- Permission was denied. Please consider granting it in order to access the data! -->
+        権限がありません。データにアクセスする為には、権限を承認してもらってください。
+    </string>
+    <string name="message_checking_permission_">
+        <!-- Checking permission... -->
+        権限をチェックしています。
+    </string>
+    <string name="message_requesting_permission_">
+        <!-- Requesting permission... -->
+        権限をリクエストしています。
+    </string>
+    <!--              -->
+    <!-- 4th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 5th part start -->
+    <!--              -->
+    <string name="confirmation_was_successful">
+        確認が成功しました.
+    </string>
+    <string name="click_button_to_complete_confirmation">
+        ボタンをクリックして確認プロセスを完了してください.
+    </string>
+    <string name="invalid_preference_value">
+        無効な設定値
+    </string>
+    <string name="reporting_locale_dot">
+        局地を報告する
+    </string>
+
+    // abuse
+    <string name="what_would_you_like_to_report">
+        何を報告したいですか？
+    </string>
+    <string name="spam">
+        スパム
+    </string>
+    <string name="sexually_explicit">
+        性的露呈
+    </string>
+    <string name="hate_speech">
+        ヘイトスピーチ
+    </string>
+    <string name="violence">
+        暴力
+    </string>
+    <string name="something_else">
+        何か他
+    </string>
+    <string name="abuse_thanks">
+        乱用ありがとう. We have received your abuse claim. Our site staff will review this record and remove any inappropriate content.
+    </string>
+
+    <!-- forgot -->
+    <string name="enter_your_email_">
+        あなたの新しい電子メールを入力してください。 パスワードをリセットする方法をお送りします。 and we will send you instructions how to reset your password.
+    </string>
+
+    // change password
+    <string name="old_password">
+        古いパスワード
+    </string>
+    <string name="new_password">
+        新しいパスワード
+    </string>
+    <string name="new_password_again">
+        新しいパスワードを再入力
+    </string>
+    <string name="your_password_must_contain_a_number_etc">
+        パスワードには数字などが含まれている必要があります, 小文字、大文字、長さは8〜16文字です
+    </string>
+    <string name="change_password">
+        パスワードを変更する
+    </string>
+
+    <!-- error code -->
+    <string name="exceeded_authentication_failure_limit_">
+        認証失敗限度を超える (8 failures in 24 hours/per ip)
+    </string>
+    <string name="user_account_is_inactive_">
+        使用アカウントは非アクティブです
+    </string>
+    <string name="a_user_already_exists_with_">
+        ユーザーは既に存在する
+    </string>
+    <string name="invalid_email_address">
+        無効なメールアドレス
+    </string>
+    <string name="invalid_confirmation_code">
+        無効な確認コード
+    </string>
+    <!--              -->
+    <!-- 5th part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 6th part start -->
+    <!--                -->
+    <string name="menu_settings">
+        設定
+    </string>
+    <string name="ncmec_declaim">
+        NCMEC 拒否 また、この報告書をMissing and Exploited Childrenの国立センターにも送付することをお勧めします。NCMECへのリンクはこちらからご覧いただけます。We suggest you also send this report to the National Center for Missing and Exploited Children as well.You can find a link to NCMEC here.
+    </string>
+    <string name="do_not_show_again">
+        再表示は不要です。
+    </string>
+    <!--              -->
+    <!-- 6th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 7th part start -->
+    <!--              -->
+    <string name="enter_email">
+        メールアドレスを入力する
+    </string>
+    <string name="enter_password">
+        パスワードを入力する
+    </string>
+    <!--              -->
+    <!-- 7th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 8th part start -->
+    <!--              -->
+    <string name="pad3subStatusUnsubscribed">
+        購読中止
+        <!-- "This text label tells of the status of the user not being subscribed to recieve notifications."-->
+    </string>
+    <string name="pad3subStatusSubscribed">
+        購読中
+        <!-- "This text label tells the status of the user being subscribed to recieve notifications."-->
+    </string>
+    <string name="pad3subscribeTo">
+        お知らせを購読中
+        <!--"context": "This is the title text to the section that allows a user to opt-in to recieve push notifications."-->
+    </string>
+    <string name="pad3Time">
+        新しいイベントがあった場合には、時々、ユーザにお知らせを送ることがあります。
+        <!-- "context": "This verbiage describes the extent to which we use the push notification subscription a user provides to send out information."-->
+    </string>
+    <!--              -->
+    <!-- 8th part end -->
+    <!--              -->
+    <!--              -->
+    <!-- 9th part start -->
+    <!--              -->
+    <string name="age_child_pius_unknown">
+        子供 (0-17歳) + 未知の
+        <!-- "context": "This verbiage describes the extent to which we use the push notification subscription a user provides to send out information."-->
+    </string>
+    <!--              -->
+    <!-- 9th part end -->
+    <!--              -->
+    <!-- notification -->
+    <!-- 10th part start -->
+    <!--                -->
+    <string name="pad3record">
+    	あなたが 経由でフォローしているレコードの更新を受信する
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive messages from PL via push or email when a record they are following is updated."-->
+    </string>
+    <string name="pad3event">
+    	新しいイベントが作成されたときにメッセージを受け取る
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive messages from PL via push or email when a new event is created."-->
+    </string>
+    <string name="pad3admin">
+    	経由で管理者メッセージを受信する
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive admin messages from PL via push or email."-->
+    </string>
+    <string name="pushNotification">
+    	通知をプッシュ
+        <!-- "context": "This describes a button label for a Push Notification option."-->
+    </string>
+    <!-- notification -->
+    <!-- 10th part end -->
+    <!--              -->
+    <!-- person animal -->
+    <!-- 11th part start -->
+    <!--                -->
+    <string name="person">
+    	人
+    </string>
+    <string name="animal">
+        動物
+    </string>
+    <string name="both">
+        Both
+    </string>
+    <!-- notification -->
+    <!-- 11th part end -->
+    <!--              -->
+</resources>

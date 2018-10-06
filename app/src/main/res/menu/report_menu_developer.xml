@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemMainPage"
+        android:title="@string/home"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/ic_menu_home">
+    </item>
+    <item android:id="@+id/itemLatency"
+        android:title="@string/latency"
+        android:icon="@drawable/ic_menu_star"
+        android:showAsAction="always|withText">
+    </item>
+    <item android:id="@+id/itemTutorials"
+        android:title="@string/tutorials">
+    </item>
+    <item android:id="@+id/itemContactUs"
+        android:title="@string/email_us">
+    </item>
+    <item android:id="@+id/itemTools"
+        android:title="@string/developer_tools">
+        <menu>
+            <item android:id="@+id/itemRandomMaleName"
+                android:title="@string/get_male_name">
+            </item>
+            <item android:id="@+id/itemRandomFemaleName"
+                android:title="@string/get_female_name">
+            </item>
+            <item android:id="@+id/itemNotification"
+                android:title="@string/notification">
+            </item>
+            <item android:id="@+id/itemError"
+                android:title="@string/error">
+            </item>
+        </menu>
+    </item>
+
+</menu>

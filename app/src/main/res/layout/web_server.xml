@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    	<LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+	        android:paddingRight="10dp"
+	        android:layout_weight="3" 
+        	android:orientation="vertical" >
+   		
+   		<TextView
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:paddingLeft="16dp"
+   		    android:paddingTop="16dp"
+   		    android:text="Web Server List"
+   		    android:textAppearance="?android:attr/textAppearanceLarge"
+   		    android:textStyle="bold" />
+	
+   		<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To add your web server, call New"
+            android:textStyle="italic"
+   		    android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+   		
+    	<View
+         	android:layout_width="match_parent"
+         	android:layout_height="1dp"
+         	android:background="#666666"/>
+    	
+	   <ListView
+	        android:id="@+id/listViewWebServer"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="40dp" >
+	    </ListView>
+        </LinearLayout>
+    	
+    	<View
+         	android:id="@+id/view1"
+         	android:layout_width="1dp"
+         	android:layout_height="match_parent"
+         	android:background="#666666"/>
+    	
+    	<LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+	        android:paddingLeft="16dp"
+	        android:layout_weight="2" 
+        	android:orientation="vertical" >
+
+    		<TextView
+    		    android:id="@+id/textViewWebServer"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:paddingTop="16dp"
+    		    android:text="Web Server"
+	            android:textColor="@color/com_facebook_blue"
+    		    android:textAppearance="?android:attr/textAppearanceLarge"
+    		    android:textStyle="bold" />
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Current selected web server"
+	            android:textStyle="italic"
+	            android:paddingBottom="16dp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	        <View
+         		android:layout_width="match_parent"
+         		android:layout_height="2dp"
+         		android:background="#666666"/>
+    	<ScrollView
+	    	android:id="@+id/scrollView1"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical" >
+    	<LinearLayout
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:paddingLeft="40dp"
+        	android:orientation="vertical" >
+    		<View
+         		android:id="@+id/view2"
+         		android:layout_width="match_parent"
+         		android:layout_height="1dp"
+         		/>
+
+	        <TextView
+	            android:id="@+id/textViewId"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Id"
+	            android:paddingTop="10dp"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="ID"
+	            android:textStyle="italic"
+	            android:paddingBottom="10dp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    		<View
+         		android:layout_width="match_parent"
+         		android:layout_height="1dp"
+         		android:background="#666666"/>
+
+	        <TextView
+	            android:id="@+id/textViewShortName"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Short Name"
+	            android:paddingTop="10dp"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+	        
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Abbr./Short name"
+	            android:textStyle="italic"
+	            android:paddingBottom="10dp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    		<View
+         		android:layout_width="match_parent"
+         		android:layout_height="1dp"
+         		android:background="#666666"/>
+
+  	        <TextView
+	            android:id="@+id/textViewWebService"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Web Service"
+	            android:paddingTop="10dp"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+    		
+            <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Web Service"
+	            android:textStyle="italic"
+	            android:paddingBottom="10dp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+    		<View
+         		android:layout_width="match_parent"
+         		android:layout_height="1dp"
+         		android:background="#666666"/>
+
+	        <TextView
+	            android:id="@+id/textViewNameSpace"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Name Space"
+	            android:paddingTop="10dp"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+    		
+            <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Name Space"
+	            android:textStyle="italic"
+	            android:paddingBottom="10dp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+            <View
+         		android:layout_width="match_parent"
+         		android:layout_height="1dp"
+         		android:background="#666666"/>
+
+	        <TextView
+	            android:id="@+id/textViewUrl"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="URL"
+	            android:paddingTop="10dp"
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
+    		
+            <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="URL"
+	            android:textStyle="italic"
+	            android:paddingBottom="10dp"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	       	</LinearLayout>
+	        </ScrollView>
+	        </LinearLayout>
+    </LinearLayout>
+    	        
+</LinearLayout>

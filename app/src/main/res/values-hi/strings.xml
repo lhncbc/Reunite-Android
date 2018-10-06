@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--                -->
+    <!-- 1st part start -->
+    <!--                -->
+
+    <!-- General commands - start -->
+    <string name="ok">
+        ठीक
+    </string>
+    <string name="cancel">
+        रद्द करना
+    </string>
+    <string name="yes">
+        हाँ
+    </string>
+    <string name="no">
+        नहीं
+    </string>
+    <string name="continue_word">
+        जारी रहना
+    </string>
+    <string name="retry">
+        पुन: प्रयास
+    </string>
+    <string name="none">
+        कोई नहीं
+    </string>
+    <string name="home">
+        घर लौटना
+        <!-- return to main screen -->
+    </string>
+    <string name="save">
+        बचाना
+    </string>
+    <string name="delete">
+        इसे  हटाना
+    </string>
+    <string name="delete_q">
+        इसे  हटाना ?
+    </string>
+    <string name="delete_all">
+        सभी हटाना
+    </string>
+    <string name="select">
+        कृपया चुने
+    </string>
+    <string name="please">
+        Please
+    </string>
+    <string name="return_word">
+        वापस लौटें
+    </string>
+    <string name="next">
+        आगामी
+    </string>
+    <string name="back">
+        वापस
+        <!-- move backwards -->
+    </string>
+    <string name="forward">
+        आगे
+        <!-- move forwards -->
+    </string>
+    <string name="warning">
+        चेतावनी
+    </string>
+    <string name="error">
+        त्रुटि
+    </string>
+    <string name="correct">
+        सही
+    </string>
+    <string name="open">
+        खोलना
+    </string>
+    <string name="close">
+        बंद
+    </string>
+    <string name="camera">
+        कैमरा
+    </string>
+    <string name="gallery">
+        गेलरी
+    </string>
+    <string name="defined">
+        परिभाषित
+    </string>
+    <string name="undefined">
+        अपरिभाषित
+    </string>
+    <string name="language">
+    	English
+    </string>
+    <!-- General commands - end -->
+
+    <!-- omb and privacy statement - start -->
+    <string name="expiration_date_1st_part">
+        Omitted
+    </string>
+    <string name="ome_number">
+        Omitted
+    </string>
+    <string name="omb_notice">
+        Omitted
+    </string>
+    <string name="omb_submission">
+        Omitted
+    </string>
+    <string name="omb_text1">
+        Omitted
+    </string>
+    <string name="omb_text2">
+        <!-- do not translate this line -->
+        Omitted
+    </string>
+    <string name="omb_sub">
+        मैंने इसे पढ़ लिया है और सहमत हूं
+    </string>
+    <string name="i_refuse">
+        मैं इंकार करता हूँ
+    </string>
+    <!-- omb and privacy statement - end -->
+
+    <!-- home screen - start -->
+    <string name="welcome">
+        स्वागत हे
+    </string>
+    <string name="username">
+        उपयोगकर्ता नाम
+    </string>
+    <string name="password">
+        पासवर्ड
+    </string>
+    <string name="login">
+        लॉग इन करें
+    </string>
+    <string name="logout">
+        लॉग आउट करें
+    </string>
+    <string name="login_or_logout">
+        Login/Logout
+    </string>
+    <string name="guest">
+        Guest
+    </string>
+    <string name="login_was_successful">
+        लॉग इन सफल रहा
+    </string>
+    <string name="good_bye">
+        अलविदा
+    </string>
+    <string name="you_are_now_a_developer">
+        अब आप एक डेवलपर हैं!
+    </string>
+    <string name="web_server">
+        वेब सर्वर
+    </string>
+    <string name="server_status">
+        सर्वर की स्थिति
+        <!-- online or offline, connected or dis-connected -->
+    </string>
+    <string name="check">
+        चेक
+    </string>
+    <string name="latency">
+        विलंब
+        <!-- server response time -->
+    </string>
+    <string name="time_out">
+        समय समाप्त
+    </string>
+    <string name="event">
+        घटना
+    </string>
+    <string name="change">
+        परिवर्तन
+    </string>
+    <string name="date">
+        तारीख
+    </string>
+    <string name="event_location">
+        घटना स्थान
+    </string>
+    <string name="find">
+        खोज
+        <!-- find a missing person -->
+    </string>
+    <string name="report">
+        Report
+        <!-- report a missong person -->
+    </string>
+    <string name="organize">
+        व्यवस्थित
+        <!-- organize files which saved in folders -->
+    </string>
+    <string name="do_you_want_to_login">
+        क्या आप लॉग इन करना चाहते हैं ?
+    </string>
+    <string name="do_you_want_to_login_dis">
+        अतिथि के रूप में, आपके पास केवल कुछ सीमित कार्य हो सकते हैं। लॉग इन करने के लिए उपयोग करने के लिए अत्यधिक सुझाव दिया जाता है।.
+    </string>
+    <!-- home screen - end -->
+
+    <!-- missing person list - start -->
+    <string name="filter">
+        Filter
+        <!-- make selections to narrow down the searching -->
+    </string>
+    <string name="name">
+        नाम
+        <!-- search by input missing person's name -->
+    </string>
+    <string name="photo">
+        तस्वीर
+        <!-- search by input missing person's photo -->
+    </string>
+    <string name="page">
+        पृष्ठ
+    </string>
+    <string name="search">
+        Search
+    </string>
+    <string name="more">
+        अधिक
+        <!-- more to next page -->
+    </string>
+    <!-- missing person list - end -->
+
+    <!-- missing person information - start -->
+    <string name="draft">
+        प्रारूप
+        <!-- folder to save uncompleted records -->
+    </string>
+    <string name="send">
+        भेजना
+        <!-- command to send the report -->
+    </string>
+    <string name="primary_image">
+        प्राथमिक तस्वीर
+        <!-- first image of a missing person -->
+    </string>
+    <string name="secondary_image">
+        Secondary Image
+        <!-- second or third, etc image of a missing person -->
+    </string>
+    <string name="press_button_on_right_side_to_add_caption">
+        कैप्शन डालने के लिए दाईं ओर प्रेस बटन दबाएं
+        <!-- description -->
+    </string>
+    <string name="caption">
+        कैप्शन
+    </string>
+    <string name="missing_person_information">
+        Missing Person Information
+    </string>
+    <string name="first_name">
+        पहला नाम
+    </string>
+    <string name="last_name">
+        अंतिम नाम
+    </string>
+    <string name="other_names">
+        दुसरे नाम
+    </string>
+    <string name="approximate_age">
+        अनुमानित उम्र
+    </string>
+    <string name="gender">
+        अनुमानित उम्र
+    </string>
+    <string name="male">
+        मर्द
+    </string>
+    <string name="female">
+        औरत
+    </string>
+    <string name="unknown">
+        अनजान
+    </string>
+    <string name="complex">
+        जटिल
+    </string>
+    <string name="status">
+        स्थिति
+        <!-- missing person's status: missing, alive and well, injured, deceased, unknown or found -->
+    </string>
+    <string name="missing">
+        लापता
+    </string>
+    <string name="alive_and_well">
+        जीवित और स्वस्थ
+    </string>
+    <string name="injured">
+        घायल
+    </string>
+    <string name="deceased">
+        दिवंगत
+    </string>
+    <string name="found">
+        मिल गया
+    </string>
+    <string name="last_seen_location">
+        अंतिम बार देखा गया स्थान
+    </string>
+    <string name="additional_details">
+        अतिरिक्त जानकारी
+    </string>
+    <string name="missing_person_uuid">
+        लापता व्यक्ति यू यू आई डी
+    </string>
+    <string name="last_updated_date">
+        अन्तिम अपडेट डेट
+    </string>
+    <string name="follow">
+        कृपया पालन करें
+    </string>
+    <string name="why_follow_a_record">
+        आप एक रिकॉर्ड का पालन क्यों करते हैं?
+    </string>
+    <string name="follow_record_des">
+         .
+    </string>
+    <string name="why_follow_record">
+        जब यह रिकॉर्ड भविष्य में नई जानकारी के साथ अपडेट किया जाता है, तो आपको एक ईमेल अलर्ट प्राप्त होगा, और आप इस व्यक्ति का अनुसरण करने के लिए चुन सकते हैं। केवल तभी आपको एक ईमेल प्राप्त होगा जब रिकॉर्ड नई जानकारी के साथ अपडेट किया जाएगा या जब कोई टिप्पणी छोड़ देता है।.
+    </string>
+    <!-- missing person information - end -->
+
+    <!-- Report missing person - start -->
+    <string name="input_by_right_side_button">
+        कृपया दाएं तरफ बटन से इनपुट करें
+    </string>
+    <string name="google_map_view">
+        गूगल मानचित्र के साथ देखें
+    </string>
+    <string name="gps_cannot_detect_current_location">
+        जीपीएस वर्तमान स्थान का पता नहीं लगा सकता है
+    </string>
+    <string name="let_gps_fill_your_address">
+        जीपीएस को अपना पता भरने दें
+    </string>
+    <string name="get_address_from_google_map">
+        Get address from Google Map
+    </string>
+    <string name="address_book_is_empty">
+        पता पुस्तिका खाली है
+    </string>
+    <string name="select_from_adress_book">
+        पता पुस्तिका से चुनें
+    </string>
+    <string name="street">
+        सड़क
+    </string>
+    <string name="city">
+        City
+    </string>
+    <string name="state">
+        राज्य
+    </string>
+    <string name="zip">
+        ज़िप  कोड
+    </string>
+    <string name="country">
+        देश
+    </string>
+    <string name="comments">
+        टिप्पणियाँ
+    </string>
+    <string name="maximum_500_characters">
+        अधिकतम 500 वर्ण
+    </string>
+    <string name="required_field">
+        आवश्यक जानकारी
+        <!-- the field that the user must input -->
+    </string>
+    <!-- Report missing person - end -->
+
+    <!-- Organize - start -->
+    <string name="lost_person_files">
+        खो गया व्यक्ति की फाइलें
+    </string>
+    <string name="file_found">
+        file found
+    </string>
+    <string name="files_found">
+        फाइलें मिली
+    </string>
+    <string name="no_file_is_found">
+        कोई फ़ाइल नहीं मिली
+    </string>
+    <!-- Organize - end -->
+
+    <!-- web server latency - start -->
+    <string name="excellent">
+        उत्कृष्ट
+    </string>
+    <string name="good">
+        अच्छा
+    </string>
+    <string name="poor">
+        अच्छा नही
+    </string>
+    <string name="disconnected">
+        डिस्कनेक्ट किया गया
+    </string>
+    <!-- web server latency - end -->
+
+    <!-- toast messages - start -->
+    <string name="this_option_is_not_available">
+        यह विकल्प उपलब्ध नहीं है
+    </string>
+    <string name="all_photos_are_deleted">
+        सभी तस्वीरें हटा दी गई हैं
+    </string>
+    <string name="all_records_are_deleted">
+        सभी रिकॉर्ड हटा दिए गए हैं
+    </string>
+    <string name="email">
+        इमेल
+    </string>
+    <string name="sending_email">
+        ईमेल भेजना...
+    </string>
+    <string name="there_is_no_email_client_installed">
+        कोई ईमेल क्लाइंट स्थापित नहीं है
+    </string>
+    <string name="html_file_is_empty">
+        एच टी एम एल फाइल खाली है
+    </string>
+    <string name="done">
+        संपन्न
+    </string>
+    <string name="canceled">
+        रद्द
+    </string>
+    <string name="succeed">
+        सफल हुए
+    </string>
+    <string name="not_succeed">
+        सफल नहीं हुआ
+    </string>
+    <string name="completed">
+        पूरा कर लिया है
+    </string>
+    <string name="implemented">
+        कार्यान्वित  हुए
+    </string>
+    <string name="not_implemented">
+        कार्यान्वित नहीं
+    </string>
+    <string name="no_record_is_found">
+        कोई रिकॉर्ड नहीं मिला है
+    </string>
+    <string name="need_to_login">
+        लॉग इन करने की आवश्यकता है
+    </string>
+    <string name="no_photo">
+        कोई तसवीर नहीं
+    </string>
+    <string name="no_photo_is_found">
+        No photo is found
+    </string>
+    <string name="a_photo_is_selected">
+        A photo is selected
+    </string>
+    <string name="moving_to_photo_number">
+        Moving to photo number
+    </string>
+    <string name="you_are_about_to_delete_all_the_photos_saved_in_cache">
+        आप कैश में सहेजी गई सभी तस्वीरें हटाने जा रहे हैं
+    </string>
+    <string name="are_you_sure_you_want_to_delete_the_selected_photo">
+        क्या आप वाकई चुने गए फोटो को हटाना चाहते हैं?
+    </string>
+    <string name="no_photo_is_selected_do_you_really_want_to_quit">
+        कुनै तस्बिर चयन गरिएको छैन। के तपाई साँच्चै छोड्न चाहनुहुन्छ?
+    </string>
+    <string name="file_is_saved">
+        फ़ाइल सहेजी गई है।
+    </string>
+    <string name="report_abuse_and_its_explanation_are_sent">
+        दुरुपयोग और इसकी व्याख्या भेज रहे हैं।
+    </string>
+    <string name="all_files_in_outbox_are_deleted">
+        आउटबॉक्स में सभी फाइलें हटा दी गई हैं।
+    </string>
+    <string name="searching_images_took_seconds">
+        तस्विर खोज सेकेन्ड ले लिया
+    </string>
+    <string name="google_authenticated_token_is_empty">
+        गुगल प्रमाणीकरण टोकन खाली है
+    </string>
+    <!-- toast messages - end -->
+
+    <!-- dialogue box message - start -->
+    <string name="processing_please_wait">
+        अद्यतन स्थिति कृपया प्रतीक्षा करें...
+    </string>
+    <string name="updating_the_status_please_wait">
+        अद्यतन स्थिति कृपया प्रतीक्षा करें...
+    </string>
+    <string name="retrieving_events_please_wait">
+        घटनाओं को पुनः प्राप्त करना कृपया प्रतीक्षा करें...
+    </string>
+    <string name="retrieving_information_on_selected_event_please_wait">
+        चयनित घटनाओं पर जानकारी प्राप्त करना कृपया प्रतीक्षा करें...
+    </string>
+    <string name="detecting_the_speed_please_wait">
+        गति का पता लगाना, कृपया प्रतीक्षा करें...
+    </string>
+    <string name="logging_in_please_wait">
+        लॉग इन करना, कृपया प्रतीक्षा करें...
+    </string>
+    <string name="saving_data_to_database_please_wait">
+        डेटा को डेटाबेस में सहेजना, कृपया प्रतीक्षा करें।...
+    </string>
+    <string name="reporting_missing_person_please_wait">
+        गायब व्यक्ति की जानकारी की रिपोर्टिंग, कृपया प्रतीक्षा करें।...
+    </string>
+    <string name="reporting_abuse_please_wait">
+        "दुर्व्यवहार की रिपोर्टिंग, कृपया प्रतीक्षा करें।...
+    </string>
+    <string name="loading_images_please_wait">
+        चित्र लोड हो रहा है, कृपया प्रतीक्षा करें।...
+    </string>
+    <string name="searching_the_selected_record_">
+        चयनित गायब व्यक्ति फ़ाइल खोजना, कृपया प्रतीक्षा करें ...
+    </string>
+    <string name="un_flowing_all_the_records_please_wait">
+        अब रिकॉर्ड  ट्रेसिंग  रोकने की प्रक्रिया में , कृपया प्रतीक्षा करें...
+    </string>
+    <string name="information_is_sent">
+        जानकारी भेज दी गई है
+    </string>
+    <string name="save_a_copy_to_local">
+        एक प्रतिलिपि स्थानीय में सहेजें
+    </string>
+    <string name="registration_is_successful_">
+        रजिस्ट्रीकरण  सफल है! कृपया लॉगिन करें या अधिक जानकारी प्राप्त करें
+    </string>
+    <string name="first_name_is_empty">
+        पहला नाम खाली है!
+    </string>
+    <string name="last_name_is_empty">
+        अंतिम नाम खाली है!
+    </string>
+    <string name="email_is_empty">
+        ईमेल खाली है!
+    </string>
+    <string name="username_is_empty">
+        उपयोगकर्ता नाम खाली है!
+    </string>
+    <string name="password_is_empty">
+        पासवर्ड खाली है!
+    </string>
+    <string name="confirmation_password_is_empty">
+        पुष्टि खाली है!
+    </string>
+    <string name="two_passwords_are_not_identical">
+        दो पासवर्ड समान नहीं हैं.
+    </string>
+    <string name="password_requires_at_least_8_characters">
+        पासवर्ड को कम से कम 8 वर्णों की आवश्यकता होती है.
+    </string>
+    <string name="password_cannot_have_more_than_16_characters">
+        पासवर्ड में 16 से अधिक वर्ण नहीं हो सकते हैं.
+    </string>
+    <string name="password_must_have_at_least_one_uppercase_character">
+        पासवर्ड में कम से कम एक ऊपरी केस चरित्र होना चाहिए.
+    </string>
+    <string name="password_must_have_at_least_one_lowercase_character">
+        Password must have at least one lowercase character.
+    </string>
+    <string name="password_must_have_at_least_one_numeral_">
+        पासवर्ड में एक अंक होना चाहिए (0-9).
+    </string>
+    <string name="password_cannot_contain_your_username">
+        पासवर्ड में आपका उपयोगकर्ता नाम नहीं होना चाहिए।.
+    </string>
+    <string name="you_need_to_select_the_event">
+        आपको घटना का चयन करने की आवश्यकता है
+    </string>
+    <string name="do_you_want_to_delete_this_image">
+        क्या आप इस तस्वीर को मिटाना चाहते हैं?
+    </string>
+    <string name="as_a_guest_you_">
+        अतिथि के रूप में, आप गुमनाम व्यक्ति को गुमनाम रूप से रिपोर्ट कर सकते हैं। लेकिन आपके पास कुछ सीमित कार्य होंगे।.
+    </string>
+    <string name="are_you_sure_you_want_to_quite_current_work_q">
+        क्या आप वाकई वर्तमान काम छोड़ना चाहते हैं?
+    </string>
+    <string name="you_do_not_have_any_following_records">
+        क्या आपके पास कोई निम्न रिकॉर्ड है
+    </string>
+    <string name="you_do_not_have_internet_connection">
+        आपके पास इंटरनेट कनेक्शन नहीं है।
+    </string>
+    <string name="as_a_guest_you_may_report_">
+       अतिथि के रूप में, आप गुमनाम व्यक्ति को गुमनाम रूप से रिपोर्ट कर सकते हैं। लेकिन आपके पास उपयोग करने के लिए सीमित कार्य होंगे।.
+    </string>
+    <string name="as_a_guest_you_may_have_">
+        As a guest, you may have some limited function to use, To login is highly suggested.
+    </string>
+    <string name="change_is_made_">
+        परिवर्तन किया जाता है। कृपया ऐप को पुनरारंभ करें।.
+    </string>
+    <!-- dialogue box message - end -->
+
+    <!-- text shown on menu - start -->
+    <string name="social_media">
+        सामाजिक मीडिया
+    </string>
+    <string name="tutorials">
+        ट्यूटोरियल
+    </string>
+    <string name="email_us">
+        हमे ईमेल करे
+    </string>
+    <string name="version_history">
+        संस्करण इतिहास
+    </string>
+    <string name="cache">
+        कैश
+    </string>
+    <string name="clean_cache">
+        साफ कैश
+    </string>
+    <string name="refresh">
+        ताज़ा करना
+    </string>
+    <string name="email_html_file">
+        ईमेल एच टी एम एल फाइल
+    </string>
+    <string name="developer_tools">
+        डेवलपर उपकरण
+    </string>
+    <string name="enter_username_and_password">
+        उपयोगकर्ता नाम और पासवर्ड डालें
+    </string>
+    <string name="about">
+        इसके बारे में
+    </string>
+    <string name="report_abuse">
+        दुरुपयोग होने की सूचना दें
+    </string>
+    <string name="update_image">
+        तस्वीर अपडेट करें
+    </string>
+    <string name="get_male_name">
+        पुरुष नाम प्राप्त करें
+    </string>
+    <string name="get_female_name">
+        महिला नाम प्राप्त करें
+    </string>
+    <string name="notification">
+        सूचना
+    </string>
+    <string name="show_omb">
+        ओ एम बी  दिखाएं
+    </string>
+    <string name="future_developments">
+        भविष्य में विकास
+    </string>
+    <string name="display_gcm_token">
+        जी सी एम टोकन प्रदर्शित करें
+    </string>
+    <string name="gcm_token_upload_status">
+        जी सी एम टोकन अपलोड की स्थिति
+    </string>
+    <string name="send_gcm_message">
+        Send GCM Message
+    </string>
+    <string name="email_gcm_token">
+        Email GCM Token
+    </string>
+    <string name="select_web_server">
+        वेब सर्वर का चयन करें
+    </string>
+    <!-- text shown on menu - end -->
+
+    <!-- error codes - start -->
+    <string name="plusError1">
+        त्रुटि! अमान्य उपयोगकर्ता नाम या पासवर्ड
+        <!-- "context": "Error message presented when a user provides the incorrect username and/or password." -->
+    </string>
+    <string name="plusError2">
+        त्रुटि: बार-बार लॉगिन करने में विफल होने के लिए आपका खाता अस्थायी रूप से बंद कर दिया गया है, बाद में पुनः प्रयास करें
+        <!-- "context": "Error message presented when a user fails to login repeatedly." -->
+    </string>
+    <string name="plusError6">
+        त्रुटि: उपयोगकर्ता पहले से ही उपलब्ध ईमेल पते के साथ मौजूद है
+        <!-- "context": "Error message presented when user tries to use an email address already in use." -->
+    </string>
+    <string name="plusError7">
+        त्रुटि: आपके द्वारा प्रदान किया गया उपयोगकर्ता नाम उपलब्ध नहीं है
+        <!-- "context": "Error message presented when a user attempts to register with a username that is already in use by another user." -->
+    </string>
+    <string name="plusError8">
+        त्रुटि: अमान्य ईमेल पता
+        <!-- "context": "Error message presented when a user provides an invalid email address." -->
+    </string>
+    <string name="plusError9">
+        त्रुटि: पासवर्ड 8-16 वर्णों की लंबाई में होना चाहिए, कम से कम एक लोअरकेस होना चाहिए, और एक संख्यात्मक वर्ण होना चाहिए
+        <!-- "context": "Error message presented when user enters an invalid password." -->
+    </string>
+    <string name="plusError11">
+        त्रुटि: प्रदान किया गया ईमेल पता किसी भी उपयोगकर्ता खाते से संबद्ध नहीं है
+        <!-- "context": "Error message presented when user attempts to reset password with an unregistered email address-->
+    </string>
+    <string name="plusError14">
+        त्रुटि: गलत मानव वैधता परीक्षण परिणाम, कृपया पृष्ठ को पुनः लोड करें
+        <!-- "context": "Error message presented when the captcha system encounters invalid data-->
+    </string>
+    <string name="plusError15">
+        त्रुटि:  पुन: प्राप्ति सत्र समाप्त हो गया, कृपया पृष्ठ को फिर से लोड करें
+        <!-- "context": "Error message presented when the reCaptcha session has expired and the user must reload the page to continue-->
+    </string>
+    <string name="plusError16">
+        त्रुटि: पासवर्ड मेल नहीं खाते हैं
+        <!-- "context": "Error message presented when entered password do not match one another-->
+    </string>
+    <string name="plusError20">
+        त्रुटि: पासवर्ड 8-16 वर्ण लंबा होना चाहिए
+        <!-- "context": "Error message presented when entered password is of incorrect length, must be 8-16 characters long-->
+    </string>
+    <string name="plusError21">
+        त्रुटि: पासवर्ड में कम से कम एक अपरकेस अक्षर होना चाहिए (ए-जेड)
+        <!-- "context": "Error message presented when entered password does not contain at least one uppercase letter-->
+    </string>
+    <string name="plusError22">
+        त्रुटि: पासवर्ड में कम से कम एक लोअरकेस अक्षर होना चाहिए (ए - जेड)
+        <!-- "context": "Error message presented when entered password does not contain at least one lowercase letter-->
+    </string>
+    <string name="plusError23">
+        त्रुटि: पासवर्ड में कम से कम एक संख्या होनी चाहिए (0-9)
+        <!-- "context": "Error message presented when entered password does not contain at least one digit-->
+    </string>
+    <string name="plusError100">
+        नेटवर्क त्रुटि। कृपया अपने संपर्क की जांच करे और फिर से प्रयास करें।
+        <!-- "context": "Error message presented when there is a network / internet issue-->
+    </string>
+    <string name="plusError600">
+        त्रुटि: उस रिकॉर्ड का पालन नहीं कर सकता जो मौजूद नहीं है या आपके पास पहुंचने का विशेषाधिकार नहीं है।
+        <!-- "context": "Error message presented when user attempts to follow a record they have no permission to access-->
+    </string>
+    <string name="plusError601">
+        त्रुटि: इस रिकॉर्ड का फिर से पालन नहीं कर सकता क्योंकि आप पहले से ही इसका अनुसरण कर रहे हैं
+        <!-- "context": "Error message presented when attempting to follow a record the user is already following-->
+    </string>
+    <string name="plusError602">
+        त्रुटि: इस रिकॉर्ड का नपालन नहीं कर सकता क्योंकि आप वर्तमान में इसका पालन नहीं कर रहे हैं
+        <!-- "context": "Error message presented when "-->
+    </string>
+    <string name="plusError9999">
+        An unknown error has occurred.
+    </string>
+    <!-- error codes - end -->
+
+    <!--              -->
+    <!-- 1st part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 2nd part start -->
+    <!--                -->
+
+    <!-- new - start -->
+    <string name="quit">
+        छोड़ना
+    </string>
+    <string name="select_language">
+        भाषा चुनिए
+    </string>
+    <string name="offline">
+        ऑफ़लाइन
+    </string>
+    <string name="connected">
+        जुड़ा हुआ है
+    </string>
+    <string name="follow_record">
+        रिकॉर्ड के पीछे का पालन करें
+    </string>
+    <string name="follow_nothing">
+        कुछ भी  पीछे नहीं  करें
+    </string>
+    <string name="no_follow">
+        कोई फॉलो नहीं करें
+    </string>
+    <string name="logout_first">
+        पहले लॉगआउट करें
+    </string>
+    <string name="undetected">
+        पता नहीं लगा
+    </string>
+    <string name="address_book">
+        पता पुस्तिका
+    </string>
+    <string name="enter_a_name_">
+        खोज बॉक्स में एक नाम दें। वर्णों के किसी भी समूह से मेल खाने के लिए तारांकन (*) का प्रयोग करें।
+    </string>
+    <string name="example">
+        उदाहरण
+    </string>
+    <string name="are_you_sure_q">
+        क्या आपको यकीन है ?
+    </string>
+    <string name="input_empty_error_code">
+        इनपुट में  खाली त्रुटि कोड
+    </string>
+    <string name="show_password">
+        शो पासवर्ड
+    </string>
+    <string name="forgot_q">
+        क्या आप भूल गए?
+    </string>
+    <string name="forgot_username">
+        क्या उपयोगकर्ता का नाम भूल गए है
+    </string>
+    <string name="forgot_password">
+        पासवर्ड भूल गए
+    </string>
+    <string name="new_user">
+        नया उपयोगकर्ता
+    </string>
+    <string name="please_enter_your_username_and_password">
+        कृपया अपना उपयोगकर्ता नाम और पासवर्ड डालें।
+    </string>
+    <string name="forgot_your_username_q">
+        अपना उपयोगकर्ता नाम भूल गए? कृपया अपना ईमेल पता दें, हम जल्द ही आपको जानकारी भेज देंगे।
+    </string>
+    <string name="submit">
+        Submit
+    </string>
+    <string name="email_address_is_sent">
+        ईमेल पता भेजा गया है
+    </string>
+    <string name="forgot_your_password_q">
+        Forgot your password? Please enter your e-mail address, we will send information back to you shortly
+    </string>
+    <string name="register_as_a_new_user">
+        एक नए उपयोगकर्ता के रूप में रजिस्टर करें
+    </string>
+    <string name="passwords_must_adhere_">
+        पासवर्ड को निम्नलिखित नियमों का पालन करना होगा
+    </string>
+    <string name="re_enter_password">
+        पासवर्ड दोबारा डालें
+    </string>
+    <string name="register">
+        दर्ज करें
+    </string>
+    <string name="child_0_17">
+        बच्चा (0-17)
+    </string>
+    <string name="adult_18_plus">
+        वयस्क (18+)
+    </string>
+    <string name="view_persons_with">
+        निम्नलिखित व्यक्तियों को देखें
+    </string>
+    <string name="photo_only">
+        केवल फोटो
+    </string>
+    <string name="both_recommended">
+        दोनों की सिफारिश की है
+    </string>
+    <string name="number_of_records_per_load">
+        प्रति लोड रिकॉर्ड की संख्या
+    </string>
+    <string name="_5_seconds">
+        पांच
+    </string>
+    <string name="_10_seconds">
+        <!-- 10 seconds -->
+        दस
+    </string>
+    <string name="_10_seconds_recommended">
+        दस - सिफारिश की गई
+    </string>
+    <string name="_15_seconds">
+        पंद्रह
+    </string>
+    <string name="_15_seconds_recommended">
+        पन्द्रह  - सिफारिश की गई
+    </string>
+    <string name="_20_seconds">
+        बीस
+    </string>
+    <string name="tap_right_button_to_add_photo_caption">
+        फोटो कैप्शन जोड़ने के लिए दायां बटन टैप करें
+    </string>
+    <string name="open_for_reporting">
+        रिपोर्टिंग के लिए खोलें
+    </string>
+    <string name="closed_reporting">
+        रिपोर्टिंग बंद है
+    </string>
+    <string name="you_have_selected">
+        आपके द्वारा चुने गए
+    </string>
+    <string name="start">
+        शुभारंभ
+    </string>
+    <string name="no_photo_is_selected">
+        कोई फोटो नहीं चुना गया है
+    </string>
+    <string name="sent_box_is_empty">
+        भेजा गया बॉक्स खाली है
+    </string>
+    <string name="out_box_is_empty">
+        आउटबॉक्स खाली है
+    </string>
+    <string name="draft_box_is_empty">
+        ड्राफ्ट बॉक्स खाली है
+    </string>
+    <string name="saved_box_is_empty">
+        सहेजा गया बॉक्स खाली है
+    </string>
+    <string name="all_boxes_are_empty">
+        सभी बक्से खाली हैं
+    </string>
+    <string name="sent">
+        भेज दिया गया है
+    </string>
+    <string name="outbox">
+        आउटबॉक्स
+    </string>
+    <string name="saved_from_search">
+        खोज से बचाया गया
+    </string>
+    <string name="you_are_about_to_delete_all_files">
+        आप सभी फाइलों को हटाने वाले हैं
+    </string>
+    <string name="all_files_are_deleted">
+        सभी फाइलें हटा दी गईं
+    </string>
+    <string name="web_server_is_not_found">
+        वेब सर्वर मिला नहीं
+    </string>
+    <string name="this_file_was_downloaded_earlier_">
+        यह फ़ाइल पहले डाउनलोड की गई थी। यह सबसे  अपडेट  नहीं हो सकता है। सबसे  अपडेट  फ़ाइल देखने के लिए, घर पर वापस जाएं और फिर \ "ढूंढें \" आज़माएं।
+    </string>
+    <string name="you_are_an_anonymous_user">
+        आप एक बेनाम उपयोगकर्ता हैं।
+    </string>
+    <string name="saved">
+        बचाया गया है
+    </string>
+    <string name="deleted">
+        हटाए गए
+    </string>
+    <string name="local_file_id">
+        स्थानीय फ़ाइल आईडी
+    </string>
+    <string name="there_is_only_one_photo">
+        वहां केवल एक फोटो है।
+    </string>
+    <string name="add_text">
+        शब्द जोड़ें।
+    </string>
+    <string name="age_is_missing">
+        आयु अनुपस्थित है।
+    </string>
+    <string name="exceeds_maximum_age">
+        आपका इनपुट अधिकतम आयु से अधिक है।
+    </string>
+    <string name="error_in_age">
+        उम्र में त्रुटि
+    </string>
+    <string name="error_in_event">
+        Error in event
+    </string>
+    <string name="error_in_gender">
+        लिंग में त्रुटि
+    </string>
+    <string name="error_in_status">
+        स्थिति में त्रुटि।
+    </string>
+    <string name="no_data_returned">
+        कोई डेटा वापस नहीं आया।
+    </string>
+    <string name="updated">
+        अपडेट किया गया।
+    </string>
+    <string name="updating_the_persons_information_please_wait_dots">
+        व्यक्ति की जानकारी अपलोड कर रहा है, कृपया प्रतीक्षा करें ...
+    </string>
+    <string name="is_sent">
+        भेज दिया
+    </string>
+    <string name="is_not_sent">
+        is not sent
+    </string>
+    <string name="is_saved">
+        बचाया गया है
+    </string>
+    <string name="no_permission">
+        अनुमति नहीं
+    </string>
+    <string name="you_are_about_to_delete_this_file">
+        आप इस फाइल को हटाने वाले हैं
+    </string>
+    <string name="uuid_is_missing">
+        यू यू आई डी गुम है
+    </string>
+    <string name="permission_is_denied">
+        अनुमति अस्वीकार कर दी गई है
+    </string>
+    <string name="subscribe_to_email_updates">
+        ईमेल अपडेट की सदस्यता लें
+    </string>
+    <string name="no_valid_token">
+        टोकन वैध नहीं है
+    </string>
+    <string name="slide_to_move_page">
+        पृष्ठ को स्थानांतरित करने के लिए स्लाइड करें
+    </string>
+    <string name="tutorial_on_the_starting_page">
+        ट्यूटोरियल शुरुआती पेज पर है
+    </string>
+    <string name="tutorial_on_rules_of_user_registration">
+        उपयोगकर्ता  दर्ज के नियमों पर ट्यूटोरियल।
+    </string>
+    <string name="tutorial_on_finding_a_missing_person">
+        एक लापता व्यक्ति की रिपोर्ट करने पर ट्यूटोरियल।
+    </string>
+    <string name="tutorial_on_reporting_a_missing_person">
+        एक लापता व्यक्ति की रिपोर्ट करने पर ट्यूटोरियल।
+    </string>
+    <string name="tutorial_on_managing_files_in_sent_saved_draft_and_outbox">
+        भेजे गए, सहेजे गए, ड्राफ्ट और आउटबॉक्स में फ़ाइलों को प्रबंधित करने पर ट्यूटोरियल।
+    </string>
+
+    <string name="privacy_statement_title">PRIVACY STATEMENT</string>
+    <string name="privacy_statement_content">
+        यू.एस. नेशनल लाइब्रेरी ऑफ मेडिसिन (एन एल एम) स्वास्थ्य और मानव सेवा विभाग के यू.एस. विभाग का हिस्सा है, जिसने स्वास्थ्य सूचना के वितरण में सुधार के लिए संचार प्रणाली प्रौद्योगिकी के विकास में पहले से ही एक मिशन लिया था। इस पुनर्मिलन ऐप को एनएलएम के लोगों लोकेटर (पी एल) सेवा को https://pl.nlm.nih.gov पर उपलब्ध 'लापता (और पाया गया)' लोगों के बारे में जरूरी व्यक्तिगत जानकारी अपलोड करने के लिए डिज़ाइन किया गया है। यह सेवा 'प्राकृतिक आपदा के बाद परिवार एकीकरण' के साथ-साथ अन्य आपदाओं को राहत देने में ऐसे उपकरणों की उपयोगिता का अध्ययन करने के स्पष्ट उद्देश्य के लिए प्रदान की जाती है। पीएल सेवाओं और खोए गए व्यक्ति खोजक परियोजना पर अधिक जानकारी यहां मिल सकती है: http://lpf.nlm.nih.gov
+        \nNote:
+    </string>
+
+    <string name="ps_note_01">
+        इस एपका उपयोग कर जानकारी जमा करना स्वैच्छिक है।.
+    </string>
+    <string name="ps_note_02">
+        सभी सबमिट की गई जानकारी सार्वजनिक रूप से उपलब्ध कराई जा सकती है।.
+    </string>
+    <string name="ps_note_03">
+        इस उपकरण का उपयोग करके संग्रहीत डेटा को नियंत्रित नहीं किया जा सकता है और एनएलएम की पीएल वेबसाइट पर सभी आगंतुकों द्वारा खोजा जा सकता है।.
+    </string>
+    <string name="ps_note_04">
+        ऐप के भीतर संग्रहीत डेटा इस समय एन्क्रिप्ट नहीं किया गया है।.
+    </string>
+    <string name="ps_note_05">
+        गायब या पाए गए लोगों के बारे में जानकारी अपलोड करने के लिए इस ऐप के उपयोग में पीएल सेवा खाता होना चाहिए।.
+    </string>
+    <string name="ps_note_06">
+        साइट खोजने के लिए कोई पी एल लॉगिन आवश्यक नहीं है।.
+    </string>
+    <string name="ps_note_07">
+        अन्य सरकारी एजेंसियों या अन्य संस्थानों को किसी व्यक्ति और प्रेषक से रिपोर्ट की गई जानकारी प्रदान की गई है, संपर्क जानकारी प्रदान की जा सकती है, जो किसी भी आपदा के बाद पुन: एकीकरण प्रयासों की सहायता कर रहे हैं; जहां अमेरिकी सरकार राहत प्रयास अब उपलब्ध कराए जा रहे हैं।.
+    </string>
+    <string name="ps_note_08">
+        आपदा के बाद प्रदान किए गए खोए गए व्यक्ति डेटा के लिए: यदि आप उसी व्यक्ति से सुनते हैं जो आप खोज रहे हैं, तो कृपया अपनी स्थिति अपडेट करने के लिए पी एल वेबसाइट पर निर्देशों का पालन करें।.
+    </string>
+    <string name="ps_note_09">
+        एप्लिकेशन उपयोगकर्ता स्थान को ट्रैक नहीं करता है।.
+    </string>
+    <string name="ps_note_10">
+        यह एपी उपयोगकर्ता स्थान को ट्रैक नहीं करता है।.
+    </string>
+    <!--              -->
+    <!-- 2nd part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 3rd part start -->
+    <!--                -->
+    <string name="in_order_to_use_this_app_">
+        इस ऐप का उपयोग करने के लिए आपको गोपनीयता कथन स्वीकार करना होगा।. क्या आप पुनर्विचार करना चाहते हैं?
+    </string>
+    <string name="saving_data_to_database_please_wait_dot">
+        डेटा को डेटाबेस में सहेज रहा है, कृपया प्रतीक्षा करें ...
+    </string>
+    <string name="update">
+        अपडेट  करें
+    </string>
+
+    <!--              -->
+    <!-- 3rd part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 4th part start -->
+    <!--                -->
+
+    <string name="permission_is_granted_">
+        अनुमति दी गई है, अब आप पुनः प्रयास कर सकते हैं.
+    </string>
+    <string name="permission_is_denied_">
+        अनुमति अस्वीकार कर दी गई थी। कृपया डेटा तक पहुंचने के लिए अनुमति देने पर विचार करें!
+    </string>
+    <string name="message_checking_permission_">
+        अनुमति की जांच हो रही है ...
+    </string>
+    <string name="message_requesting_permission_">
+        अनुमति का अनुरोध कर रहे हैं ...
+    </string>
+    <!--              -->
+    <!-- 4th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 5th part start -->
+    <!--              -->
+    <string name="confirmation_was_successful">
+        पुष्टि सफल रही.
+    </string>
+    <string name="click_button_to_complete_confirmation">
+        पुष्टिकरण प्रक्रिया को पूरा करने के लिए कृपया बटन पर क्लिक करें।.
+    </string>
+    <string name="invalid_preference_value">
+        अमान्य वरीयता मान।
+    </string>
+    <string name="reporting_locale_dot">
+        लोकेल की रिपोर्टिंग ...
+    </string>
+
+    // abuse
+    <string name="what_would_you_like_to_report">
+        आप रिपोर्ट करना क्या पसंद करेंगे?
+    </string>
+    <string name="spam">
+        स्पैम
+    </string>
+    <string name="sexually_explicit">
+        यौन स्पष्ट
+    </string>
+    <string name="hate_speech">
+        द्वेषपूर्ण भाषण
+    </string>
+    <string name="violence">
+        हिंसा
+    </string>
+    <string name="something_else">
+        कुछ और
+    </string>
+    <string name="abuse_thanks">
+        धन्यवाद। हमें आपका दुरुपयोग दावा प्राप्त हुआ है। हमारी साइट के कर्मचारी इस रिकॉर्ड की समीक्षा करेंगे और किसी भी अनुचित सामग्री को हटा देंगे।.
+    </string>
+
+    <!-- forgot -->
+    <string name="enter_your_email_">
+        अपना ईमेल पता डालें और यह आपको निर्देश भेजेगा कि आपका पासवर्ड रीसेट कैसे करें।.
+    </string>
+
+    // change password
+    <string name="old_password">
+        Old Password
+    </string>
+    <string name="new_password">
+        New Password
+    </string>
+    <string name="new_password_again">
+        New Password Again
+    </string>
+    <string name="your_password_must_contain_a_number_etc">
+        Your password must contain a number, a lowercase letter, an uppercase letter, and be 8-16 characters long.
+    </string>
+    <string name="change_password">
+        Change Password
+    </string>
+
+    <!-- error code -->
+    <string name="exceeded_authentication_failure_limit_">
+        प्रमाणीकरण विफलता सीमा से अधिक (प्रति घंटे 24 घंटे में 8 विफलताओं)
+    </string>
+    <string name="user_account_is_inactive_">
+        उपयोगकर्ता खाता निष्क्रिय है, उपयोगकर्ता को ईमेल पता की पुष्टि करनी चाहिए
+    </string>
+    <string name="a_user_already_exists_with_">
+        एक उपयोगकर्ता पहले से ही प्रदान किए गए ईमेल पते के साथ मौजूद है
+    </string>
+    <string name="invalid_email_address">
+        अमान्य ईमेल पता
+    </string>
+    <string name="invalid_confirmation_code">
+        अवैध पुष्टि कोड
+    </string>
+
+    <!--              -->
+    <!-- 5th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 6th part start -->
+    <!--              -->
+    <string name="menu_settings">
+        सेटिंग्स
+    </string>
+    <string name="ncmec_declaim">
+	    <!-- same as pl "ncmed1" -->
+        हमारा सुझाव है कि आप इस रिपोर्ट को नेशनल सेंटर फॉर मिसिंग एंड एक्सप्लॉयटेड चिल्ड्रन को भी भेजें।.
+    </string>
+    <string name="do_not_show_again">
+        फिर से मत दिखाना
+    </string>
+    <!--              -->
+    <!-- 6th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 7th part start -->
+    <!--              -->
+    <string name="enter_email">
+        Enter email
+    </string>
+    <string name="enter_password">
+        Enter password
+    </string>
+    <!--              -->
+    <!-- 7th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 8th part start -->
+    <!--              -->
+    <string name="pad3subStatusUnsubscribed">
+        UNSUBSCRIBED
+        <!-- "This text label tells of the status of the user not being subscribed to recieve notifications."-->
+    </string>
+    <string name="pad3subStatusSubscribed">
+        सदस्यता लिया
+        <!-- "This text label tells the status of the user being subscribed to recieve notifications."-->
+    </string>
+    <string name="pad3subscribeTo">
+        अधिसूचनाओं की सदस्यता लें
+        <!--"context": "This is the title text to the section that allows a user to opt-in to recieve push notifications."-->
+    </string>
+    <string name="pad3Time">
+        From time to time, we may send out notifications to our users when a new event is created.
+        <!-- "context": "This verbiage describes the extent to which we use the push notification subscription a user provides to send out information."-->
+    </string>
+    <!--              -->
+    <!-- 8th part end -->
+    <!--              -->
+    <!--              -->
+    <!-- 9th part start -->
+    <!--              -->
+    <string name="age_child_pius_unknown">
+        बच्चा (0-17) + अनजान
+        <!-- "context": "This verbiage describes the extent to which we use the push notification subscription a user provides to send out information."-->
+    </string>
+    <!--              -->
+    <!-- 9th part end -->
+    <!--              -->
+    <!-- notification   -->
+    <!-- 10th part start -->
+    <!--                -->
+    <string name="pad3record">
+    	आप जो रिकॉर्ड को अनुसरण कर रहे हैं इसकी अपडेट इस तरफ प्राप्त करें
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive messages from PL via push or email when a record they are following is updated."-->
+    </string>
+    <string name="pad3event">
+    	एक नया घटना बनाते समय एक संदेश इस तरफ प्राप्त कर
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive messages from PL via push or email when a new event is created."-->
+    </string>
+    <string name="pad3admin">
+    	व्यवस्थापक संदेश इस तरफ प्राप्त करें
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive admin messages from PL via push or email."-->
+    </string>
+    <string name="pushNotification">
+    	प्रकाशन अधिसूचन
+        <!-- "context": "This describes a button label for a Push Notification option."-->
+    </string>
+    <!-- notification -->
+    <!-- 10th part end -->
+    <!--              -->
+    <!-- person animal -->
+    <!-- 11th part start -->
+    <!--                -->
+    <string name="person">
+    	व्यक्ति
+    </string>
+    <string name="animal">
+        पशु
+    </string>
+    <string name="both">
+        Both
+    </string>
+    <!-- notification -->
+    <!-- 11th part end -->
+    <!--              -->
+</resources>

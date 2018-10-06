@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+     <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lost_person_files"
+         android:paddingTop="10dp"
+         android:paddingBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="1dp" 
+         android:background="#555555"/>
+     <ListView
+         android:id="@+id/listViewRecords"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+     </ListView>
+     <View
+         android:id="@+id/view1"
+         android:layout_width="match_parent"
+         android:layout_height="1dp" 
+         android:background="#555555"/>
+     </LinearLayout>

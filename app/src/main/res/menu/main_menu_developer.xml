@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemDevelopTools"
+        android:title="@string/developer_tools">
+        <menu>
+            <item android:id="@+id/itemShowOMB"
+                android:title="@string/show_omb">
+            </item>
+            <item android:id="@+id/itemFutureDevelopment"
+                android:title="@string/future_developments">
+            </item>
+            <item android:id="@+id/itemGCMToken"
+                android:title="@string/display_gcm_token">
+            </item>
+            <item android:id="@+id/itemGCMTokenUploadMsg"
+                android:title="@string/gcm_token_upload_status">
+            </item>
+            <item android:id="@+id/itemGCMSendMessage"
+                android:title="@string/send_gcm_message">
+            </item>
+            <item android:id="@+id/itemEmailGCMToken"
+                android:title="@string/email_gcm_token">
+            </item>
+            <item android:id="@+id/itemSelectWebServer"
+                android:title="@string/select_web_server">
+            </item>
+            <item android:id="@+id/itemTestInterrupt"
+                android:title="Test interrupt">
+            </item>
+            <item android:id="@+id/itemRestful"
+                android:title="Restful">
+            </item>
+            <item android:id="@+id/itemEmailToken"
+                android:title="Email Token">
+            </item>
+            <item android:id="@+id/itemDisplayToken"
+                android:title="Display Token">
+            </item>
+            <item android:id="@+id/itemDisplayAnonymousToken"
+                android:title="Display Anonymous Token">
+            </item>
+            <item android:id="@+id/itemNcmecClaim"
+                android:title="NCMEC Claim">
+                <menu>
+                    <item android:id="@+id/itemNcmecClaimEnable"
+                        android:title="Show">
+                    </item>
+                    <item android:id="@+id/itemNcmecClaimDisable"
+                        android:title="Not Show">
+                    </item>
+                </menu>
+            </item>
+            <item android:id="@+id/itemFcm"
+                android:title="Firebase Cloud Messaging">
+            </item>
+            <!--
+            <item android:id="@+id/itemRateThisApp"
+                android:title="Rate this app">
+            </item>
+            -->
+        </menu>
+    </item>
+</menu>

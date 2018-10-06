@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/search" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioButtonSelPersonAnimal"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/reunite_button_height_48"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="Both" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonSelPerson"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/reunite_button_height_48"
+                        android:layout_weight="1"
+                        android:text="@string/person" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtonSelAnimal"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/reunite_button_height_48"
+                        android:layout_weight="1"
+                        android:text="@string/animal" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/files_found" />
+
+            <ProgressBar
+                android:id="@+id/progressBarNewTotalNumber"
+                android:layout_width="@dimen/reunite_button_height_48"
+                android:layout_height="@dimen/reunite_button_height_48" />
+
+            <TextView
+                android:id="@+id/tvNewTotalNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <View
+       	android:layout_width="match_parent"
+       	android:layout_height="1dp" 
+       	android:background="#555555"/>
+
+    </LinearLayout>
+
+   	<ScrollView
+	    android:id="@+id/scrollView1"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMale"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/reunite_button_height_48"
+        android:checked="true"
+        android:text="@string/male" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFemale"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/reunite_button_height_48"
+        android:checked="true"
+        android:text="@string/female" />
+
+    <CheckBox
+        android:id="@+id/checkBoxComplex"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/reunite_button_height_48"
+        android:checked="true"
+        android:text="@string/complex" />
+
+        <CheckBox
+            android:id="@+id/checkBoxGenderUnknown"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/reunite_button_height_48"
+            android:checked="true"
+            android:text="@string/unknown" />
+
+     <View
+       	android:layout_width="match_parent"
+       	android:layout_height="1dp" 
+       	android:background="#555555"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/approximate_age"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAgeChild"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/reunite_button_height_48"
+        android:checked="true"
+        android:text="@string/age_child_pius_unknown" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAgeAdult"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/reunite_button_height_48"
+        android:checked="true"
+        android:text="@string/adult_18_plus" />
+
+    <View
+       	android:layout_width="match_parent"
+       	android:layout_height="1dp" 
+       	android:background="#555555"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/status"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMissing"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/reunite_button_height_48"
+        android:checked="true"
+        android:text="@string/missing" />
+
+    <CheckBox
+        android:id="@+id/checkBoxAliveAndWell"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/reunite_button_height_48"
+        android:checked="true"
+        android:text="@string/alive_and_well" />
+
+    <CheckBox
+        android:id="@+id/checkBoxInjured"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/reunite_button_height_48"
+        android:checked="true"
+        android:text="@string/injured" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDeceased"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/reunite_button_height_48"
+        android:checked="true"
+        android:text="@string/deceased" />
+
+    <CheckBox
+        android:id="@+id/checkBoxStatusUnknown"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/reunite_button_height_48"
+        android:checked="true"
+        android:text="@string/unknown" />
+
+    <CheckBox
+        android:id="@+id/checkBoxFound"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/reunite_button_height_48"
+        android:checked="true"
+        android:text="@string/found" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_persons_with"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup android:id="@+id/radioGroupPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radioButtonSelPhotoOnly"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/reunite_button_height_48"
+                android:text="@string/photo_only" />
+
+            <RadioButton
+                android:id="@+id/radioButtonSelNoPhoto"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/reunite_button_height_48"
+                android:text="@string/no_photo"
+                android:enabled="false" />
+
+            <RadioButton
+                android:id="@+id/radioButtonSelBoth"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/reunite_button_height_48"
+                android:text="@string/both_recommended" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/number_of_records_per_load"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup android:id="@+id/radioGroupPageSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButtonSel5"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/reunite_button_height_48"
+                android:text="@string/_5_seconds" />
+
+            <RadioButton
+                android:id="@+id/radioButtonSel10"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/reunite_button_height_48"
+                android:text="@string/_10_seconds_recommended" />
+
+            <RadioButton
+                android:id="@+id/radioButtonSel15"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/reunite_button_height_48"
+                android:text="@string/_15_seconds" />
+
+            <RadioButton
+                android:id="@+id/radioButtonSel20"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/reunite_button_height_48"
+                android:text="@string/_20_seconds" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+</ScrollView>
+<!-- 
+<RelativeLayout 
+    android:layout_marginTop="-40dp" 
+    android:gravity="bottom" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="fill_horizontal" >
+        <Button
+            android:id="@+id/buDefault"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+	        android:background="@drawable/button_background"
+            android:text="Default" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:text="" />
+        <Button
+            android:id="@+id/buOK"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+	        android:background="@drawable/button_background"
+            android:text="@string/ok" />
+   	    </LinearLayout>
+</RelativeLayout>
+ -->
+</LinearLayout>

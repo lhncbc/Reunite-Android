@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- General Colors -->
+    <color name="white1">#FFFFFF</color>
+    <color name="orange1">#FFAA00</color>
+
+    <!-- 0 defualt border of zone buttons, 1 selected main color,
+     2 focused main color, 3 defualt main color -->
+    <color name="green0">#33CC00</color>
+    <color name="green1">#228B22</color>
+    <color name="green2">#006400</color>
+    <color name="green3">#00FF00</color>
+    <color name="light_green0">#90EE90</color>
+    <color name="light_green1">#ADFF2F</color>
+    <color name="light_green2">#74C365</color>
+    <color name="light_green3">#98FB98</color>
+    <color name="yellow0">#FADA5E</color>
+    <color name="yellow1">#F8DE7E</color>
+    <color name="yellow2">#EFCC00</color>
+    <color name="yellow3">#FFFF00</color>
+    <color name="red0">#CE2029</color>
+    <color name="red1">#E62020</color>
+    <color name="red2">#B31B1B</color>
+    <color name="red3">#FF0000</color>
+    <color name="gray0">#CCCCCC</color>
+    <color name="gray1">#BBBBBB</color>
+    <color name="gray2">#AAAAAA</color>
+    <color name="gray3">#999999</color>
+    <color name="black0">#666666</color>
+    <color name="black1">#444444</color>
+    <color name="black2">#222222</color>
+    <color name="black3">#000000</color>
+
+    <color name="royal_blue">#6495ED</color>
+    <color name="holo_blue_bright">#0106001b</color>
+    <color name="holo_blue_dark">#01060013</color>
+    <color name="holo_blue_light">#01060012</color>
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--                                  -->
+    <!-- no translation is needed - start -->
+    <!--                                  -->
+    <string name="app_name">
+        <!-- do not need translate -->
+        ReUnite®
+    </string>
+
+    <string name="star_symbol" translatable="false">
+        *
+    </string>
+    <string name="uuid" translatable="false">
+        UUID
+    </string>
+
+    <string name="title_changelog" translatable="false">
+        Change log
+    </string>
+    <!-- added in version 7.1.1 -->
+    <string name="title_future_development" translatable="false">
+        Future Development Log
+    </string>
+    <string name="future_development_close" translatable="false">
+        Close
+    </string>
+
+    <string name="about_reunite" translatable="false">
+        ReUnite&#174; is an R&amp;D project of the Lister Hill National Center for Biomedical  Communications,
+        a division of the National Library of Medicine,
+        part of the National Institutes of Health.
+    </string>
+
+    // OMB expiration date
+    <string name="expiration_date">
+        Expiration date: 8/31/2019
+    </string>
+
+    <!-- facebook app id -->
+    <string name="facebook_app_id" translatable="false">ga0RGNYHvNM5d0SLGQfpQWAPGJ8=</string>
+
+    <string name="main_page_text" translatable="false">Share It! App</string>
+    <string name="likeable_image" translatable="false">Likeable image</string>
+    <string name="share_menu_title" translatable="false">Share</string>
+
+    <!--
+    Project name	lpf-messaging
+    Project ID	lpf-messaging
+    Project number	352368471875
+    -->
+    <string name="gcm_lpf_messaging_sender_id" translatable="false">352368471875</string>
+    <string name="gcm_lpf_messaging_api_key" translatable="false">AIzaSyCJDFwX0td_FDNjVVYT8-wkGiuWGMful5A</string>
+
+    <string name="gcm_send_message" translatable="false">Token retrieved and sent to server! You can now use gcmsender to send downstream messages to this app.</string>
+    <string name="registering_message" translatable="false">Generating InstanceID token...</string>
+
+    <string name="token_error_message" translatable="false">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+    // GCM end
+
+    <string name="google_analytics_property_id" translatable="false">UA-49715038-1"</string>
+    <string name="expiration_date_2nd_part">
+        08/31/2019
+    </string>
+
+    <string name="title_activity_" translatable="false">Activity</string>
+    <string name="title_activity_send_gcmmessage" translatable="false">SendGCMMessageActivity</string>
+
+    <!-- must define release date before release-->
+    <string name="release_date" translatable="false">8/7/2018</string>
+    <string name="alpha_beta" translatable="false">""</string>
+    <!--                                  -->
+    <!-- no translation is needed - end -->
+    <!--                                  -->
+
+    <!-- fcm -->
+    <string name="notification_channel_id">default</string>
+
+</resources>

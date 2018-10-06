@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--                -->
+    <!-- 1st part start -->
+    <!--                -->
+
+    <!-- General commands - start -->
+    <string name="ok">
+        OK
+    </string>
+        <string name="cancel">
+        Hủy bỏ
+    </string>
+        <string name="yes">
+        Yes
+    </string>
+        <string name="no">
+        Không
+    </string>
+        <string name="continue_word">
+        Tiếp tục
+    </string>
+        <string name="retry">
+        Thử lại
+    </string>
+        <string name="none">
+        không có gì hết
+    </string>
+        <string name="home">
+        Trang nhà
+            <!-- return to main screen -->
+    </string>
+        <string name="save">
+        Lưu lại
+    </string>
+        <string name="delete">
+	Xóa bỏ
+    </string>
+    <string name="delete_q">
+        Xóa bỏ?
+    </string>
+    <string name="delete_all">
+        Xóa hết
+    </string>
+        <string name="select">
+        Chọn
+    </string>
+        <string name="please">
+        Xin vui lòng
+    </string>
+        <string name="return_word">
+        Trở về
+    </string>
+        <string name="next">
+        Kế tiếp
+    </string>
+        <string name="back">
+        Trở lại
+            <!-- move backwards -->
+    </string>
+        <string name="forward">
+        Kế tiếp
+            <!-- move forwards -->
+    </string>
+        <string name="warning">
+        Cảnh báo
+    </string>
+        <string name="error">
+        Lỗi
+    </string>
+        <string name="correct">
+        Đúng
+    </string>
+        <string name="open">
+        Mở
+    </string>
+        <string name="close">
+        Đóng
+    </string>
+        <string name="camera">
+        Máy ảnh
+    </string>
+        <string name="gallery">
+        Bộ sưu tập
+    </string>
+        <string name="defined">
+        Định nghĩa
+    </string>
+        <string name="undefined">
+        Chưa xác định
+    </string>
+    <string name="language">
+    	Tiếng Việt
+    </string>
+    <!-- General commands - end -->
+
+        <!-- omb and privacy statement - start -->
+    <string name="expiration_date_1st_part">
+        Omitted
+    </string>
+    <string name="ome_number">
+        Omitted
+    </string>
+    <string name="omb_notice">
+        Omitted
+    </string>
+        <string name="omb_submission">
+       Omitted
+    </string>
+        <string name="omb_text1">
+        Omitted
+    </string>
+    <string name="omb_text2">
+        <!-- do not translate this line -->
+        Omitted
+    </string>
+    <string name="omb_sub">
+	Tôi đã đọc và đồng ý
+    </string>
+    <string name="i_refuse">
+        Tôi từ chối
+    </string>
+        <!-- omb and privacy statement - end -->
+
+        <!-- home screen - start -->
+    <string name="welcome">
+       Chào mừng
+    </string>
+        <string name="username">
+       Tên đăng nhập
+    </string>
+        <string name="password">
+        Mật khẩu
+    </string>
+        <string name="login">
+        Đăng nhập
+    </string>
+    <string name="logout">
+        Đăng xuất
+    </string>
+        <string name="login_or_logout">
+        Đăng nhập / Đăng xuất
+    </string>
+        <string name="guest">
+        Khách
+    </string>
+        <string name="login_was_successful">
+       Đăng nhập thành công
+    </string>
+        <string name="good_bye">
+        Tạm biệt
+    </string>
+        <string name="you_are_now_a_developer">
+       Bây giờ bạn là một lập trình viên!
+    </string>
+        <string name="web_server">
+        Web Server
+    </string>
+        <string name="server_status">
+        Tình trạng phục vụ
+            <!-- online or offline, connected or dis-connected -->
+    </string>
+        <string name="check">
+        Kiểm tra
+    </string>
+        <string name="latency">
+        Độ trễ
+            <!-- server response time -->
+    </string>
+        <string name="time_out">
+	Hết giờ
+    </string>
+        <string name="event">
+        Sự Kiện
+    </string>
+        <string name="change">
+        Thay đổi
+    </string>
+        <string name="date">
+        Ngày
+    </string>
+        <string name="event_location">
+        Địa điểm sự kiện
+    </string>
+        <string name="find">
+        Tìm
+            <!-- find a missing person -->
+    </string>
+        <string name="report">
+        Báo cáo
+            <!-- report a missong person -->
+    </string>
+        <string name="organize">
+        Tổ chức
+            <!-- organize files which saved in folders -->
+    </string>
+        <string name="do_you_want_to_login">
+        Bạn có muốn đăng nhập?
+    </string>
+        <string name="do_you_want_to_login_dis">
+        Là một khách, bạn có thể có một số chức năng hạn chế sử dụng. Xin Đăng nhập.
+    </string>
+        <!-- home screen - end -->
+
+        <!-- missing person list - start -->
+        <string name="filter">
+        Lọc
+            <!-- make selections to narrow down the searching -->
+    </string>
+        <string name="name">
+        Tên
+            <!-- search by input missing person's name -->
+    </string>
+        <string name="photo">
+        Hình
+            <!-- search by input missing person's photo -->
+    </string>
+        <string name="page">
+        Trang
+    </string>
+        <string name="search">
+        Tìm
+    </string>
+        <string name="more">
+        Thêm
+            <!-- more to next page -->
+    </string>
+        <!-- missing person list - end -->
+
+        <!-- missing person information - start -->
+        <string name="draft">
+        Bản nháp
+            <!-- folder to save uncompleted records -->
+    </string>
+        <string name="send">
+        Gởi
+            <!-- command to send the report -->
+    </string>
+        <string name="primary_image">
+        Hình ảnh chánh
+            <!-- first image of a missing person -->
+    </string>
+        <string name="secondary_image">
+        Hình ảnh phụ
+            <!-- second or third, etc image of a missing person -->
+    </string>
+        <string name="press_button_on_right_side_to_add_caption">
+        Bấm nút bên phải để thêm chú thích
+            <!-- description -->
+    </string>
+        <string name="caption">
+        Lời chú thích
+    </string>
+        <string name="missing_person_information">
+        Thông tin về người thất lạc
+    </string>
+        <string name="first_name">
+        Tên
+    </string>
+        <string name="last_name">
+	Tên họ
+    </string>
+        <string name="other_names">
+        Tên khác
+    </string>
+    <string name="approximate_age">
+        Tuổi tác
+    </string>
+    <string name="gender">
+        Gioi tính
+    </string>
+        <string name="male">
+        Nam giới
+    </string>
+        <string name="female">
+         Nữ giới
+    </string>
+        <string name="unknown">
+        Không xác định
+    </string>
+        <string name="complex">
+        Phức tạp
+    </string>
+        <string name="status">
+        Tình trạng
+            <!-- missing person's status: missing, alive and well, injured, deceased, unknown or found -->
+    </string>
+        <string name="missing">
+        Mất tích
+    </string>
+        <string name="alive_and_well">
+        Còn sống
+    </string>
+        <string name="injured">
+        Bị thương
+    </string>
+        <string name="deceased">
+        đã qua đời
+    </string>
+        <string name="found">
+        được tìm thấy
+    </string>
+        <string name="last_seen_location">
+        Vị trí cuối cùng được nhìn thấy
+    </string>
+        <string name="additional_details">
+        Chi tiết bổ sung
+    </string>
+        <string name="missing_person_uuid">
+        số UUID của người mất tích
+    </string>
+        <string name="last_updated_date">
+        Ngày cập nhật mới nhất
+    </string>
+        <string name="follow">
+        Theo
+    </string>
+        <string name= "why_follow_a_record">
+        Tại sao nên theo dõi một hồ sơ?
+    </string>
+        <string name="follow_record_des">
+        Để nhận được thông báo qua email khi hồ sơ này được cập nhật với thông tin mới, bạn có thể chọn
+        theo dõi người này. Bạn sẽ nhận được một email khi hồ sơ được cập nhật với
+        thông tin mới hoặc khi một người nào đó để lại một bình luận.
+    </string>
+        <string name="why_follow_record">
+        Để nhận được thông báo qua email khi hồ sơ này được cập nhật với thông tin mới, bạn có thể chọn
+        theo dõi người này. Bạn sẽ nhận được một email khi hồ sơ được cập nhật với
+        thông tin mới hoặc khi một người nào đó để lại một bình luận.
+    </string>
+        <!-- missing person information - end -->
+
+        <!-- Report missing person - start -->
+        <string name="input_by_right_side_button">
+	điền vào bằng nút phía bên phải
+    </string>
+        <string name="google_map_view">
+        Xem Google Map
+    </string>
+        <string name="gps_cannot_detect_current_location">
+        GPS không thể phát hiện vị trí hiện tại
+    </string>
+    <string name="let_gps_fill_your_address">
+        Hãy để GPS điền vào địa chỉ của bạn
+    </string>
+    <string name="get_address_from_google_map">
+        Get address from Google Map
+    </string>
+        <string name="address_book_is_empty">
+        Sổ Địa Chỉ bị trống
+    </string>
+        <string name="select_from_adress_book">
+        Chọn từ sổ địa chỉ
+    </string>
+        <string name="street">
+        đường
+    </string>
+        <string name="city">
+        Thành phố
+    </string>
+        <string name="state">
+	Tiểu bang
+    </string>
+        <string name="zip">
+        Zip
+    </string>
+        <string name="country">
+        Quốc gia
+    </string>
+        <string name="comments">
+        Comments
+    </string>
+        <string name="maximum_500_characters">
+        500 ký tự tối đa
+    </string>
+        <string name="required_field">
+        Phần bắt buộc
+            <!-- the field that the user must input -->
+    </string>
+        <!-- Report missing person - end -->
+
+        <!-- Organize - start -->
+        <string name="lost_person_files">
+        Hồ sơ người mất tích
+    </string>
+        <string name="file_found">
+        Hồ sơ được tìm thấy
+    </string>
+        <string name="files_found">
+        Các hồ sơ được tìm thấy
+    </string>
+        <string name="no_file_is_found">
+        hồ sơ không được tìm thấy
+    </string>
+        <!-- Organize - end -->
+
+        <!-- web server latency - start -->
+        <string name="excellent">
+        Xuất sắc
+    </string>
+        <string name="good">
+        Tốt
+    </string>
+        <string name="poor">
+        Xấu
+    </string>
+        <string name="disconnected">
+        Bị ngắt
+    </string>
+        <!-- web server latency - end -->
+
+        <!-- toast messages - start -->
+        <string name="this_option_is_not_available">
+        Sự chọn lựa này không có
+    </string>
+        <string name="all_photos_are_deleted">
+        Tất cả các hình ảnh đều bị xóa
+    </string>
+        <string name="all_records_are_deleted">
+        Tất cả hồ sơ đều được xóa
+    </string>
+        <string name="email">
+        Email
+    </string>
+        <string name="sending_email">
+        Gửi email...
+    </string>
+        <string name="there_is_no_email_client_installed">
+       Không có ứng dụng email được cài đặt
+    </string>
+        <string name="html_file_is_empty">
+        Tập tin HTML bị trống
+    </string>
+        <string name="done">
+        Xong
+    </string>
+        <string name="canceled">
+        Bị hủy bỏ
+    </string>
+        <string name="succeed">
+        Thành công
+    </string>
+        <string name="not_succeed">
+       Không thành công
+    </string>
+        <string name="completed">
+       Đã hoàn thành
+    </string>
+        <string name="implemented">
+	Đã thực hiện
+    </string>
+        <string name="not_implemented">
+        Không được thực hiện
+    </string>
+        <string name="no_record_is_found">
+       Hồ sơ không được tìm thấy
+    </string>
+        <string name="need_to_login">
+        Cần phải đăng nhập
+    </string>
+        <string name="no_photo">
+        Không có ảnh
+    </string>
+        <string name="no_photo_is_found">
+        Hình ảnh không được tìm thấy
+    </string>
+        <string name="a_photo_is_selected">
+        Một bức ảnh được chọn
+    </string>
+        <string name="moving_to_photo_number">
+        Di chuyển đến ảnh số
+    </string>
+        <string name="you_are_about_to_delete_all_the_photos_saved_in_cache">
+        Bạn muốn xóa tất cả các ảnh được lưu trong bộ nhớ cache
+    </string>
+        <string name="are_you_sure_you_want_to_delete_the_selected_photo">
+        Bạn có chắc chắn bạn muốn xóa ảnh đã chọn?
+    </string>
+        <string name="no_photo_is_selected_do_you_really_want_to_quit">
+        Không có ảnh được chọn. Bạn có thực sự muốn hủy bỏ?
+    </string>
+        <string name="file_is_saved">
+        Tập tin được lưu
+    </string>
+        <string name="report_abuse_and_its_explanation_are_sent">
+        Báo cáo lạm dụng và giải thích được gửi
+    </string>
+        <string name="all_files_in_outbox_are_deleted">
+        Tất cả các tập tin trong hộp thư được gửi đi đã được xóa
+    </string>
+        <string name="searching_images_took_seconds">
+        Tìm kiếm hình ảnh mất vài giây
+    </string>
+        <string name="google_authenticated_token_is_empty">
+        Thẻ chứng thực Google bị trống
+    </string>
+        <!-- toast messages - end -->
+
+        <!-- dialogue box message - start -->
+        <string name="processing_please_wait">
+        đang xử lý, vui lòng đợi...
+    </string>
+        <string name="updating_the_status_please_wait">
+        đang cập nhật trạng thái, vui lòng đợi...
+    </string>
+        <string name="retrieving_events_please_wait">
+        đang lấy sự kiện, xin vui lòng chờ đợi...
+    </string>
+        <string name="retrieving_information_on_selected_event_please_wait">
+        đang lấy thông tin về sự kiện được lựa chọn, xin vui lòng chờ đợi...
+    </string>
+        <string name="detecting_the_speed_please_wait">
+        đang dò tốc độ, xin vui lòng chờ đợi...
+    </string>
+        <string name="logging_in_please_wait">
+        đang Đăng nhập, xin vui lòng chờ đợi...
+    </string>
+        <string name="saving_data_to_database_please_wait">
+        đang lưu dữ liệu vào cơ sở dữ liệu, xin vui lòng chờ đợi...
+	</string>
+        <string name="reporting_missing_person_please_wait">
+        đang báo cáo người mất tích, xin vui lòng chờ đợi...
+    </string>
+        <string name="reporting_abuse_please_wait">
+        đang báo cáo lạm dụng, xin vui lòng chờ đợi...
+    </string>
+        <string name="loading_images_please_wait">
+        đang tải hình ảnh, xin vui lòng chờ đợi...
+    </string>
+        <string name="searching_the_selected_record_">
+        đang tìm kiếm các thông tin người mất tích được chọn, xin vui lòng chờ đợi...
+    </string>
+        <string name="un_flowing_all_the_records_please_wait">
+        dừng theo dõi tất cả các hồ sơ, xin vui lòng chờ đợi...
+    </string>
+        <string name="information_is_sent">
+        Thông tin được gửi
+    </string>
+    <string name="save_a_copy_to_local">
+        Lưu một bản sao ở trong thiết bị
+    </string>
+        <string name="registration_is_successful_">
+        Đăng ký thành công! Hãy đăng nhập hoặc tìm thêm thông tin từ email của bạn
+    </string>
+        <string name="first_name_is_empty">
+        Tên bị trống!
+    </string>
+        <string name="last_name_is_empty">
+        Tên họ bị trống!
+    </string>
+        <string name="email_is_empty">
+        Email bị trống!
+    </string>
+        <string name="username_is_empty">
+        Tên đăng nhập bị trống!
+    </string>
+        <string name="password_is_empty">
+        Mật khẩu bị trống!
+    </string>
+        <string name="confirmation_password_is_empty">
+        Mật khẩu xác nhận bị trống!
+    </string>
+        <string name="two_passwords_are_not_identical">
+        Hai Mật khẩu không giống hệt nhau.
+    </string>
+        <string name="password_requires_at_least_8_characters">
+        Mật khẩu phải có ít nhất 8 ký tự.
+    </string>
+        <string name="password_cannot_have_more_than_16_characters">
+        Mật khẩu không thể có nhiều hơn 16 ký tự.
+    </string>
+        <string name="password_must_have_at_least_one_uppercase_character">
+        Mật khẩu phải có ít nhất một ký tự chữ hoa.
+    </string>
+        <string name="password_must_have_at_least_one_lowercase_character">
+        Mật khẩu phải có ít nhất một ký tự chữ thường.
+    </string>
+    <string name="password_must_have_at_least_one_numeral_">
+        Mật khẩu phải có ít nhất một chữ số (0-9).
+    </string>
+        <string name="password_cannot_contain_your_username">
+        Mật khẩu không thể chứa tên truy cập của bạn.
+    </string>
+        <string name="you_need_to_select_the_event">
+        Bạn cần phải chọn một sự kiện
+    </string>
+        <string name="do_you_want_to_delete_this_image">
+        Bạn muốn xóa ảnh này?
+    </string>
+        <string name="as_a_guest_you_">
+        Là một khách, bạn có thể báo cáo một người mất tích ẩn danh. Nhưng bạn sẽ có một số chức năng hạn chế.
+    </string>
+    <string name="are_you_sure_you_want_to_quite_current_work_q">
+        Are you sure you want to quit current work?
+    </string>
+
+    <string name="you_do_not_have_any_following_records">
+        Bạn không theo dõi bất kỳ hồ sơ nào
+    </string>
+        <string name="you_do_not_have_internet_connection">
+        Bạn không có kết nối internet
+    </string>
+        <string name="as_a_guest_you_may_report_">
+        Là một khách, bạn có thể báo cáo một người mất tích ẩn danh. Nhưng bạn sẽ bị hạn chế chức năng sử dụng.
+    </string>
+        <string name="as_a_guest_you_may_have_">
+        Là một khách, bạn có thể có một số chức năng hạn chế sử dụng, bạn được khuyến khích để đăng nhập.
+    </string>
+        <string name="change_is_made_">
+        Thay đổi được thực hiện. Hãy khởi động lại APP.
+    </string>
+        <!-- dialogue box message - end -->
+
+        <!-- text shown on menu - start -->
+        <string name="social_media">
+        Truyền thông xã hội
+    </string>
+        <string name="tutorials">
+        Hướng dẫn
+    </string>
+        <string name="email_us">
+        Gửi email cho chúng tôi
+    </string>
+        <string name="version_history">
+        Lịch sử phiên bản
+    </string>
+        <string name="cache">
+        Bộ nhớ cache
+    </string>
+        <string name="clean_cache">
+        Làm sạch Bộ nhớ cache
+    </string>
+        <string name="refresh">
+        Làm mới
+    </string>
+        <string name="email_html_file">
+        Email HTML File
+    </string>
+        <string name="developer_tools">
+       Công cụ của lập trình viên
+    </string>
+        <string name="enter_username_and_password">
+        Nhập Tên truy cập và Mật khẩu
+    </string>
+        <string name="about">
+        Về
+    </string>
+        <string name="report_abuse">
+        Báo cáo Lạm dụng
+    </string>
+        <string name="update_image">
+        Cập nhật hình ảnh
+    </string>
+        <string name="get_male_name">
+        Nhận Tên Nam
+    </string>
+        <string name="get_female_name">
+        Nhận Tên Nữ
+    </string>
+        <string name="notification">
+        Thông báo
+    </string>
+        <string name="show_omb">
+        Hiện OMB
+    </string>
+        <string name="future_developments">
+        Sự phát triển trong tương lai
+    </string>
+        <string name="display_gcm_token">
+        Hiển thị Mã GCM
+    </string>
+        <string name="gcm_token_upload_status">
+        Tải Trạng thái Mã GCM
+    </string>
+        <string name="send_gcm_message">
+        Gửi tin nhắn GCM
+    </string>
+        <string name="email_gcm_token">
+       Email Mã GCM
+    </string>
+        <string name="select_web_server">
+        Chọn Web Server
+    </string>
+        <!-- text shown on menu - end -->
+
+        <!-- error codes - start -->
+        <string name="plusError1">
+        Lỗi: tên người dùng hoặc mật khẩu không hợp lệ
+            <!-- "context": "Error message presented when a user provides the incorrect username and/or password." -->
+    </string>
+        <string name="plusError2">
+	Lỗi: tài khoản của bạn tạm thời bị khóa liên tục đăng nhập sai, hãy thử lại sau
+            <!-- "context": "Error message presented when a user fails to login repeatedly." -->
+    </string>
+        <string name="plusError6">
+        Lỗi: đã có người dùng tồn tại với địa chỉ email đã cung cấp
+            <!-- "context": "Error message presented when user tries to use an email address already in use." -->
+    </string>
+        <string name="plusError7">
+        Lỗi: Tên người dùng mà bạn cung cấp không có sẵn
+            <!-- "context": "Error message presented when a user attempts to register with a username that is already in use by another user." -->
+    </string>
+        <string name="plusError8">
+        Error: invalid email address
+            <!-- "context": "Error message presented when a user provides an invalid email address." -->
+    </string>
+        <string name="plusError9">
+        Lỗi: mật khẩu phải dài 8-16 ký tự, phải có ít nhất một chữ hoa, một chữ thường và một ký tự số
+            <!-- "context": "Error message presented when user enters an invalid password." -->
+    </string>
+        <string name="plusError11">
+	Lỗi: địa chỉ email được cung cấp không được liên kết với bất kỳ tài khoản người dùng nào
+            <!-- "context": "Error message presented when user attempts to reset password with an unregistered email address-->
+    </string>
+        <string name="plusError14">
+	Lỗi: kết quả kiểm tra xác thực nhân tính không chính xác, vui lòng tải lại trang
+            <!-- "context": "Error message presented when the captcha system encounters invalid data-->
+    </string>
+        <string name="plusError15">
+        Lỗi: phiên reCaptcha hết hạn, vui lòng tải lại trang
+            <!-- "context": "Error message presented when the reCaptcha session has expired and the user must reload the page to continue-->
+    </string>
+        <string name="plusError16">
+        Lỗi: mật khẩu không khớp
+            <!-- "context": "Error message presented when entered password do not match one another-->
+    </string>
+        <string name="plusError20">
+	Lỗi: Mật khẩu phải dài 8-16 ký tự
+            <!-- "context": "Error message presented when entered password is of incorrect length, must be 8-16 characters long-->
+    </string>
+        <string name="plusError21">
+        Lỗi: mật khẩu phải chứa ít nhất một chữ in hoa (A-Z)
+            <!-- "context": "Error message presented when entered password does not contain at least one uppercase letter-->
+    </string>
+        <string name="plusError22">
+        Lỗi: mật khẩu phải chứa ít nhất một chữ thường (a-z)
+            <!-- "context": "Error message presented when entered password does not contain at least one lowercase letter-->
+    </string>
+        <string name="plusError23">
+        Lỗi: mật khẩu phải chứa ít nhất một con số (0-9)
+            <!-- "context": "Error message presented when entered password does not contain at least one digit-->
+    </string>
+        <string name="plusError100">
+       Lỗi mạng. Vui lòng kiểm tra mạng kết nối của bạn và thử lại.
+            <!-- "context": "Error message presented when there is a network / internet issue-->
+    </string>
+        <string name="plusError600">
+        Lỗi: không thể theo dõi một hồ sơ không tồn tại hoặc bạn không có quyền truy cập
+            <!-- "context": "Error message presented when user attempts to follow a record they have no permission to access-->
+    </string>
+        <string name="plusError601">
+        Lỗi: không thể theo dõi hồ sơ này vì bạn đã theo dõi nó
+            <!-- "context": "Error message presented when attempting to follow a record the user is already following-->
+    </string>
+        <string name="plusError602">
+        Lỗi: không thể hủy theo dõi hồ sơ này vì bạn hiện không theo dõi nó
+            <!-- "context": "Error message presented when "-->
+    </string>
+        <string name="plusError9999">
+        An unknown error has occurred.
+    </string>
+        <!-- error codes - end -->
+
+        <!--              -->
+        <!-- 1st part end -->
+        <!--              -->
+
+        <!--                -->
+        <!-- 2nd part start -->
+        <!--                -->
+
+        <!-- new - start -->
+        <string name="quit">
+        Quit
+    </string>
+        <string name="select_language">
+	Chọn ngôn ngữ
+    </string>
+        <string name="offline">
+        Offline
+    </string>
+        <string name="connected">
+        Đã kết nối
+    </string>
+        <string name="follow_record">
+       Theo dõi hồ sơ
+    </string>
+        <string name="follow_nothing">
+        Không theo dõi
+    </string>
+        <string name="no_follow">
+        Không theo dõi
+    </string>
+        <string name="logout_first">
+        Đăng xuất trước
+    </string>
+        <string name="undetected">
+        Không tìm ra
+    </string>
+        <string name="address_book">
+	Sổ địa chỉ
+    </string>
+        <string name="enter_a_name_">
+        Nhập tên vào hộp tìm kiếm. Sử dụng dấu hoa thị (*) để tìm kiếm bất kỳ chữ viết nào.
+    </string>
+        <string name="example">
+        Thí dụ
+    </string>
+        <string name="are_you_sure_q">
+        Bạn có chắc không?
+    </string>
+        <string name="input_empty_error_code">
+        Mã lỗi: input bị trống
+    </string>
+        <string name="show_password">
+        Hiển thị mật khẩu
+    </string>
+        <string name="forgot_q">
+        Quên mất?
+    </string>
+        <string name="forgot_username">
+        Quên tên người dùng
+    </string>
+        <string name="forgot_password">
+        Quên mật khẩu
+    </string>
+        <string name="new_user">
+        Người dùng mới
+    </string>
+        <string name="please_enter_your_username_and_password">
+        Vui lòng nhập tên đăng nhập và mật khẩu của bạn
+    </string>
+        <string name="forgot_your_username_q">
+        Quên tên đăng nhập của bạn? Vui lòng nhập địa chỉ e-mail của bạn, chúng tôi sẽ sớm gửi thông tin cho bạn
+    </string>
+        <string name="submit">
+        Đệ trình
+    </string>
+        <string name="email_address_is_sent">
+        Địa chỉ email được gửi
+    </string>
+        <string name="forgot_your_password_q">
+        Quên mật khẩu? Vui lòng nhập địa chỉ e-mail của bạn, chúng tôi sẽ sớm gửi thông tin cho bạn
+    </string>
+        <string name="register_as_a_new_user">
+	Đăng ký người dùng mới
+    </string>
+        <string name="passwords_must_adhere_">
+        Mật khẩu phải tuân thủ các quy tắc sau
+    </string>
+        <string name="re_enter_password">
+	Nhập lại mật khẩu
+    </string>
+        <string name="register">
+	Ghi danh
+    </string>
+        <string name="child_0_17">
+        Trẻ em (0-17)
+    </string>
+        <string name="adult_18_plus">
+        Người lớn (18+)
+    </string>
+        <string name="view_persons_with">
+        Xem những người có
+    </string>
+        <string name="photo_only">
+        Chỉ có hình ảnh
+    </string>
+        <string name="both_recommended">
+        Cả hai - được đề nghị
+    </string>
+        <string name="number_of_records_per_load">
+        Số lượng hồ sơ mỗi lần tải
+    </string>
+        <string name="_5_seconds">
+        5 giây
+    </string>
+        <string name="_10_seconds">
+        <!-- 10 seconds -->
+            10 giây
+    </string>
+        <string name="_10_seconds_recommended">
+        10 giây - được đề nghị
+    </string>
+        <string name="_15_seconds">
+       15 giây
+    </string>
+        <string name="_15_seconds_recommended">
+        15 giây - được đề nghị
+    </string>
+        <string name="_20_seconds">
+        20 giây
+    </string>
+        <string name="tap_right_button_to_add_photo_caption">
+        Nhấn nút bên phải để thêm chú thích ảnh
+    </string>
+        <string name="open_for_reporting">
+        Mở để báo cáo
+    </string>
+        <string name="closed_reporting">
+        Báo cáo đã bị đóng
+    </string>
+        <string name="you_have_selected">
+	Bạn đã chọn
+    </string>
+        <string name="start">
+        Khởi đầu
+    </string>
+        <string name="no_photo_is_selected">
+        Không có ảnh nào được chọn
+    </string>
+        <string name="sent_box_is_empty">
+        Hộp đã gửi bị trống
+    </string>
+        <string name="out_box_is_empty">
+        Hộp thư đi bị trống
+    </string>
+        <string name="draft_box_is_empty">
+        Hộp nháp bị trống
+    </string>
+        <string name="saved_box_is_empty">
+        Hộp đã lưu bị trống
+    </string>
+        <string name="all_boxes_are_empty">
+        Tất cả các ô đều trống
+    </string>
+        <string name="sent">
+        Gởi
+    </string>
+        <string name="outbox">
+        Hộp thư đi
+    </string>
+        <string name="saved_from_search">
+        Đã lưu từ tìm kiếm trước
+    </string>
+        <string name="you_are_about_to_delete_all_files">
+        Bạn sắp xóa tất cả các tệp
+    </string>
+        <string name="all_files_are_deleted">
+	Tất cả các tệp đều bị xóa
+    </string>
+        <string name="web_server_is_not_found">
+        Không tìm thấy máy chủ
+    </string>
+        <string name="this_file_was_downloaded_earlier_">
+        Tập tin này đã được tải xuống khi trước. Nó có thể không phải là cập nhật nhất. Để xem tệp cập nhật nhất, hãy trở về trang chủ và thử lại \"Tìm\" một lần nữa
+    </string>
+        <string name="you_are_an_anonymous_user">
+        Bạn là một người dùng ẩn danh
+    </string>
+        <string name="saved">
+	Đã lưu
+    </string>
+        <string name="deleted">
+        Bị xóa
+    </string>
+        <string name="local_file_id">
+        chứng minh thư (ID) cho tập tin địa phương
+    </string>
+        <string name="there_is_only_one_photo">
+        Chỉ có một bức ảnh
+    </string>
+        <string name="add_text">
+        Thêm nội dung văn bản
+    </string>
+        <string name="age_is_missing">
+        Thiếu tuổi
+    </string>
+        <string name="exceeds_maximum_age">
+        Vượt quá độ tuổi tối đa
+    </string>
+        <string name="error_in_age">
+        Lỗi về tuổi
+    </string>
+        <string name="error_in_event">
+        Lỗi trong sự kiện
+    </string>
+        <string name="error_in_gender">
+        Lỗi về giới tính
+    </string>
+        <string name="error_in_status">
+       Lỗi về trạng thái
+    </string>
+        <string name="no_data_returned">
+        Không có dữ liệu nào được trả lại
+    </string>
+        <string name="updated">
+        Đã cập nhật
+    </string>
+        <string name="updating_the_persons_information_please_wait_dots">
+        Đang tải lên thông tin của người đó, vui lòng đợi ...
+    </string>
+        <string name="is_sent">
+        đã được gửi
+    </string>
+        <string name="is_not_sent">
+        Không được gửi đi
+    </string>
+        <string name="is_saved">
+        Đã lưu
+    </string>
+        <string name="no_permission">
+        Không cho phép
+    </string>
+        <string name="you_are_about_to_delete_this_file">
+        Bạn sắp xóa tệp này
+    </string>
+        <string name="uuid_is_missing">
+        UUID bị thiếu
+    </string>
+        <string name="permission_is_denied">
+        Không được phép
+    </string>
+        <string name="subscribe_to_email_updates">
+        Đăng ký nhận bản cập nhật qua email
+    </string>
+        <string name="no_valid_token">
+       Không có mã thông báo hợp lệ
+    </string>
+        <string name="slide_to_move_page">
+	Trượt để di chuyển trang
+    </string>
+        <string name="tutorial_on_the_starting_page">
+	Hướng dẫn trên trang đầu
+    </string>
+        <string name="tutorial_on_rules_of_user_registration">
+	Hướng dẫn về quy tắc đăng ký người dùng
+    </string>
+        <string name="tutorial_on_finding_a_missing_person">
+        Hướng dẫn tìm người mất tích
+    </string>
+        <string name="tutorial_on_reporting_a_missing_person">
+       Hướng dẫn báo cáo một người mất tích
+    </string>
+        <string name="tutorial_on_managing_files_in_sent_saved_draft_and_outbox">
+	Hướng dẫn về quản lý các tệp trong thư gửi, lưu, thư nháp và thư đi
+    </string>
+
+    <string name="privacy_statement_title">
+        PRIVACY STATEMENT
+    </string>
+    <string name="privacy_statement_content">
+       Thư viện Y khoa Quốc gia Hoa Kỳ (NLM), một phần của Bộ Y tế và Dịch vụ Nhân sinh Hoa Kỳ,
+        có nhiệm vụ phát triển hệ thống công nghệ truyền thông để cải thiện việc cung cấp thông tin y tế.
+        Ứng dụng ReUnite được thiết kế để tăng tốc việc tải thông tin cá nhân cần thiết về việc tìm (và tìm thấy)
+        người thân  đến dịch vụ People Locator (PL) của NLM có tại https://pl.nlm.nih.gov.
+        Dịch vụ này được cung cấp cho mục đích rõ ràng là hỗ trợ cho việc đoàn tụ gia đình sau thiên tai cũng như
+        nghiên cứu các tiện ích của các công cụ tương tự trong việc ứng phó với thiên tai. Thông tin thêm về dịch vụ PL và
+        Dự án Lost People Finder có thể tìm thấy tại http://lpf.nlm.nih.gov
+        \nLưu ý:
+    </string>
+
+        <string name="ps_note_01">
+        Gửi thông tin sử dụng ứng dụng này là tự nguyện.
+    </string>
+        <string name="ps_note_02">
+        Tất cả các thông tin được đệ trình có thể được công khai.
+    </string>
+        <string name="ps_note_03">
+        Dữ liệu được lưu trữ bằng công cụ này có thể không được kiểm duyệt và có thể tìm kiếm được bởi tất cả các khách truy cập vào trang web PLM của NLM.
+    </string>
+        <string name="ps_note_04">
+	Dữ liệu được lưu trữ trong ứng dụng không được mã hóa tại thời điểm này.
+    </string>
+        <string name="ps_note_05">
+        Người dùng ứng dụng này phải có tài khoản dịch vụ PL để tải lên thông tin về người mất tích hoặc người được tìm thấy.
+    </string>
+        <string name="ps_note_06">
+        Không cần đăng nhập vào PL để tìm kiếm trang web
+    </string>
+        <string name="ps_note_07">
+        Thông tin được báo cáo về thông tin liên lạc của cá nhân và người gửi có thể được phổ biến đến các cơ quan chính phủ hoặc các tổ chức khác hỗ trợ các nỗ lực Đoàn tụ sau khi xảy ra bất kỳ thảm hoạ nào ở Hoa Kỳ
+        Các nỗ lực cứu trợ của chính phủ đang được cung cấp.
+    </string>
+        <string name="ps_note_08">
+        Đối với dữ liệu của người mất tích được cung cấp sau thảm hoạ: Nếu bạn nghe từ người mà bạn quan tâm,
+              Hãy làm theo hướng dẫn tại trang web PL để cập nhật tình trạng của họ.
+    </string>
+        <string name="ps_note_09">
+	Ứng dụng không theo dõi vị trí người dùng.
+    </string>
+        <string name="ps_note_10">
+	Vị trí người dùng được phát hiện trên hành động của người dùng rõ ràng để hỗ trợ tra cứu địa chỉ.
+    </string>
+
+        <!--              -->
+        <!-- 2nd part end -->
+        <!--              -->
+
+        <!--                -->
+        <!-- 3rd part start -->
+        <!--                -->
+
+        <string name="in_order_to_use_this_app_">
+	Để sử dụng ứng dụng này, bạn phải chấp nhận Tuyên bố về Quyền riêng tư. Bạn có muốn xem xét lại không?
+    </string>
+        <string name="saving_data_to_database_please_wait_dot">
+        Lưu dữ liệu vào cơ sở dữ liệu, vui lòng đợi...
+    </string>
+        <string name="update">
+        Cập nhật
+    </string>
+
+        <!--              -->
+        <!-- 3rd part end -->
+        <!--              -->
+
+        <!--                -->
+        <!-- 4th part start -->
+        <!--                -->
+
+        <string name="permission_is_granted_">
+	Giấy phép được cấp, Bây giờ bạn có thể thử lại.
+	</string>
+        <string name="permission_is_denied_">
+	Giấy phép đã bị từ chối. Vui lòng xem xét việc bằng lòng nó để truy cập dữ liệu!
+	</string>
+        <string name="message_checking_permission_">
+		Kiểm tra sự cho phép...
+	</string>
+        <string name="message_requesting_permission_">
+		Yêu cầu sự cho phép...
+	</string>
+
+        <!--              -->
+        <!-- 4th part end -->
+        <!--              -->
+
+        <!--              -->
+        <!-- 5th part start -->
+        <!--              -->
+        <string name="confirmation_was_successful">
+        Xác nhận đã thành công.
+    </string>
+        <string name="click_button_to_complete_confirmation">
+        Vui lòng nhấp vào nút để hoàn tất quá trình xác nhận.
+    </string>
+        <string name="invalid_preference_value">
+        Giá trị quyền ưu tiên không hợp lệ
+    </string>
+        <string name="reporting_locale_dot">
+        Báo cáo Địa phương...
+    </string>
+
+        // abuse
+        <string name="what_would_you_like_to_report">
+        Bạn muốn báo cáo những gì?
+    </string>
+        <string name="spam">
+        Rác
+    </string>
+        <string name="sexually_explicit">
+        Khêu gợi tình dục
+    </string>
+        <string name="hate_speech">
+	Phát biểu thù hận
+    </string>
+        <string name="violence">
+        Bạo lực
+    </string>
+        <string name="something_else">
+        Thứ khác
+    </string>
+        <string name="abuse_thanks">
+	Cảm ơn bạn. Chúng tôi đã nhận được khiếu nại lạm dụng của bạn. Nhân viên trang web của chúng tôi sẽ xem lại hồ sơ này và xóa bất kỳ nội dung không phù hợp nào.
+    </string>
+
+        <!-- forgot -->
+        <string name="enter_your_email_">
+	Nhập địa chỉ email của bạn và chúng tôi sẽ gửi cho bạn các hướng dẫn cách đặt lại mật khẩu
+    </string>
+
+        // change password
+        <string name="old_password">
+        Old Password
+    </string>
+        <string name="new_password">
+        Mật khẩu mới
+    </string>
+        <string name="new_password_again">
+        Mật khẩu mới một lần nữa
+    </string>
+        <string name="your_password_must_contain_a_number_etc">
+	Mật khẩu của bạn phải chứa một số, một chữ thường, một chữ cái viết hoa, và dài 8-16 ký tự.
+    </string>
+        <string name="change_password">
+        Đổi mật khẩu
+    </string>
+
+        <!-- error code -->
+        <string name="exceeded_authentication_failure_limit_">
+	Vượt quá giới hạn xác thực thất bại (8 lỗi trong 24 giờ / mỗi ip)
+    </string>
+        <string name="user_account_is_inactive_">
+        user account is inactive; user must confirm email address
+    </string>
+        <string name="a_user_already_exists_with_">
+       Người dùng đã tồn tại với địa chỉ email đã cung cấp
+    </string>
+        <string name="invalid_email_address">
+        địa chỉ email không hợp lệ
+    </string>
+        <string name="invalid_confirmation_code">
+       Mã xác nhận sai
+    </string>
+        <!--              -->
+        <!-- 5th part end -->
+        <!--              -->
+
+    <!--                -->
+    <!-- 6th part start -->
+    <!--                -->
+    <string name="menu_settings">
+        Cài đặt
+    </string>
+    <string name="ncmec_declaim">
+        Chúng tôi cũng khuyên bạn nên gửi báo cáo này tới Trung tâm Quốc gia về Trẻ em Mất tích và bị Lợi dụng.
+    </string>
+    <string name="do_not_show_again">
+        Không hiển thị trở lại
+    </string>
+    <!--              -->
+    <!-- 6th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 7th part start -->
+    <!--              -->
+    <string name="enter_email">
+        Nhập email
+    </string>
+    <string name="enter_password">
+        Nhập mật khẩu
+    </string>
+    <!--              -->
+    <!-- 7th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 8th part start -->
+    <!--              -->
+    <string name="pad3subStatusUnsubscribed">
+        Ngừng đăng ký
+        <!-- "This text label tells of the status of the user not being subscribed to recieve notifications."-->
+    </string>
+    <string name="pad3subStatusSubscribed">
+        Đã được đăng ký
+        <!-- "This text label tells the status of the user being subscribed to recieve notifications."-->
+    </string>
+    <string name="pad3subscribeTo">
+        Ghi danh để được thông báo
+        <!--"context": "This is the title text to the section that allows a user to opt-in to recieve push notifications."-->
+    </string>
+    <string name="pad3Time">
+        Theo thời gian, chúng tôi có thể gửi thông báo đến người dùng khi một sự kiện mới được tạo ra.
+        <!-- "context": "This verbiage describes the extent to which we use the push notification subscription a user provides to send out information."-->
+    </string>
+    <!--              -->
+    <!-- 8th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 9th part start -->
+    <!--              -->
+    <string name="age_child_pius_unknown">
+        Trẻ em (0-17) + Không xác định
+        <!-- "context": "This verbiage describes the extent to which we use the push notification subscription a user provides to send out information."-->
+    </string>
+    <!--              -->
+    <!-- 9th part end -->
+    <!--              -->
+    <!-- notification -->
+    <!-- 10th part start -->
+    <!--                -->
+    <string name="pad3record">
+    	Nhận cập nhật các bản ghi mà bạn đang theo dõi thông qua
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive messages from PL via push or email when a record they are following is updated."-->
+    </string>
+    <string name="pad3event">
+    	Nhận tin nhắn khi một sự kiện mới được tạo qua
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive messages from PL via push or email when a new event is created."-->
+    </string>
+    <string name="pad3admin">
+    	Nhận thông báo quản trị thông qua
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive admin messages from PL via push or email."-->
+    </string>
+    <string name="pushNotification">
+    	Nhận Thông báo
+        <!-- "context": "This describes a button label for a Push Notification option."-->
+    </string>
+    <!-- notification -->
+    <!-- 10th part end -->
+    <!--              -->
+    <!-- person animal -->
+    <!-- 11th part start -->
+    <!--                -->
+    <string name="person">
+    	Người
+    </string>
+    <string name="animal">
+        Vật nuôi
+    </string>
+    <string name="both">
+        Both
+    </string>
+    <!-- notification -->
+    <!-- 11th part end -->
+    <!--              -->
+</resources>

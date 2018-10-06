@@ -1,0 +1,66 @@
+{
+  "project_info": {
+    "project_number": "352368471875",
+    "firebase_url": "https://lpf-messaging.firebaseio.com",
+    "project_id": "lpf-messaging",
+    "storage_bucket": "lpf-messaging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352368471875:android:6f621476e01725a0",
+        "android_client_info": {
+          "package_name": "com.pl.reunite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352368471875-r5qdpu6434gq5piqcun6mkbtqp8sn9ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pl.reunite",
+            "certificate_hash": "be3e4d5fd8e356624813d1c0e19a608fe1ff548c"
+          }
+        },
+        {
+          "client_id": "352368471875-2q4nenqa5sthbq5ui0unj8m8nrdd8ff6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "352368471875-k48l9erh4al94jlekpj9vq8rm9cf5i23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX8RktcVE5Los7eeCpuWr-9GF6K1Hmr7E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352368471875-2q4nenqa5sthbq5ui0unj8m8nrdd8ff6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "352368471875-jaf4ar8mqeslsa3knlsl207nbe0459nd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "gov.nih.nlm.Reunite"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

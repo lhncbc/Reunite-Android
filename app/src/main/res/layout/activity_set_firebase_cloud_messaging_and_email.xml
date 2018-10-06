@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/pad3record"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/checkBoxNotificationRecordUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/reunite_button_height_48"
+            android:text="@string/pushNotification"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxEmailRecordUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/reunite_button_height_48"
+            android:text="@string/email"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/pad3event"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/checkBoxNotificationNewEvent"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/reunite_button_height_48"
+            android:text="@string/pushNotification"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxEmailNewEvent"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/reunite_button_height_48"
+            android:text="@string/email"/>
+
+        <View
+            android:id="@+id/viewAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"/>
+
+        <TextView
+            android:id="@+id/textViewAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/pad3admin"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/checkBoxAdminPush"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/reunite_button_height_48"
+            android:text="@string/pushNotification"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxAdminEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/reunite_button_height_48"
+            android:text="@string/email"/>
+
+    </LinearLayout>
+
+</LinearLayout>

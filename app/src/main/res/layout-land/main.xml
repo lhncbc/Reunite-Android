@@ -1,0 +1,449 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ReUniteActivity">
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:src="@drawable/nih_nlm" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/tvWho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guest" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonLoginLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/reunite_button_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/com_facebook_blue"
+            android:text="Login"
+            android:textColor="@color/white1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewYouAreDeveloperNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/you_are_now_a_developer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="italic"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageViewLogo"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/family_retina_s" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="128dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#ffffff"
+                        android:padding="2dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ScrollView
+                            android:id="@+id/scrollView1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="top"
+                            android:orientation="vertical"
+                            android:theme="@style/MyTheme">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <!-- line 4 -->
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/reunite_button_height"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="right"
+                                        android:text="@string/web_server"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                    <TextView
+                                        android:layout_width="10dp"
+                                        android:layout_height="wrap_content"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                    <TextView
+                                        android:id="@+id/textViewWebServer"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="left"
+                                        android:text="@string/unknown"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                                </LinearLayout>
+                                <!-- 4 end -->
+                                <!-- line 5 -->
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/reunite_button_height"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="right"
+                                        android:text="@string/server_status"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                    <TextView
+                                        android:layout_width="10dp"
+                                        android:layout_height="wrap_content"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center_vertical"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/textViewServerRating"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="@string/unknown"
+                                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                        <Button
+                                            android:id="@+id/buttonCheck"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="@dimen/reunite_button_height"
+                                            android:layout_gravity="center"
+                                            android:layout_margin="2dp"
+                                            android:background="@color/com_facebook_blue"
+                                            android:text="@string/check"
+                                            android:textColor="@color/white1"
+                                            android:textSize="8sp" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+                                <!-- 5 end -->
+                                <!-- line 6 -->
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/reunite_button_height"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="right"
+                                        android:text="@string/latency"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                    <TextView
+                                        android:layout_width="10dp"
+                                        android:layout_height="wrap_content"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                    <TextView
+                                        android:id="@+id/textViewServerLatency"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="left"
+                                        android:text="Details"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                                </LinearLayout>
+                                <!-- 6 end -->
+                                <!-- line 1 -->
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/reunite_button_height"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="right"
+                                        android:text="@string/event"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                    <TextView
+                                        android:layout_width="10dp"
+                                        android:layout_height="wrap_content"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="@dimen/reunite_button_height"
+                                        android:layout_weight="1"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/textViewLatestEventName"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:text="Test"
+                                            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                        <Button
+                                            android:id="@+id/buttonChange"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="@dimen/reunite_button_height"
+                                            android:layout_margin="2dp"
+                                            android:background="@color/com_facebook_blue"
+                                            android:text="@string/change"
+                                            android:textColor="@color/white1"
+                                            android:textSize="8sp" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+                                <!-- 1 end -->
+                                <!-- line 2 -->
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/reunite_button_height"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="right"
+                                        android:text="@string/date"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                    <TextView
+                                        android:layout_width="10dp"
+                                        android:layout_height="wrap_content"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                    <TextView
+                                        android:id="@+id/textViewLatestEventStatus"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="left"
+                                        android:text=""
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                                </LinearLayout>
+                                <!-- 2 end -->
+                                <!-- line 3 -->
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="@dimen/reunite_button_height"
+                                    android:gravity="center_vertical|center_horizontal"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="right"
+                                        android:text="@string/event_location"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                    <TextView
+                                        android:layout_width="10dp"
+                                        android:layout_height="wrap_content"
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                                    <TextView
+                                        android:id="@+id/textViewLatestEventDetails"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="left"
+                                        android:text=""
+                                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                                </LinearLayout>
+                                <!-- 3 end -->
+                            </LinearLayout>
+
+                        </ScrollView>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="128dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#ffffff"
+                        android:padding="2dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="4dp">
+
+                    <Button
+                        android:id="@+id/buFindPeople"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/reunite_button_height"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/com_facebook_blue"
+                        android:text="@string/find"
+                        android:textColor="@color/white1" />
+                    <!--
+                        android:background="@drawable/find_button" />
+                    -->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="4dp">
+
+                    <Button
+                        android:id="@+id/buReportPerson"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/reunite_button_height"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/com_facebook_blue"
+                        android:text="@string/report"
+                        android:textColor="@color/white1" />
+                    <!--
+                    android:background="@drawable/report_button" />
+                    -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="4dp">
+
+                    <Button
+                        android:id="@+id/buOrganize"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/reunite_button_height"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/com_facebook_blue"
+                        android:text="@string/organize"
+                        android:textColor="@color/white1" />
+                    <!--
+                        android:background="@drawable/organize_button" />
+                    -->
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

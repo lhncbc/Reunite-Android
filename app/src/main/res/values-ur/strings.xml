@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--                -->
+    <!-- 1st part start -->
+    <!--                -->
+
+    <!-- General commands - start -->
+    <string name="ok">
+        ٹھیک ہے
+    </string>
+    <string name="cancel">
+ منسوخ کریں
+    </string>
+    <string name="yes">
+       جی ہاں
+    </string>
+    <string name="no">
+       نہیں
+    </string>
+    <string name="continue_word">
+جاری رکھیں    </string>
+    <string name="retry">
+        دوبارہ کوشش کریں
+    </string>
+    <string name="none">
+        کوئی بھی نہیں
+    </string>
+    <string name="home">
+        گھر
+        <!-- return to main screen -->
+    </string>
+    <string name="save">
+        محفوظ کریں
+    </string>
+    <string name="delete">
+        حذف کریں
+    </string>
+    <string name="delete_q">
+        حذف کریں؟
+    </string>
+    <string name="delete_all">
+       تمام حذف کریں
+    </string>
+    <string name="select">
+        منتخب کریں
+    </string>
+    <string name="please">
+        براہ کرم
+    </string>
+    <string name="return_word">
+        واپس لو
+    </string>
+    <string name="next">
+       اگلے
+    </string>
+    <string name="back">
+        پیچھے
+        <!-- move backwards -->
+    </string>
+    <string name="forward">
+        آگے
+        <!-- move forwards -->
+    </string>
+    <string name="warning">
+      انتباہ    </string>
+    <string name="error">
+       غلطی
+    </string>
+    <string name="correct">
+        درست
+    </string>
+    <string name="open">
+        کھولیں
+    </string>
+    <string name="close">
+        بند
+    </string>
+    <string name="camera">
+        کیمرے
+    </string>
+    <string name="gallery">
+        نگارخانہ
+    </string>
+    <string name="defined">
+        واضح
+    </string>
+    <string name="undefined">
+        غیر منقول
+    </string>
+    <string name="language">
+    	انگریزی
+    </string>
+    <!-- General commands - end -->
+
+    <!-- omb and privacy statement - start -->
+    <string name="expiration_date_1st_part">
+        Omitted
+    </string>
+    <string name="ome_number">
+        Omitted
+    </string>
+    <string name="omb_notice">
+        Omitted
+    </string>
+    <string name="omb_submission">
+      Omitted
+    </string>
+    <string name="omb_text2">
+        <!-- do not translate this line -->
+        Omitted
+    </string>
+    <string name="omb_sub">
+        میں نے اسے پڑھا اور اتفاق کیا
+    </string>
+    <string name="i_refuse">
+        رد کرتا ہوں میں
+    </string>
+    <!-- omb and privacy statement - end -->
+
+    <!-- home screen - start -->
+    <string name="welcome">
+   خوش آمدید
+    </string>
+    <string name="username">
+       صارف کا نام    </string>
+    <string name="password">
+        پاس ورڈ
+    </string>
+    <string name="login">
+        لاگ ان
+    </string>
+    <string name="logout">
+    لاگ آوٹ
+    </string>
+    <string name="login_or_logout">
+        لاگ ان / لاگ آؤٹ
+    </string>
+    <string name="guest">
+        مہمان
+    </string>
+    <string name="login_was_successful">
+        لاگ ان کامیاب تھا
+    </string>
+    <string name="good_bye">
+        خدا حافظ
+    </string>
+    <string name="you_are_now_a_developer">
+       آپ اب ایک ڈویلپر ہیں!
+    </string>
+    <string name="web_server">
+        ویب سرور
+    </string>
+    <string name="server_status">
+       سرور کی حیثیت
+        <!-- online or offline, connected or dis-connected -->
+    </string>
+    <string name="check">
+     چیک کریں
+    </string>
+    <string name="latency">
+        تاخیر
+        <!-- server response time -->
+    </string>
+    <string name="time_out">
+      وقت ختم
+    </string>
+    <string name="event">
+        تقریب
+    </string>
+    <string name="change">
+        تبدیل کریں
+    </string>
+    <string name="date">
+        تاریخ
+    </string>
+    <string name="event_location">
+        واقعہ مقام
+    </string>
+    <string name="find">
+        مل
+        <!-- find a missing person -->
+    </string>
+    <string name="report">
+        رپورٹ
+        <!-- report a missong person -->
+    </string>
+    <string name="organize">
+       منظم کریں
+        <!-- organize files which saved in folders -->
+    </string>
+    <string name="do_you_want_to_login">
+       کیا آپ لاگ ان کرنا چاہتے ہیں؟
+    </string>
+    <string name="do_you_want_to_login_dis">
+        مہمان کے طور پر، آپ کو استعمال کرنے کے لئے کچھ محدود افعال ہوسکتے ہیں. لاگ ان کرنے کے لئے انتہائی تجویز کردہ ہے.
+    </string>
+    <!-- home screen - end -->
+
+    <!-- missing person list - start -->
+    <string name="filter">
+        فلٹر
+        <!-- make selections to narrow down the searching -->
+    </string>
+    <string name="name">
+       نام
+        <!-- search by input missing person's name -->
+    </string>
+    <string name="photo">
+        تصویر
+        <!-- search by input missing person's photo -->
+    </string>
+    <string name="page">
+       صفحہ
+    </string>
+    <string name="search">
+        تلاش کریں
+    </string>
+    <string name="more">
+       مزید
+        <!-- more to next page -->
+    </string>
+    <!-- missing person list - end -->
+
+    <!-- missing person information - start -->
+    <string name="draft">
+        ڈرافٹ
+        <!-- folder to save uncompleted records -->
+    </string>
+    <string name="send">
+        بھیجیں
+        <!-- command to send the report -->
+    </string>
+    <string name="primary_image">
+        پرائمری تصویر
+        <!-- first image of a missing person -->
+    </string>
+    <string name="secondary_image">
+        ثانوی تصویر
+        <!-- second or third, etc image of a missing person -->
+    </string>
+    <string name="press_button_on_right_side_to_add_caption">
+        کیپشن کو شامل کرنے کیلئے دائیں جانب دائیں بٹن دبائیں
+        <!-- description -->
+    </string>
+    <string name="caption">
+        کیپشن
+    </string>
+    <string name="missing_person_information">
+       لاپتہ شخص کی معلومات
+    </string>
+    <string name="first_name">
+       پہلا نام
+    </string>
+    <string name="last_name">
+        آخری نام
+    </string>
+    <string name="other_names">
+        دوسرے نام
+    </string>
+    <string name="approximate_age">
+       عمر
+    </string>
+    <string name="gender">
+        صنف
+    </string>
+    <string name="male">
+       مرد
+    </string>
+    <string name="female">
+        عورت
+    </string>
+    <string name="unknown">
+        نامعلوم
+    </string>
+    <string name="complex">
+        کمپلیکس
+    </string>
+    <string name="status">
+        حیثیت
+        <!-- missing person's status: missing, alive and well, injured, deceased, unknown or found -->
+    </string>
+    <string name="missing">
+       لاپتہ
+    </string>
+    <string name="alive_and_well">
+        زندہ اور اچھی طرح سے
+    </string>
+    <string name="injured">
+        زخمی
+    </string>
+    <string name="deceased">
+       ختم ہو گیا
+    </string>
+    <string name="found">
+        ملا
+    </string>
+    <string name="last_seen_location">
+        آخری مقام مقام
+    </string>
+    <string name="additional_details">
+       اضافی تفصیلات
+    </string>
+    <string name="missing_person_uuid">
+        لاپتہ شخص UUID
+    </string>
+    <string name="last_updated_date">
+        آخری اپ ڈیٹ کی تاریخ
+    </string>
+    <string name="follow">
+        پیروی
+    </string>
+    <string name="why_follow_a_record">
+      ایک ریکارڈ کیوں پیروی کریں؟
+    </string>
+    <string name="follow_record_des">
+        ای میل الرٹ وصول کرنے کے لئے جب یہ ریکارڈ نئی معلومات کے ساتھ اپ ڈیٹ کیا جاتا ہے، تو آپ کو منتخب کر سکتے ہیں
+        اس شخص کی پیروی کرو. ریکارڈ کے ساتھ اپ ڈیٹ کیا جاتا ہے جب آپ صرف ایک ای میل وصول کریں گے
+        معلومات یا جب کوئی تبصرہ چھوڑتا ہے.    </string>
+    <string name="why_follow_record">
+       ای میل انتباہات حاصل کرنے کے لئے جب یہ ریکارڈ نئی معلومات کے ساتھ اپ ڈیٹ کیا جائے تو، آپ کو منتخب کر سکتے ہیں
+        اس شخص کی پیروی کرو. ریکارڈ کے ساتھ اپ ڈیٹ کیا جاتا ہے جب آپ صرف ایک ای میل وصول کریں گے
+        معلومات یا جب کوئی تبصرہ چھوڑتا ہے.    </string>
+    <!-- missing person information - end -->
+
+    <!-- Report missing person - start -->
+    <string name="input_by_right_side_button">
+        دائیں جانب بٹن کے ذریعے ان پٹ
+    </string>
+    <string name="google_map_view">
+        گوگل نقشہ دیکھیں
+    </string>
+    <string name="gps_cannot_detect_current_location">
+        GPS موجودہ مقام کا پتہ لگانے نہیں دے سکتا
+    </string>
+    <string name="let_gps_fill_your_address">
+        GPS کو آپ کا ایڈریس بھرنے دو
+    </string>
+    <string name="get_address_from_google_map">
+        Google Map سے پتہ چلیں
+    </string>
+    <string name="address_book_is_empty">
+       ایڈریس بک خالی ہے
+    </string>
+    <string name="select_from_adress_book">
+       ایڈریس بک سے منتخب کریں
+    </string>
+    <string name="street">
+        سٹریٹ
+    </string>
+    <string name="city">
+        شہر
+    </string>
+    <string name="state">
+        حالت
+    </string>
+    <string name="zip">
+        زپ
+    </string>
+    <string name="country">
+       ملک
+    </string>
+    <string name="comments">
+      تبصرے
+    </string>
+    <string name="maximum_500_characters">
+       زیادہ سے زیادہ 500 حروف
+    </string>
+    <string name="required_field">
+        مطلوب خانہ
+        <!-- the field that the user must input -->
+    </string>
+    <!-- Report missing person - end -->
+
+    <!-- Organize - start -->
+    <string name="lost_person_files">
+        کھوئے ہوئے شخص فائلیں
+    </string>
+    <string name="file_found">
+        فائل پایا
+    </string>
+    <string name="files_found">
+       فائلوں کو مل گیا
+    </string>
+    <string name="no_file_is_found">
+        کوئی فائل نہیں ملی ہے
+    </string>
+    <!-- Organize - end -->
+
+    <!-- web server latency - start -->
+    <string name="excellent">
+        بہترین
+    </string>
+    <string name="good">
+        اچھا
+    </string>
+    <string name="poor">
+        غریب
+    </string>
+    <string name="disconnected">
+        منقطع
+    </string>
+    <!-- web server latency - end -->
+
+    <!-- toast messages - start -->
+    <string name="this_option_is_not_available">
+        یہ اختیار دستیاب نہیں ہے
+    </string>
+    <string name="all_photos_are_deleted">
+      تمام تصاویر حذف کردی گئی ہیں
+    </string>
+    <string name="all_records_are_deleted">
+       تمام ریکارڈ حذف کردیئے گئے ہیں
+    </string>
+    <string name="email">
+        ای میل
+    </string>
+    <string name="sending_email">
+        ای میل بھیج رہا ہے ...
+    </string>
+    <string name="there_is_no_email_client_installed">
+        کوئی ای میل کلائنٹ انسٹال نہیں ہے
+    </string>
+    <string name="html_file_is_empty">
+       HTML فائل خالی ہے
+    </string>
+    <string name="done">
+       ہو گیا
+    </string>
+    <string name="canceled">
+        منسوخ        </string>
+    <string name="succeed">
+       کامیاب
+    </string>
+    <string name="not_succeed">
+      کامیاب نہیں
+    </string>
+    <string name="completed">
+      مکمل
+    </string>
+    <string name="implemented">
+      لاگو
+    </string>
+    <string name="not_implemented">
+        نافذ نہیں کیا گیا
+    </string>
+    <string name="no_record_is_found">
+        ریکارڈ نہیں ملا
+    </string>
+    <string name="need_to_login">
+        لاگ ان کرنے کی ضرورت ہے
+    </string>
+    <string name="no_photo">
+       کوئی تصویر نہیں
+    </string>
+    <string name="no_photo_is_found">
+        کوئی تصویر نہیں ملا
+    </string>
+    <string name="a_photo_is_selected">
+      ایک تصویر منتخب کی گئی ہے
+    </string>
+    <string name="moving_to_photo_number">
+      تصویر نمبر پر منتقل
+    </string>
+    <string name="you_are_about_to_delete_all_the_photos_saved_in_cache">
+        آپ کیش میں محفوظ کردہ تمام تصاویر حذف کرنے کے بارے میں ہیں
+    </string>
+    <string name="are_you_sure_you_want_to_delete_the_selected_photo">
+        کیا آپ واقعی منتخب کردہ تصویر کو حذف کرنا چاہتے ہیں؟
+    </string>
+    <string name="no_photo_is_selected_do_you_really_want_to_quit">
+       کوئی تصویر منتخب نہیں ہے. کیا تم واقعی چھوڑنا چاہتے ہو؟
+    </string>
+    <string name="file_is_saved">
+        فائل محفوظ ہے
+    </string>
+    <string name="report_abuse_and_its_explanation_are_sent">
+       غلط استعمال کی اطلاع دیں اور اس کی وضاحت بھیجا جائے
+    </string>
+    <string name="all_files_in_outbox_are_deleted">
+        آؤٹ باکس میں تمام فائلوں کو خارج کر دیا گیا ہے
+    </string>
+    <string name="searching_images_took_seconds">
+       تلاش تصاویر سیکنڈ میں لے لیتے ہیں
+    </string>
+    <string name="google_authenticated_token_is_empty">
+        Google مستند ٹوکن خالی ہے    </string>
+    <!-- toast messages - end -->
+
+    <!-- dialogue box message - start -->
+    <string name="processing_please_wait">
+       پروسیسنگ، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="updating_the_status_please_wait">
+        حیثیت کو اپ ڈیٹ کرنا، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="retrieving_events_please_wait">
+       واقعات کو دوبارہ حاصل کرنا، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="retrieving_information_on_selected_event_please_wait">
+      منتخب کردہ ایونٹ پر معلومات حاصل کرنے کے لۓ، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="detecting_the_speed_please_wait">
+        رفتار کا پتہ لگانا، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="logging_in_please_wait">
+       لاگ ان کرنا، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="saving_data_to_database_please_wait">
+       ڈیٹا بیس میں ڈیٹا محفوظ کرنا، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="reporting_missing_person_please_wait">
+        لاپتہ افراد کی معلومات کی اطلاع، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="reporting_abuse_please_wait">
+        "بدعنوان کی اطلاع، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="loading_images_please_wait">
+        تصاویر لوڈ کررہے ہیں، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="searching_the_selected_record_">
+        منتخب شدہ لاپتہ افراد کی فائل تلاش کرنا، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="un_flowing_all_the_records_please_wait">
+      غیر درج ذیل تمام ریکارڈز، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="information_is_sent">
+       معلومات بھیجی جاتی ہے
+    </string>
+    <string name="save_a_copy_to_local">
+    ایک نقل کو مقامی میں محفوظ کریں
+    </string>
+    <string name="registration_is_successful_">
+        رجسٹریشن کامیاب ہے! براہ مہربانی اپنے ای میل سے مزید معلومات لاگ ان کریں یا تلاش کریں
+    </string>
+    <string name="first_name_is_empty">
+        پہلا نام خالی ہے!    </string>
+    <string name="last_name_is_empty">
+       آخری نام خالی ہے!
+    </string>
+    <string name="email_is_empty">
+        ای میل خالی ہے!
+    </string>
+    <string name="username_is_empty">
+        صارف نام خالی ہے!
+    </string>
+    <string name="password_is_empty">
+      پاس ورڈ خالی ہے!
+    </string>
+    <string name="confirmation_password_is_empty">
+       توثیق پاس ورڈ خالی ہے!
+    </string>
+    <string name="two_passwords_are_not_identical">
+        دو پاس ورڈ ایک جیسے نہیں ہیں.
+    </string>
+    <string name="password_requires_at_least_8_characters">
+       پاس ورڈ کم از کم 8 حروف کی ضرورت ہے.
+    </string>
+    <string name="password_cannot_have_more_than_16_characters">
+       پاس ورڈ 16 سے زائد حروف نہیں ہے.
+    </string>
+    <string name="password_must_have_at_least_one_uppercase_character">
+     پاس ورڈ میں کم سے کم ایک بڑے حروف ہونا لازمی ہے.
+    </string>
+    <string name="password_must_have_at_least_one_lowercase_character">
+      پاس ورڈ کے پاس کم سے کم ایک کم حروف کا ہونا لازمی ہے.
+    </string>
+    <string name="password_must_have_at_least_one_numeral_">
+       پاس ورڈ میں کم از کم ایک نمبر (0-9) ہونا لازمی ہے.
+    </string>
+    <string name="password_cannot_contain_your_username">
+      پاسورڈ آپ کا صارف نام نہیں ہے.
+    </string>
+    <string name="you_need_to_select_the_event">
+        آپ کو ایونٹ منتخب کرنے کی ضرورت ہےایک
+    </string>
+    <string name="do_you_want_to_delete_this_image">
+      کیا آپ اس تصویر کو حذف کرنا چاہتے ہیں؟
+    </string>
+    <string name="as_a_guest_you_">
+        مہمان کی حیثیت سے، آپ غائب شخص کو نام نہاد کی اطلاع دے سکتے ہیں. لیکن آپ کو کچھ محدود کام کرنا پڑے گا.
+    </string>
+
+    <string name="are_you_sure_you_want_to_quite_current_work_q">
+       کیا آپ واقعی موجودہ کام چھوڑنا چاہتے ہیں؟
+    </string>
+    <string name="you_do_not_have_any_following_records">
+       آپ کے پاس کوئی ریکارڈ نہیں ہے
+    </string>
+    <string name="you_do_not_have_internet_connection">
+        آپ کے پاس انٹرنیٹ کنکشن نہیں ہے
+    </string>
+    <string name="as_a_guest_you_may_report_">
+        مہمان کے طور پر، آپ کو غائب شخص کو نام نہاد کی اطلاع دی جا سکتی ہے. لیکن آپ کو استعمال کرنے کے لئے محدود افعال پڑے گا.
+    </string>
+    <string name="as_a_guest_you_may_have_">
+        مہمان کے طور پر، آپ کو استعمال کرنے کے لئے کچھ محدود کام ہوسکتا ہے، لاگ ان کرنے کے لئے انتہائی مشورہ دیا جاتا ہے.
+    </string>
+    <string name="change_is_made_">
+        تبدیلی کی گئی ہے. اے پی پی دوبارہ شروع کریں.
+    </string>
+    <!-- dialogue box message - end -->
+
+    <!-- text shown on menu - start -->
+    <string name="social_media">
+       سوشل میڈیا    </string>
+    <string name="tutorials">
+        سبق
+    </string>
+    <string name="email_us">
+        ہمیں ای میل کریں
+    </string>
+    <string name="version_history">
+        ورژن کی تاریخ
+    </string>
+    <string name="cache">
+      کیش
+    </string>
+    <string name="clean_cache">
+       صاف کیش
+    </string>
+    <string name="refresh">
+        ریفریش کریں
+    </string>
+    <string name="email_html_file">
+       ای میل HTML فائل
+    </string>
+    <string name="developer_tools">
+        ڈویلپر ٹولز
+    </string>
+    <string name="enter_username_and_password">
+        صارف نام اور پاسورڈ درج کریں
+    </string>
+    <string name="about">
+       کے بارے میں
+    </string>
+    <string name="report_abuse">
+        اطلاع دیں
+    </string>
+    <string name="update_image">
+        تصویر اپ ڈیٹ کریں
+    </string>
+    <string name="get_male_name">
+        مرد کا نام حاصل کریں
+    </string>
+    <string name="get_female_name">
+        خاتون کا نام حاصل کریں
+    </string>
+    <string name="notification">
+        اطلاع
+    </string>
+    <string name="show_omb">
+      OMB دکھائیں
+    </string>
+    <string name="future_developments">
+     مستقبل کی ترقی
+    </string>
+    <string name="display_gcm_token">
+       GCM ٹوکن دکھائیں
+    </string>
+    <string name="gcm_token_upload_status">
+        GCM ٹوکن اپ لوڈ کی حیثیت
+    </string>
+    <string name="send_gcm_message">
+        GCM پیغام بھیجیں
+    </string>
+    <string name="email_gcm_token">
+       ای میل GCM ٹوکن
+    </string>
+    <string name="select_web_server">
+       ویب سرور منتخب کریں
+    </string>
+    <!-- text shown on menu - end -->
+
+    <!-- error codes - start -->
+    <string name="plusError1">
+        غلطی: غلط صارف نام یا پاس ورڈ
+        <!-- "context": "Error message presented when a user provides the incorrect username and/or password." -->
+    </string>
+    <string name="plusError2">
+        خرابی: بار بار ناکام ہونے میں ناکام ہونے کیلئے آپ کا اکاؤنٹ عارضی طور پر بند کردیا گیا ہے، بعد میں دوبارہ کوشش کریں
+        <!-- "context": "Error message presented when a user fails to login repeatedly." -->
+    </string>
+    <string name="plusError6">
+        خرابی: فراہم شدہ ای میل پتہ فراہم کرنے کے ساتھ ایک صارف پہلے ہی موجود ہے
+        <!-- "context": "Error message presented when user tries to use an email address already in use." -->
+    </string>
+    <string name="plusError7">
+        خرابی: آپ کے فراہم کردہ صارف نام دستیاب نہیں ہے
+        <!-- "context": "Error message presented when a user attempts to register with a username that is already in use by another user." -->
+    </string>
+    <string name="plusError8">
+      غلطی: غلط ای میل ایڈریس
+        <!-- "context": "Error message presented when a user provides an invalid email address." -->
+    </string>
+    <string name="plusError9">
+       خرابی: لمبائی میں پاس ورڈ 8-16 حروف ہونا چاہئے، کم از کم ایک اونچائی، ایک چھوٹا سا، اور ایک عددی کردار ہونا ضروری ہے.
+        <!-- "context": "Error message presented when user enters an invalid password." -->
+    </string>
+    <string name="plusError11">
+        خرابی: فراہم کردہ ای میل پتہ کسی صارف کے اکاؤنٹ سے منسلک نہیں ہے
+        <!-- "context": "Error message presented when user attempts to reset password with an unregistered email address-->
+    </string>
+    <string name="plusError14">
+        خرابی: غلط انسانی توثیق ٹیسٹ کے نتیجہ، براہ کرم صفحہ دوبارہ لوڈ کریں
+        <!-- "context": "Error message presented when the captcha system encounters invalid data-->
+    </string>
+    <string name="plusError15">
+        خرابی: ریپپٹپ سیشن کی مدت ختم ہوگئی، براہ کرم صفحہ دوبارہ لوڈ کریں
+        <!-- "context": "Error message presented when the reCaptcha session has expired and the user must reload the page to continue-->
+    </string>
+    <string name="plusError16">
+        خرابی: پاس ورڈ نہیں ملتی ہیں
+        <!-- "context": "Error message presented when entered password do not match one another-->
+    </string>
+    <string name="plusError20">
+       خرابی: پاس ورڈ 8-16 حروف طویل ہونا چاہئے
+        <!-- "context": "Error message presented when entered password is of incorrect length, must be 8-16 characters long-->
+    </string>
+    <string name="plusError21">
+       خرابی: پاس ورڈ میں کم سے کم ایک بڑے حروف ہونا لازمی ہے (A-Z)
+        <!-- "context": "Error message presented when entered password does not contain at least one uppercase letter-->
+    </string>
+    <string name="plusError22">
+        خرابی: پاس ورڈ میں کم سے کم ایک چھوٹا سا حروف لازمی ہے (a-z)
+        <!-- "context": "Error message presented when entered password does not contain at least one lowercase letter-->
+    </string>
+    <string name="plusError23">
+      خرابی: پاس ورڈ میں کم سے کم ایک نمبر (0-9) ہونا لازمی ہے
+        <!-- "context": "Error message presented when entered password does not contain at least one digit-->
+    </string>
+    <string name="plusError100">
+       نیٹ ورک کی غلطی براہ مہربانی اپنا کنکشن چیک کریں اور دوبارہ کوشش کریں.
+        <!-- "context": "Error message presented when there is a network / internet issue-->
+    </string>
+    <string name="plusError600">
+     خرابی: اس ریکارڈ کی پیروی نہیں کر سکتے ہیں جو موجود نہیں ہے یا آپ تک رسائی حاصل کرنے کا حق نہیں ہے
+        <!-- "context": "Error message presented when user attempts to follow a record they have no permission to access-->
+    </string>
+    <string name="plusError601">
+      خرابی: اس ریکارٹ کا پیروی نہیں کر سکتے ہیں کیونکہ آپ نے پہلے ہی اس کی پیروی کی ہے
+        <!-- "context": "Error message presented when attempting to follow a record the user is already following-->
+    </string>
+    <string name="plusError602">
+        خرابی: اس ریکارڈ کو مطلع نہیں کر سکتے ہیں کیونکہ آپ ابھی اس کی پیروی نہیں کر رہے ہیں
+        <!-- "context": "Error message presented when "-->
+    </string>
+    <string name="plusError9999">
+        ایک نامعلوم غلطی واقع ہوئی ہے.
+    </string>
+    <!-- error codes - end -->
+
+    <!--              -->
+    <!-- 1st part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 2nd part start -->
+    <!--                -->
+
+    <!-- new - start -->
+    <string name="quit">
+       چھوڑ دو
+    </string>
+    <string name="select_language">
+      زبان منتخب کریں
+    </string>
+    <string name="offline">
+      آف لائن
+    </string>
+    <string name="connected">
+    منسلک
+    </string>
+    <string name="follow_record">
+    ریکارڈ کا تعاقب کریں
+    </string>
+    <string name="follow_nothing">
+       کچھ بھی نہیں پیروی
+    </string>
+    <string name="no_follow">
+        کوئی پیروی نہیں
+    </string>
+    <string name="logout_first">
+        سب سے پہلے لاگ آؤٹ
+    </string>
+    <string name="undetected">
+پتہ نہیں    </string>
+    <string name="address_book">
+      ایڈریس بک
+    </string>
+    <string name="enter_a_name_">
+        تلاش باکس میں ایک نام درج کریں. حروف کے کسی بھی گروپ سے ملنے کے لئے اسٹرک (*) کا استعمال کریں.
+    </string>
+    <string name="example">
+        مثال
+    </string>
+    <string name="are_you_sure_q">
+      کیا تمہیں یقین ہے؟
+    </string>
+    <string name="input_empty_error_code">
+        ان پٹ خالی غلطی کوڈ
+    </string>
+    <string name="show_password">
+       پاسورڈ دکھاو
+    </string>
+    <string name="forgot_q">
+       بھول؟
+    </string>
+    <string name="forgot_username">
+       صارف نام بھول گئے
+    </string>
+    <string name="forgot_password">
+       پاسورڈ بھول گے
+    </string>
+    <string name="new_user">
+        نیا صارف
+    </string>
+    <string name="please_enter_your_username_and_password">
+        براہ کرم اپنے صارف کا نام اور پاس ورڈ درج کریں
+    </string>
+    <string name="forgot_your_username_q">
+        اپنا صارف نام بھول گئے؟ براہ کرم اپنے ای میل ایڈریس درج کریں، ہم جلد ہی آپ کو واپس بھیجیں گے
+    </string>
+    <string name="submit">
+        جمع
+    </string>
+    <string name="email_address_is_sent">
+      ای میل ایڈریس بھیج دیا گیا ہے
+    </string>
+    <string name="forgot_your_password_q">
+        پاس ورڈ بھول گئے؟ براہ کرم اپنے ای میل ایڈریس درج کریں، ہم جلد ہی آپ کو واپس بھیجیں گے
+    </string>
+    <string name="register_as_a_new_user">
+       نئے صارف کے طور پر رجسٹر کریں    </string>
+    <string name="passwords_must_adhere_">
+       مطلوبہ الفاظ کو مندرجہ ذیل قواعد پر عمل کرنا چاہئے
+    </string>
+    <string name="re_enter_password">
+        پاس ورڈ دوبارہ درج
+    </string>
+    <string name="register">
+       رجسٹر کریں
+    </string>
+    <string name="child_0_17">
+        بچے (0-17)
+    </string>
+    <string name="adult_18_plus">
+       بالغ (18+)
+    </string>
+    <string name="view_persons_with">
+       افراد کو دیکھیں    </string>
+    <string name="photo_only">
+      صرف تصویر
+    </string>
+    <string name="both_recommended">
+        دونوں کی سفارش کی
+    </string>
+    <string name="number_of_records_per_load">
+        ریکارڈ فی بوجھ کی تعداد    </string>
+    <string name="_5_seconds">
+        5
+    </string>
+    <string name="_10_seconds">
+        <!-- 10 seconds -->
+        10
+    </string>
+    <string name="_10_seconds_recommended">
+        10 - سفارش کی
+    </string>
+    <string name="_15_seconds">
+        15
+    </string>
+    <string name="_15_seconds_recommended">
+        15 - سفارش کی
+    </string>
+    <string name="_20_seconds">
+        20
+    </string>
+    <string name="tap_right_button_to_add_photo_caption">
+        تصویر کا عنوان شامل کرنے کیلئے دائیں بٹن کو تھپتھپائیں
+    </string>
+    <string name="open_for_reporting">
+       رپورٹنگ کے لئے کھولیں
+    </string>
+    <string name="closed_reporting">
+       بند رپورٹنگ
+    </string>
+    <string name="you_have_selected">
+       آپ نے منتخب کیا ہے
+    </string>
+    <string name="start">
+      شروع کریں
+    </string>
+    <string name="no_photo_is_selected">
+    کوئی تصویر منتخب نہیں ہے
+    </string>
+    <string name="sent_box_is_empty">
+        بھیجا باکس خالی ہے
+    </string>
+    <string name="out_box_is_empty">
+       آؤٹ باکس خالی ہے
+    </string>
+    <string name="draft_box_is_empty">
+        ڈرافٹ باکس خالی ہے
+    </string>
+    <string name="saved_box_is_empty">
+        محفوظ خانہ خالی ہے
+    </string>
+    <string name="all_boxes_are_empty">
+        تمام خانے خالی ہیں
+    </string>
+    <string name="sent">
+        بھیجا
+    </string>
+    <string name="outbox">
+       آؤٹ باکس
+    </string>
+    <string name="saved_from_search">
+       تلاش سے محفوظ
+    </string>
+    <string name="you_are_about_to_delete_all_files">
+        آپ تمام فائلوں کو حذف کرنے کے بارے میں ہیں
+    </string>
+    <string name="all_files_are_deleted">
+        تمام فائلوں کو خارج کر دیا گیا ہے
+    </string>
+    <string name="web_server_is_not_found">
+       ویب سرور نہیں ملا
+    </string>
+    <string name="this_file_was_downloaded_earlier_">
+        اس فائل کو پہلے ہی ڈاؤن لوڈ کیا گیا تھا. یہ سب سے زیادہ اپ ڈیٹ نہیں ہوسکتا ہے. سب سے زیادہ اپ ڈیٹ کردہ فائل کو دیکھنے کے لئے، گھر واپس جائیں اور دوبارہ کوشش کریں \ "
+    </string>
+    <string name="you_are_an_anonymous_user">
+        آپ گمنام صارف ہیں
+    </string>
+    <string name="saved">
+     بچایا
+    </string>
+    <string name="deleted">
+    حذف کر دیا گیا
+    </string>
+    <string name="local_file_id">
+        مقامی فائل کی شناخت
+    </string>
+    <string name="there_is_only_one_photo">
+       صرف ایک ہی تصویر ہے
+    </string>
+    <string name="add_text">
+        متن شامل کریں
+    </string>
+    <string name="age_is_missing">
+        عمر غائب ہے
+    </string>
+    <string name="exceeds_maximum_age">
+  زیادہ سے زیادہ عمر سے زیادہ
+    </string>
+    <string name="error_in_age">
+        عمر میں خرابی
+    </string>
+    <string name="error_in_event">
+        ایونٹ میں خرابی
+    </string>
+    <string name="error_in_gender">
+        صنف میں خرابی
+    </string>
+    <string name="error_in_status">
+       حیثیت میں خرابی
+    </string>
+    <string name="no_data_returned">
+     کوئی ڈیٹا واپس نہیں آیا
+    </string>
+    <string name="updated">
+ اپ ڈیٹ
+    </string>
+    <string name="updating_the_persons_information_please_wait_dots">
+       شخص کی معلومات اپ لوڈ کرنا، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="is_sent">
+       بھیج دیا گیا ہے
+    </string>
+    <string name="is_not_sent">
+      نہیں بھیج دیا گیا ہے
+    </string>
+    <string name="is_saved">
+        محفوظ ہے
+    </string>
+    <string name="no_permission">
+        اجازت نہیں
+    </string>
+    <string name="you_are_about_to_delete_this_file">
+      آپ اس فائل کو حذف کرنے کے بارے میں ہیں
+    </string>
+    <string name="uuid_is_missing">
+       UUID غائب ہے
+    </string>
+    <string name="permission_is_denied">
+     اجازت سے انکار کر دیا گیا ہے
+    </string>
+    <string name="subscribe_to_email_updates">
+        ای میل اپ ڈیٹس کو سبسکرائب کریں
+    </string>
+    <string name="no_valid_token">
+        کوئی درست ٹوکن نہیں
+    </string>
+    <string name="slide_to_move_page">
+        صفحہ منتقل کرنے کے لئے سلائڈ
+    </string>
+    <string name="tutorial_on_the_starting_page">
+       ابتدائی صفحہ پر سبق
+    </string>
+    <string name="tutorial_on_rules_of_user_registration">
+     صارف رجسٹریشن کے قوانین پر سبق
+    </string>
+    <string name="tutorial_on_finding_a_missing_person">
+      لاپتہ شخص کو تلاش کرنے پر سبق
+    </string>
+    <string name="tutorial_on_reporting_a_missing_person">
+      لاپتہ افراد کو اطلاع دینے پر سبق
+    </string>
+    <string name="tutorial_on_managing_files_in_sent_saved_draft_and_outbox">
+        بھیجے گئے، محفوظ کردہ، مسودہ اور آؤٹ باکس میں فائلوں کو منظم کرنے پر سبق
+    </string>
+
+    <string name="privacy_statement_title">PRIVACY STATEMENT</string>
+    <string name="privacy_statement_content">
+      امریکی نیشنل لائبریری آف میڈیکل (این ایل ایم)، امریکی محکمہ صحت اور انسانی خدمات کا حصہ،
+        اس کے مشن میں صحت کی معلومات کی فراہمی کو بہتر بنانے کے لئے مواصلاتی نظام کی ٹیکنالوجی کی ترقی.
+        ریونائٹ ایپ کو لاپتہ (اور پایا) کے بارے میں لازمی ذاتی معلومات اپ لوڈ کرنے کی تیز رفتار کے لئے ڈیزائن کیا گیا ہے.
+        لوگوں کو این ایل ایم کے لوگ Locator (PL) سروس https://pl.nlm.nih.gov پر دستیاب ہیں.
+        اس خدمت کو بعد میں ہونے والے خاندان کے خاندان کے حصول میں معاونت کے ساتھ ساتھ واضح مقصد کے لئے فراہم کی جا رہی ہے
+        آفتوں کے جواب میں اس طرح کے اوزار کی افادیت کا مطالعہ. PL سروس اور مزید معلومات پر
+        کھوئے گئے شخص فائنر پروجیکٹ http://lpf.nlm.nih.gov پر پایا جا سکتا ہے
+        \ n نوٹ:    </string>
+
+    <string name="ps_note_01">
+        اس اپلی کیشن کا استعمال کرتے ہوئے معلومات جمع کرنا رضاکارانہ ہے.
+    </string>
+    <string name="ps_note_02">
+        تمام جمع کردہ معلومات عوامی طور پر دستیاب کی جا سکتی ہیں.    </string>
+    <string name="ps_note_03">
+       اس آلے کا استعمال کرتے ہوئے ذخیرہ شدہ اعداد و شمار معتدل نہیں ہوسکتا ہے اور این ایل ایل کے PL ویب سائٹ پر تمام سیاحوں کی طرف سے تلاش کی جا سکتی ہے.
+    </string>
+    <string name="ps_note_04">
+        ایپ کے اندر محفوظ کردہ ڈیٹا اس وقت خفیہ نہیں ہے.
+    </string>
+    <string name="ps_note_05">
+      اس اپلی کیشن کو صارف کو لاپتہ یا لوگوں کو ملنے کے بارے میں معلومات اپ لوڈ کرنے کیلئے ایک PL سروس اکاؤنٹ ہونا ضروری ہے.
+    </string>
+    <string name="ps_note_06">
+      سائٹ تلاش کرنے کے لئے کوئی PL لاگ ان ضروری نہیں ہے.
+    </string>
+    <string name="ps_note_07">
+     انفارمیشن اور انفرادی طور پر اطلاع دی گئی ہے کہ فراہم کردہ رابطے کی معلومات دوسرے کو تقسیم کی جا سکتی ہے
+       امریکی ایجنسیوں یا دیگر اداروں کو کسی بھی آفت کے بعد دوبارہ مل کر دوبارہ کوشش کرنے میں مدد ملتی ہے جہاں امریکہ
+        حکومت کی امدادی کوششیں پیش کی جا رہی ہیں.    </string>
+    <string name="ps_note_08">
+        لاپتہ شخص کے اعداد و شمار کے لئے ایک آفت کے بعد فراہم کردہ: اگر آپ اس شخص سے سنتے ہیں تو آپ کے بارے میں فکر مند ہیں،
+              اپنی پوزیشن کو اپ ڈیٹ کرنے کے لئے PL ویب سائٹ پر ہدایات پر عمل کریں.    </string>
+    <string name="ps_note_09">
+        ایپلی کیشن صارف کے مقام کو ٹریک نہیں کرتا.
+    </string>
+    <string name="ps_note_10">
+        ایڈریس کی تلاش کی مدد کیلئے صارف کے مقام کا واضح واضح عمل پر پتہ چلا ہے.    </string>
+    <!--              -->
+    <!-- 2nd part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 3rd part start -->
+    <!--                -->
+    <string name="in_order_to_use_this_app_">
+    اس اپلی کیشن کو استعمال کرنے کے لئے آپ کو پرائیویسی بیان کو قبول کرنا ہوگا. کیا آپ کو دوبارہ یاد کرنا ہوگا؟
+    </string>
+    <string name="saving_data_to_database_please_wait_dot">
+        ڈیٹا بیس میں ڈیٹا کو محفوظ کرنا، برائے مہربانی انتظار کریں ...
+    </string>
+    <string name="update">
+       اپ ڈیٹ
+    </string>
+
+    <!--              -->
+    <!-- 3rd part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 4th part start -->
+    <!--                -->
+
+    <string name="permission_is_granted_">
+        اجازت دی جاتی ہے، اب آپ دوبارہ کوشش کر سکتے ہیں.
+    </string>
+    <string name="permission_is_denied_">
+    اجازت سے انکار کر دیا گیا تھا. اعداد و شمار تک رسائی حاصل کرنے کے لئے برائے مہربانی اس پر غور کریں!
+    </string>
+    <string name="message_checking_permission_">
+        اجازت کی جانچ پڑتال ...    </string>
+    <string name="message_requesting_permission_">
+        اجازت کی درخواست ...
+    </string>
+    <!--              -->
+    <!-- 4th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 5th part start -->
+    <!--              -->
+    <string name="confirmation_was_successful">
+    تصدیق کامیاب ہوگئی.
+    </string>
+    <string name="click_button_to_complete_confirmation">
+        توثیق کے عمل کو مکمل کرنے کیلئے بٹن پر کلک کریں.
+    </string>
+    <string name="invalid_preference_value">
+       غلط ترجیحات
+    </string>
+    <string name="reporting_locale_dot">
+       مقامی اطلاع کی اطلاع ...
+    </string>
+
+    // غلط استعمال
+    <string name="what_would_you_like_to_report">
+       آپ کیا رپورٹ کرنا چاہتے ہیں؟
+    </string>
+    <string name="spam">
+       اسپام
+    </string>
+    <string name="sexually_explicit">
+       جنسی طور پر واضح
+    </string>
+    <string name="hate_speech">
+      نفرت انگیز تقریر
+    </string>
+    <string name="violence">
+      تشدد
+    </string>
+    <string name="something_else">
+        اس کے علاوہ کچھ اور
+    </string>
+    <string name="abuse_thanks">
+        شکریہ. ہمیں آپ کے بدعنوان کا دعوی مل گیا ہے. ہماری ویب سائٹ کا عملہ اس ریکارڈ کا جائزہ لیں گے اور کسی بھی غیر مناسب مواد کو ہٹا دیں گے.
+    </string>
+
+    <!-- forgot -->
+    <string name="enter_your_email_">
+        اپنا ای میل ایڈریس درج کریں اور ہم آپ کے پاس ورڈ کو دوبارہ ترتیب دینے کے لئے ہدایات بھیجیں گے.
+    </string>
+
+    // پاس ورڈ تبدیل کریں    <string name="old_password">
+       پرانا پاسورڈ
+    </string>
+    <string name="new_password">
+       نیا پاس ورڈ    </string>
+    <string name="new_password_again">
+        دوبارہ نیا پاس ورڈ
+    </string>
+    <string name="your_password_must_contain_a_number_etc">
+        آپ کا پاس ورڈ ایک نمبر، ایک چھوٹا خط، ایک بڑے حروف، اور 8-16 حروف طویل ہونا ضروری ہے.
+    </string>
+    <string name="change_password">
+        پاس ورڈ تبدیل کریں
+    </string>
+
+    <!-- error code -->
+    <string name="exceeded_authentication_failure_limit_">
+        تصدیق کی ناکامی کی حد سے زیادہ حد تک (24 گھنٹے / فی فی فی 8 ناکامی)
+    </string>
+    <string name="user_account_is_inactive_">
+        صارف کا اکاؤنٹ غیر فعال ہے؛ صارف کو ای میل ایڈریس کی تصدیق کرنا ضروری ہے
+    </string>
+    <string name="a_user_already_exists_with_">
+       ای میل ایڈریس کے ساتھ ایک صارف پہلے ہی موجود ہے
+    </string>
+    <string name="invalid_email_address">
+        غلط ای میل ایڈریس
+    </string>
+    <string name="invalid_confirmation_code">
+     غلط تصدیقی کوڈ
+    </string>
+    <!--              -->
+    <!-- 5th part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 6th part start -->
+    <!--                -->
+    <string name="menu_settings">
+       ترتیبات
+    </string>
+    <string name="ncmec_declaim">
+        ".ہم تجویز کرتے ہیں کہ آپ اس رپورٹ کو بھی یادگار اور معزز بچوں کے لئے قومی مرکز میں بھیجیں
+    </string>
+    <string name="do_not_show_again">
+        پھر سے مت دکھاو
+    </string>
+    <!--              -->
+    <!-- 6th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 7th part start -->
+    <!--              -->
+    <string name="enter_email">
+        Enter email
+    </string>
+    <string name="enter_password">
+        Enter password
+    </string>
+    <!--              -->
+    <!-- 7th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 8th part start -->
+    <!--              -->
+    <string name="pad3subStatusUnsubscribed">
+        رکنیت ختم کی گئی
+        <!-- "This text label tells of the status of the user not being subscribed to recieve notifications."-->
+    </string>
+    <string name="pad3subStatusSubscribed">
+        رکنیت اختیارکی گئی
+        <!-- "This text label tells the status of the user being subscribed to recieve notifications."-->
+    </string>
+    <string name="pad3subscribeTo">
+        اطلاعات کے لیے رکنیت اختیار کریں
+        <!--"context": "This is the title text to the section that allows a user to opt-in to recieve push notifications."-->
+    </string>
+    <string name="pad3Time">
+        وقتاً فوقتاً، جب کوئی نیا وقوعہ تخلیق ہوگا تو ہم اپنے صارفین کو اطلاعات بھیجیں گے۔
+        <!-- "context": "This verbiage describes the extent to which we use the push notification subscription a user provides to send out information."-->
+    </string>
+    <!--              -->
+    <!-- 8th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 9th part start -->
+    <!--              -->
+    <string name="age_child_pius_unknown">
+    بچے (0-17) + نامعلوم
+        <!-- "context": "This verbiage describes the extent to which we use the push notification subscription a user provides to send out information."-->
+    </string>
+    <!--              -->
+    <!-- 9th part end -->
+    <!--              -->
+    <!-- notification -->
+    <!-- 10th part start -->
+    <!--                -->
+    <string name="pad3record">
+    	ریکارڈز کو اپ ڈیٹس حاصل کریں جو آپ کے ذریعے درج ذیل ہیں
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive messages from PL via push or email when a record they are following is updated."-->
+    </string>
+    <string name="pad3event">
+    	جب ایک نیا ایونٹ تخلیق ہوجاتا ہے تو ایک پیغام وصول کریں
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive messages from PL via push or email when a new event is created."-->
+    </string>
+    <string name="pad3admin">
+    	ذریعے منتظم پیغامات حاصل کریں
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive admin messages from PL via push or email."-->
+    </string>
+    <string name="pushNotification">
+    	اطلاعات پش
+        <!-- "context": "This describes a button label for a Push Notification option."-->
+    </string>
+    <!-- notification -->
+    <!-- 10th part end -->
+    <!--              -->
+    <!-- person animal -->
+    <!-- 11th part start -->
+    <!--                -->
+    <string name="person">
+    	آدمی
+    </string>
+    <string name="animal">
+        جانور
+    </string>
+    <string name="both">
+        Both
+    </string>
+    <!-- notification -->
+    <!-- 11th part end -->
+    <!--              -->
+</resources>

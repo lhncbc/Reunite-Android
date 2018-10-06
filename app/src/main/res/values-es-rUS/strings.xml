@@ -1,0 +1,1398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--                                -->
+    <!-- 1st part of translations       -->
+    <!-- Verified by Laritza            -->
+    <!-- start                          -->
+
+    <!-- General commands - start -->
+    <string name="ok">
+        De acuerdo
+    </string>
+    <string name="cancel">
+        Cancelar
+    </string>
+    <string name="yes">
+        Sí
+    </string>
+    <string name="no">
+        No
+    </string>
+    <string name="continue_word">
+        Continuar
+    </string>
+    <string name="retry">
+        Intente de Nuevo
+    </string>
+    <string name="none">
+        Ninguna
+    </string>
+    <string name="home">
+        Inicio
+        <!-- return to main screen -->
+    </string>
+    <string name="save">
+        Guardar
+    </string>
+    <string name="delete">
+        Borrar
+    </string>
+    <string name="delete_q">
+        Borrar?
+    </string>
+    <string name="delete_all">
+        Eliminar todos
+    </string>
+    <string name="select">
+        Seleccionar
+    </string>
+    <string name="please">
+        Por favor
+    </string>
+    <string name="return_word">
+        Regresar
+    </string>
+    <string name="next">
+        Siguiente
+    </string>
+    <string name="back">
+        Regresar
+        <!-- move backwards -->
+    </string>
+    <string name="forward">
+        Adelantar
+        <!-- move forwards -->
+    </string>
+    <string name="warning">
+        Advertencia
+    </string>
+    <string name="error">
+        Error
+    </string>
+    <string name="correct">
+        Correcto
+    </string>
+    <string name="open">
+        Abrir
+    </string>
+    <string name="close">
+        Cerrar
+    </string>
+    <string name="camera">
+        Cámara
+    </string>
+    <string name="gallery">
+        Galería
+    </string>
+    <string name="defined">
+        Definido
+    </string>
+    <string name="undefined">
+        No Definido
+    </string>
+    <string name="language">
+    	Idioma
+    </string>
+    <!-- General commands - end -->
+
+    <!-- omb and privacy statement - start -->
+    <!-- omb and privacy statement - start -->
+    <string name="expiration_date_1st_part">
+        Omitted
+    </string>
+    <string name="ome_number">
+        Omitted
+    </string>
+    <string name="omb_notice">
+        Omitted
+    </string>
+    <string name="omb_submission">
+        Omitted
+    </string>
+    <string name="omb_text1">
+        Omitted
+    </string>
+    <string name="omb_text2">
+        <!-- do not translate this line -->
+        Omitted
+    </string>
+    <string name="omb_sub">
+        He leído y acepto
+    </string>
+    <string name="i_refuse">
+        No Acepto
+    </string>
+    <!-- omb and privacy statement - end -->
+
+    <!-- home screen - start -->
+    <string name="welcome">
+        Bienvenido
+    </string>
+    <string name="username">
+        Nombre de usuario
+    </string>
+    <string name="password">
+        Contraseña
+    </string>
+    <string name="login">
+        Conexión
+    </string>
+    <string name="logout">
+        Desconexión
+    </string>
+    <string name="login_or_logout">
+        Conexión/Desconexión
+    </string>
+    <string name="guest">
+        Huésped
+    </string>
+    <string name="login_was_successful">
+        Sesión iniciada con éxito
+    </string>
+    <string name="good_bye">
+        Adios
+    </string>
+    <string name="you_are_now_a_developer">
+        Ahora eres un programador!
+    </string>
+    <string name="web_server">
+        Servidor web
+    </string>
+    <string name="server_status">
+        Serveri staatus
+        <!-- online or offline, connected or dis-connected -->
+    </string>
+    <string name="check">
+        Comprobar
+    </string>
+    <string name="latency">
+        Estado latente
+        <!-- server response time -->
+    </string>
+    <string name="time_out">
+        Se acabó el tiempo
+    </string>
+    <string name="event">
+        Evento
+    </string>
+    <string name="change">
+        Cambio
+    </string>
+    <string name="date">
+        Fecha
+    </string>
+    <string name="event_location">
+        Lugar del evento
+    </string>
+    <string name="find">
+        Buscar
+        <!-- find a missing person -->
+    </string>
+    <string name="report">
+        Informe
+        <!-- report a missong person -->
+    </string>
+    <string name="organize">
+        Organizar
+        <!-- organize files which saved in folders -->
+    </string>
+    <string name="do_you_want_to_login">
+        Quieres entrar?
+    </string>
+    <string name="do_you_want_to_login_dis">
+        Como huésped , usted puede tener algunas funciones limitadas para su uso. Para iniciar
+        sesión es muy recomendable .
+    </string>
+    <!-- home screen - end -->
+
+    <!-- missing person list - start -->
+    <string name="filter">
+        Filtrar
+        <!-- make selections to narrow down the searching -->
+    </string>
+    <string name="name">
+        Nombre
+        <!-- search by input missing person's name -->
+    </string>
+    <string name="photo">
+        Foto
+        <!-- search by input missing person's photo -->
+    </string>
+    <string name="page">
+        Página
+    </string>
+    <string name="search">
+        Buscar
+    </string>
+    <string name="more">
+        Más
+        <!-- more to next page -->
+    </string>
+    <!-- missing person list - end -->
+
+    <!-- missing person information - start -->
+    <string name="draft">
+        Borrador
+        <!-- folder to save uncompleted records -->
+    </string>
+    <string name="send">
+        Enviar
+        <!-- command to send the report -->
+    </string>
+    <string name="primary_image">
+        Primera Imagen
+        <!-- first image of a missing person -->
+    </string>
+    <string name="secondary_image">
+        Segunda Imagen
+        <!-- second or third, etc image of a missing person -->
+    </string>
+    <string name="press_button_on_right_side_to_add_caption">
+        Pulse el botón al lado derecho para añadir subtítulos
+        <!-- description -->
+    </string>
+    <string name="caption">
+        Subtítulo
+    </string>
+    <string name="missing_person_information">
+        Falta información de la persona
+    </string>
+    <string name="first_name">
+        Nombre de pila
+    </string>
+    <string name="last_name">
+        Apellido
+    </string>
+    <string name="other_names">
+        Otros nombres
+    </string>
+    <string name="approximate_age">
+        Edad
+    </string>
+    <string name="gender">
+        Género
+    </string>
+    <string name="male">
+        Masculino
+    </string>
+    <string name="female">
+        Femenino
+    </string>
+    <string name="unknown">
+        Desconocido
+    </string>
+    <string name="complex">
+        Complejo
+    </string>
+    <string name="status">
+        Estado
+        <!-- missing person's status: missing, alive and well, injured, deceased, unknown or found -->
+    </string>
+    <string name="missing">
+        Desaparecido
+    </string>
+    <string name="alive_and_well">
+        Vivo y bien
+    </string>
+    <string name="injured">
+        Lesionado
+    </string>
+    <string name="deceased">
+        Fallecido
+    </string>
+    <string name="found">
+        Encontrado
+    </string>
+    <string name="last_seen_location">
+        Ultima Ubicación confirmada
+    </string>
+    <string name="additional_details">
+        Detalles adicionales
+    </string>
+    <string name="missing_person_uuid">
+        La persona desaparecida UUID
+    </string>
+    <string name="last_updated_date">
+        Ultima actualización Fecha
+    </string>
+    <string name="follow">
+        Seguir
+    </string>
+    <string name= "why_follow_a_record">
+         Desea seguir este registro?
+    </string>
+    <string name="follow_record_des">
+        Para recibir  aviso por correo electrónico cuando este registro se actualize con nueva
+        información , se puede seleccionar y seguir esta persona. Sólo recibir correo electrónico
+        cuando el registro se actualiza con el nuevo información o cuando alguien deja un
+        comentario.
+    </string>
+    <string name="why_follow_record">
+        Para recibir alertas por correo electrónico cuando este registro se actualize con nueva información, puede optar por seguir esta persona. Solo recibir un correo electrónico cuando el registro se actualiza con el nuevo información o cuando alguien deja un comentario.
+    </string>
+    <!-- missing person information - end -->
+
+    <!-- Report missing person - start -->
+    <string name="input_by_right_side_button">
+        Entrada con el botón derecha
+    </string>
+    <string name="google_map_view">
+        Google mapa
+    </string>
+    <string name="gps_cannot_detect_current_location">
+        GPS no puede detectar la ubicación actual
+    </string>
+    <string name="let_gps_fill_your_address">
+        <!-- Let GPS fill your address -->
+        Dejar que su GPS para llenar su dirección
+    </string>
+    <string name="get_address_from_google_map">
+        Get address from Google Map
+    </string>
+    <string name="address_book_is_empty">
+        La libreta de direcciones está vacia
+    </string>
+    <string name="select_from_adress_book">
+        Seleccione una entrada de la libreta de direcciones
+    </string>
+    <string name="street">
+        Dirección
+    </string>
+    <string name="city">
+        Ciudad
+    </string>
+    <string name="state">
+        Estado
+    </string>
+    <string name="zip">
+        Codigo Postal
+    </string>
+    <string name="country">
+        País
+    </string>
+    <string name="comments">
+        Comentarios
+    </string>
+    <string name="maximum_500_characters">
+        Máximo 500 caracteres
+    </string>
+    <string name="required_field">
+        Requerido
+        <!-- the field that the user must input -->
+    </string>
+    <!-- Report missing person - end -->
+
+    <!-- Organize - start -->
+    <string name="lost_person_files">
+        Archivos persona perdida
+    </string>
+    <string name="file_found">
+        Archivo Encontrado
+    </string>
+    <string name="files_found">
+        Archivos encontrados
+    </string>
+    <string name="no_file_is_found">
+        No se encuentra ningún archivo
+    </string>
+    <!-- Organize - end -->
+
+    <!-- web server latency - start -->
+    <string name="excellent">
+        Excelente
+    </string>
+    <string name="good">
+        Bueno
+    </string>
+    <string name="poor">
+        Deficiente
+    </string>
+    <string name="disconnected">
+        Desconectado
+    </string>
+    <!-- web server latency - end -->
+
+    <!-- toast messages - start -->
+    <string name="this_option_is_not_available">
+        Esta opción no está disponible
+    </string>
+    <string name="all_photos_are_deleted">
+        Todas las fotos se borraron
+    </string>
+    <string name="all_records_are_deleted">
+        Todos los registros se eliminaron
+    </string>
+    <string name="email">
+        Correo electrónico
+    </string>
+    <string name="sending_email">
+        Enviando correo electrónico...
+    </string>
+    <string name="there_is_no_email_client_installed">
+        No hay cliente de correo electrónico instalado
+    </string>
+    <string name="html_file_is_empty">
+        El archivo HTML está vacío
+    </string>
+    <string name="done">
+        Completado
+    </string>
+    <string name="canceled">
+        Cancelado
+    </string>
+    <string name="succeed">
+        Terminó con éxito
+    </string>
+    <string name="not_succeed">
+        No completó
+    </string>
+    <string name="completed">
+        Terminado
+    </string>
+    <string name="implemented">
+        Implementado
+    </string>
+    <string name="not_implemented">
+        No se ha implementado
+    </string>
+    <string name="no_record_is_found">
+        No se encuentra ningún registro
+    </string>
+    <string name="need_to_login">
+        Necesita ingresar
+    </string>
+    <string name="no_photo">
+        No hay foto
+    </string>
+    <string name="no_photo_is_found">
+        No se encuentra ninguna foto
+    </string>
+    <string name="a_photo_is_selected">
+        Una foto seleccionada
+    </string>
+    <string name="moving_to_photo_number">
+        Pasando a la foto número
+    </string>
+    <string name="you_are_about_to_delete_all_the_photos_saved_in_cache">
+        Esta a punto de borrar todas las fotos guardadas en la memoria
+    </string>
+    <string name="are_you_sure_you_want_to_delete_the_selected_photo">
+        Está seguro de que quiere borrar la foto seleccionada?
+    </string>
+    <string name="no_photo_is_selected_do_you_really_want_to_quit">
+        No ha seleccionado ninguna foto. Realmente quieres salir?
+    </string>
+    <string name="file_is_saved">
+        Archivo guardado
+    </string>
+    <string name="report_abuse_and_its_explanation_are_sent">
+        Reportar el abuso, se enviara la explicación
+    </string>
+    <string name="all_files_in_outbox_are_deleted">
+        Todos los archivos de la bandeja de salida estan eliminados
+    </string>
+    <string name="searching_images_took_seconds">
+        Buscar imágenes toma unos segundos
+    </string>
+    <string name="google_authenticated_token_is_empty">
+        El token de autenticación de Google está vacío
+    </string>
+    <!-- toast messages - end -->
+
+    <!-- dialogue box message - start -->
+    <string name="processing_please_wait">
+        Procesando, por favor espere...
+    </string>
+    <string name="updating_the_status_please_wait">
+        Actualización del estado, por favor espere ...
+    </string>
+    <string name="retrieving_events_please_wait">
+        Recuperando eventos, por favor espere ...
+    </string>
+    <string name="retrieving_information_on_selected_event_please_wait">
+        Recuperando de la información en el evento seleccionado, por favor espere...
+    </string>
+    <string name="detecting_the_speed_please_wait">
+        Detección de la velocidad, por favor espere...
+    </string>
+    <string name="logging_in_please_wait">
+        Acceder al sistema, por favor espere...
+    </string>
+    <string name="saving_data_to_database_please_wait">
+        Guardar la información en la base de datos, por favor espere...
+    </string>
+    <string name="reporting_missing_person_please_wait">
+        Informes La persona desaparecida, por favor espere...
+    </string>
+    <string name="reporting_abuse_please_wait">
+        Informes el abuso, por favor espere...
+    </string>
+    <string name="loading_images_please_wait">
+        Cargando imágenes, por favor espere...
+    </string>
+    <string name="searching_the_selected_record_">
+        Busca el archivo persona seleccionada , por favor espere ...
+    </string>
+    <string name="un_flowing_all_the_records_please_wait">
+        Dejando de seguir todos los registros, por favor espere...
+    </string>
+    <string name="information_is_sent">
+        Información enviada
+    </string>
+    <string name="save_a_copy_to_local">
+        Guardar una copia en el dispositivo
+    </string>
+    <string name="registration_is_successful_">
+        El registro ingreso con éxito ! Ingrese a la cuenta o busque más información en su
+		correo electrónico
+    </string>
+    <string name="first_name_is_empty">
+        Nombre está vacío!
+    </string>
+    <string name="last_name_is_empty">
+        Apellido está vacío !
+    </string>
+    <string name="email_is_empty">
+        El correo electrónico es vacío!
+    </string>
+    <string name="username_is_empty">
+        Nombre de usuario está vacío!
+    </string>
+    <string name="password_is_empty">
+        Contraseña está vacío!
+    </string>
+    <string name="confirmation_password_is_empty">
+        La confirmación de contraseña está vacía!
+    </string>
+    <string name="two_passwords_are_not_identical">
+        Las dos contraseñas no son idénticas.
+    </string>
+    <string name="password_requires_at_least_8_characters">
+        La contraseña requiere al menos 8 caracteres .
+    </string>
+    <string name="password_cannot_have_more_than_16_characters">
+        La contraseña no puede tener más de 16 caracteres .
+    </string>
+    <string name="password_must_have_at_least_one_uppercase_character">
+        La contraseña debe tener al menos una letra  mayúscula
+    </string>
+    <string name="password_must_have_at_least_one_lowercase_character">
+        La contraseña debe tener al menos una letra en minúscula .
+    </string>
+    <string name="password_must_have_at_least_one_numeral_">
+        La contraseña debe tener al menos un número ( 0-9 ) .
+    </string>
+    <string name="password_cannot_contain_your_username">
+        La contraseña no puede contener su nombre de usuario .
+    </string>
+    <string name="you_need_to_select_the_event">
+        Es necesario seleccionar el evento
+    </string>
+    <string name="do_you_want_to_delete_this_image">
+        Quieres eliminar esta imagen ?
+    </string>
+    <string name="as_a_guest_you_">
+        Como huesped , puede informar acerca de una persona desaparecida de forma anónima . Pero
+		algunas funciones serán limitadas .
+    </string>
+    <string name="are_you_sure_you_want_to_quite_current_work_q">
+        Está seguro de que quiere dejar el trabajo actual?
+    </string>
+    <string name="you_do_not_have_any_following_records">
+        No esta siguiendo ningun registro
+    </string>
+    <string name="you_do_not_have_internet_connection">
+        Usted no tiene conexión a Internet
+    </string>
+    <string name="as_a_guest_you_may_report_">
+        Como huésped , usted puede reportar a una persona desaparecida de forma anónima.
+		Pero usted tendrá funciones limitadas para su uso.
+	</string>
+    <string name="as_a_guest_you_may_have_">
+        Como huesped , es posible que tenga algunas funciones limitadas en el uso, se recomienda iniciar la sesión.
+    </string>
+    <string name="change_is_made_">
+        El cambio se hizo. Por favor, reiniciar la aplicación.
+    </string>
+    <!-- dialogue box message - end -->
+
+    <!-- text shown on menu - start -->
+    <string name="social_media">
+        Medios de comunicación social
+    </string>
+    <string name="tutorials">
+        Tutoriales
+    </string>
+    <string name="email_us">
+        Envíanos un correo electrónico
+    </string>
+    <string name="version_history">
+        Historial de versiones
+    </string>
+    <string name="cache">
+        Cache
+    </string>
+    <string name="clean_cache">
+        Limpiar la caché
+    </string>
+    <string name="refresh">
+        Refrescar
+    </string>
+    <string name="email_html_file">
+        Archivo de correo electrónico HTML
+    </string>
+    <string name="developer_tools">
+        Herramientas de desarrollo
+    </string>
+    <string name="enter_username_and_password">
+        Introduzca nombre de usuario y contraseña
+    </string>
+    <string name="about">
+        Acerca de
+    </string>
+    <string name="report_abuse">
+        Reportar abuso
+    </string>
+    <string name="update_image">
+        actualización de la imagen
+    </string>
+    <string name="get_male_name">
+        Obtener Nombre masculino
+    </string>
+    <string name="get_female_name">
+        Obtener Nombre Femenino
+    </string>
+    <string name="notification">
+        Notificación
+    </string>
+    <string name="show_omb">
+        Mostrar el OMB
+    </string>
+    <string name="future_developments">
+        Desarrollos futuros
+    </string>
+    <string name="display_gcm_token">
+        Mostrar el simbolo GCM
+    </string>
+    <string name="gcm_token_upload_status">
+        Simbolo GCM estado de subida
+    </string>
+    <string name="send_gcm_message">
+        Enviar mensaje GCM
+    </string>
+    <string name="email_gcm_token">
+        GCM correo electrónico de emergencia
+    </string>
+    <string name="select_web_server">
+        Seleccionar servidor Web
+    </string>
+    <!-- text shown on menu - end -->
+
+    <!-- error codes - start -->
+    <string name="plusError1">
+        Error: Nombre de usuario o contraseña inválida
+        <!-- "context": "Error message presented when a user provides the incorrect username and/or password." -->
+    </string>
+    <string name="plusError2">
+        Error: la cuenta está bloqueada temporalmente por uso repetido de nombre de usuario o contraseña erroneos, intente más tarde
+        <!-- "context": "Error message presented when a user fails to login repeatedly." -->
+    </string>
+    <string name="plusError6">
+        Error: un usuario ya existe con la dirección de correo electrónico proporcionada
+        <!-- "context": "Error message presented when user tries to use an email address already in use." -->
+    </string>
+    <string name="plusError7">
+        Error: el nombre de usuario que ha proporcionado no está disponible
+        <!-- "context": "Error message presented when a user attempts to register with a username that is already in use by another user." -->
+    </string>
+    <string name="plusError8">
+        Error: la dirección de correo electrónico no es válida
+        <!-- "context": "Error message presented when a user provides an invalid email address." -->
+    </string>
+    <string name="plusError9">
+        Error: la contraseña debe tener 8-16 caracteres de longitud, debe tener al menos una letra mayúscula, una minúscula y un carácter numérico
+        <!-- "context": "Error message presented when user enters an invalid password." -->
+    </string>
+    <string name="plusError11">
+        Error: la dirección de correo electrónico proporcionada no está asociada con ninguna cuenta de usuario
+        <!-- "context": "Error message presented when user attempts to reset password with an unregistered email address-->
+    </string>
+    <string name="plusError14">
+        Error: resultado de la prueba de validación humana incorrecta, por favor vuelva a cargar la página
+        <!-- "context": "Error message presented when the captcha system encounters invalid data-->
+    </string>
+    <string name="plusError15">
+        Error: sesión reCaptcha caducada, por favor vuelva a cargar la página
+        <!-- "context": "Error message presented when the reCaptcha session has expired and the user must reload the page to continue-->
+    </string>
+    <string name="plusError16">
+        Error: contraseñas no coinciden
+        <!-- "context": "Error message presented when entered password do not match one another-->
+    </string>
+    <string name="plusError20">
+        Error: la contraseña debe tener 8-16 caracteres de longitud
+        <!-- "context": "Error message presented when entered password is of incorrect length, must be 8-16 characters long-->
+    </string>
+    <string name="plusError21">
+        Error: la contraseña debe contener al menos una letra mayúscula (A-Z)
+        <!-- "context": "Error message presented when entered password does not contain at least one uppercase letter-->
+    </string>
+    <string name="plusError22">
+        Error: la contraseña debe contener al menos una letra en minúscula (a-z)
+        <!-- "context": "Error message presented when entered password does not contain at least one lowercase letter-->
+    </string>
+    <string name="plusError23">
+        Error: la contraseña debe contener al menos un número (0-9)
+        <!-- "context": "Error message presented when entered password does not contain at least one digit-->
+    </string>
+    <string name="plusError100">
+        Error de red. Por favor verifique su conexión e intente de nuevo.
+        <!-- "context": "Error message presented when there is a network / internet issue-->
+    </string>
+    <string name="plusError600">
+        Error: No se puede seguir un registro que no existe o no tiene privilegio de acceso
+        <!-- "context": "Error message presented when user attempts to follow a record they have no permission to access-->
+    </string>
+    <string name="plusError601">
+        Error: No se puede seguir este registro, ya lo está siguiendo
+        <!-- "context": "Error message presented whe  n attempting to follow a record the user is already following-->
+    </string>
+    <string name="plusError602">
+        Error: No se puede dejar de seguir este registro ya que no lo está siguiendo actualmente
+        <!-- "context": "Error message presented when "-->
+    </string>
+    <string name="plusError9999">
+        Un error desconocido ha ocurrido.
+    </string>
+    <!-- error codes - end -->
+
+    <!-- end                            -->
+    <!-- 1st part of translations       -->
+    <!-- Verified by Laritza            -->
+    <!--                                -->
+
+    <!--                                          -->
+    <!-- 2nd part of translations                 -->
+    <!-- Verified by Laritza                      -->
+    <!-- start                                    -->
+
+    <string name="quit">
+        <!-- Quite -->
+        Dejar
+    </string>
+    <string name="select_language">
+        <!-- Select Language -->
+        Seleccione el idioma
+    </string>
+    <string name="offline">
+        <!-- Offline -->
+        Desconectado
+    </string>
+    <string name="connected">
+        <!-- Connected -->
+        Conectado
+    </string>
+    <string name="follow_record">
+        <!-- Follow record -->
+        seguir un disco
+    </string>
+    <string name="follow_nothing">
+        <!-- Follow nothing -->
+        Siguiendo nadag
+    </string>
+    <string name="no_follow">
+        <!-- No follow -->
+        No seguir
+    </string>
+    <string name="logout_first">
+        <!-- Logout first -->
+        Cerrar sesión primero
+    </string>
+    <string name="undetected">
+        <!-- Undetected -->
+        Si no se detecta
+    </string>
+    <string name="address_book">
+        <!-- Address book -->
+        Directorio
+    </string>
+    <string name="enter_a_name_">
+        <!-- Enter a name in the search box. Use the asterisk (*) to match any group of characters. -->
+        Introduzca un nombre en el cuadro de búsqueda. Utilizar el asterisco (*) para que coincida con cualquier grupo de caracteres.
+    </string>
+    <string name="example">
+        <!-- Example -->
+        Ejemplo
+    </string>
+    <string name="are_you_sure_q">
+        <!-- Are you sure? -->
+        Está seguro?
+    </string>
+    <string name="input_empty_error_code">
+        <!-- Input empty error code -->
+        Código de error entrada de vacío
+    </string>
+    <string name="show_password">
+        <!-- Show password -->
+        Mostrar contraseña
+    </string>
+    <string name="forgot_q">
+        <!-- Forgot ? -->
+        Olvidó?
+    </string>
+    <string name="forgot_username">
+        <!-- Forgot username -->
+        Olvidó nombre de usuario?
+    </string>
+    <string name="forgot_password">
+        <!-- Forgot password -->
+        Olvidó su contraseña
+    </string>
+    <string name="new_user">
+        <!-- New user -->
+        Nuevo usuario
+    </string>
+    <string name="please_enter_your_username_and_password">
+        <!-- Please enter your username and password -->
+        Por favor ingrese su usuario y contraseña
+    </string>
+    <string name="forgot_your_username_q">
+    <!-- Forgot your username? Please enter your e-mail address, we will send information back to you shortly-->
+        Olvidó el nombre de usuario? Por favor ingrese su dirección de correo electrónico, le enviaremos información en poco tiempo
+    </string>
+    <string name="submit">
+        <!-- Submit -->
+        Someter
+    </string>
+    <string name="email_address_is_sent">
+        <!-- Email address is sent -->
+        La dirección de correo electrónico fué enviada
+    </string>
+    <string name="forgot_your_password_q">
+        <!-- Forgot your password? Please enter your e-mail address, we will send information back to you shortly-->
+        Olvidó tu contraseña? Por favor ingrese su direcciñn de correo electrónico, le enviaremos información en poco tiempo
+    </string>
+    <string name="register_as_a_new_user">
+        <!-- Register as a new user -->
+        Registro como un nuevo usuario
+    </string>
+    <string name="passwords_must_adhere_">
+        <!-- Passwords must adhere to the following rules -->
+        Las contraseñas deben cumplir con las siguientes reglas
+    </string>
+    <string name="re_enter_password">
+        <!-- Re-enter password -->
+        Vuelva a introducir contraseña
+    </string>
+    <string name="register">
+        <!-- Register -->
+        Registro
+    </string>
+    <string name="child_0_17">
+        <!-- Child (0-17) -->
+        Niño (0-17)
+    </string>
+    <string name="adult_18_plus">
+        <!-- Adult (18+) -->
+        Adulto (18+)
+    </string>
+    <string name="view_persons_with">
+        <!-- View persons with -->
+        Vea a personas con
+    </string>
+    <string name="photo_only">
+        <!-- photo only -->
+        solo fotos
+    </string>
+    <string name="both_recommended">
+        <!-- both - recommended -->
+        ambos - recomendado
+    </string>
+    <string name="number_of_records_per_load">
+            <!-- Number of records per load -->
+        Número de registros por carga
+    </string>
+    <string name="_5_seconds">
+        <!-- 5 seconds -->
+        5
+    </string>
+    <string name="_10_seconds">
+        <!-- 10 seconds -->
+        10
+    </string>
+    <string name="_10_seconds_recommended">
+        <!-- 10 seconds - recommended -->
+        10 - recomendado
+    </string>
+    <string name="_15_seconds">
+        <!-- 15 seconds -->
+        15
+    </string>
+    <string name="_15_seconds_recommended">
+        15 - recomendado
+    </string>
+    <string name="_20_seconds">
+        <!-- 20 seconds -->
+        20
+    </string>
+    <string name="tap_right_button_to_add_photo_caption">
+        <!-- Tap right button to add photo caption -->
+        Pulse el botón derecho para agregar descripción a la foto
+    </string>
+    <string name="open_for_reporting">
+        <!-- Open for reporting -->
+        Abierta para la presentación de informes
+    </string>
+    <string name="closed_reporting">
+        <!-- Closed reporting -->
+        Cerrada la presentación de informes
+    </string>
+    <string name="you_have_selected">
+        <!-- You have selected -->
+        Usted ha seleccionado
+    </string>
+    <string name="start">
+        <!-- Start -->
+        Empiece
+    </string>
+    <string name="no_photo_is_selected">
+        <!-- No photo is selected -->
+        No ha seleccionado ninguna foto
+    </string>
+    <string name="sent_box_is_empty">
+        <!-- Sent box is empty -->
+        La bandeja de correos enviados está vacia
+    </string>
+    <string name="out_box_is_empty">
+        <!-- Outbox is empty -->
+        La bandeja de salida está vacia
+    </string>
+    <string name="draft_box_is_empty">
+        <!-- Draft box is empty -->
+        La bandeja de mensajes en borrador está vacia
+    </string>
+    <string name="saved_box_is_empty">
+        <!-- Saved box is empty -->
+        La bandeja de correos guardados está vacia
+    </string>
+    <string name="all_boxes_are_empty">
+        <!-- All boxes are empty -->
+        Todas las bandejas están vacias
+    </string>
+    <string name="sent">
+        <!-- Sent -->
+        Enviado
+    </string>
+    <string name="outbox">
+        <!-- Outbox -->
+        Bandeja de salida
+    </string>
+    <string name="saved_from_search">
+        <!-- Saved from search -->
+        Guardado en búsqueda
+    </string>
+    <string name="you_are_about_to_delete_all_files">
+        <!-- You are about to delete all files -->
+        Está a punto de borrar todos los archivos
+    </string>
+    <string name="all_files_are_deleted">
+        <!-- All files are deleted -->
+        Todos los archivos se eliminaron
+    </string>
+    <string name="web_server_is_not_found">
+        <!-- Web server is not found -->
+        El servidor de internet no se encuentra
+    </string>
+    <string name="this_file_was_downloaded_earlier_">
+        <!-- This file was downloaded earlier. It may not be the most updated. To see the most updated file, go back to home and try \"Find\" command again -->
+        Este archivo se descargó anteriormente. Puede que no sea la máa actualizada. Para ver el archivo más actualizado, volver a inicio y usar el comando  \"Buscar\" de nuevo
+    </string>
+    <string name="you_are_an_anonymous_user">
+        <!-- You are an anonymous user -->
+        Usted es un usuario anónimo
+    </string>
+    <string name="saved">
+        <!-- Saved -->
+        Guardado
+    </string>
+    <string name="deleted">
+        <!-- Deleted -->
+        Borrado
+    </string>
+    <string name="local_file_id">
+        <!-- Local file ID -->
+        ID de archivo local
+    </string>
+    <string name="there_is_only_one_photo">
+        <!-- There is only one photo -->
+        Hay sólo una foto
+    </string>
+    <string name="add_text">
+        <!-- Add text -->
+        Añadir texto
+    </string>
+    <string name="age_is_missing">
+        <!-- Age is missing -->
+        Edad falta
+    </string>
+    <string name="exceeds_maximum_age">
+        <!-- Exceeds maximum age -->
+        Supera la edad máxima
+    </string>
+    <string name="error_in_age">
+        <!-- Error in age -->
+        Error en edad
+    </string>
+    <string name="error_in_event">
+        <!-- Error in event -->
+        Error en evento
+    </string>
+    <string name="error_in_gender">
+        <!-- Error in gender -->
+        Error en género
+    </string>
+    <string name="error_in_status">
+        <!-- Error in status -->
+        Error en estado
+    </string>
+    <string name="no_data_returned">
+        <!-- No data returned -->
+        No se encontraron datos
+    </string>
+    <string name="updated">
+        <!-- Updated -->
+        Actualizado
+    </string>
+    <string name="updating_the_persons_information_please_wait_dots">
+        <!-- Uploading the person's information, please wait... -->
+        Subir información de la persona, por favor espere...
+    </string>
+    <string name="is_sent">
+        <!-- is sent -->
+        Enviado
+    </string>
+    <string name="is_not_sent">
+        <!-- is not sent -->
+        No ha sido enviado
+    </string>
+    <string name="is_saved">
+        <!-- is saved -->
+        Guardado
+    </string>
+    <string name="no_permission">
+        <!-- No permission -->
+        No está autorizado
+    </string>
+    <string name="you_are_about_to_delete_this_file">
+        <!-- You are about to delete this file -->
+        Usted está a punto de borrar este archivo
+    </string>
+    <string name="uuid_is_missing">
+        <!-- UUID is missing -->
+        No se encuentra la UUID
+    </string>
+    <string name="permission_is_denied">
+        <!-- Permission is denied -->
+        Permiso denegado
+    </string>
+    <string name="subscribe_to_email_updates">
+        <!-- Subscribe to email updates -->
+        Suscribirse a las actualizaciones por correo electrónico
+    </string>
+    <string name="no_valid_token">
+        <!-- No valid token -->
+        Token no válido
+    </string>
+    <string name="slide_to_move_page">
+        <!-- Slide to move page -->
+        Deslice para cambiar de página
+    </string>
+    <string name="tutorial_on_the_starting_page">
+        <!-- Tutorial on the starting page -->
+        Instrucciones en la página de inicio
+    </string>
+    <string name="tutorial_on_rules_of_user_registration">
+        <!-- Tutorial on rules of user registration -->
+        Instrucciones sobre las normas de registro de usuarios
+   </string>
+    <string name="tutorial_on_finding_a_missing_person">
+        <!-- Tutorial on finding a missing person -->
+        Instrucciones sobre cómo encontrar a una persona desaparecida
+    </string>
+    <string name="tutorial_on_reporting_a_missing_person">
+        <!-- Tutorial on reporting a missing person -->
+        Instrucciones sobre la forma de ingresar datos de persona desaparecida
+    </string>
+    <string name="tutorial_on_managing_files_in_sent_saved_draft_and_outbox">
+        <!-- Tutorial on managing files in sent, saved, draft and outbox -->
+        Instrucciones sobre la gestión de los archivos en las bandejas de enviado, guardado, borrador y la bandeja de salida
+    </string>
+
+    <!-- to be translated - start -->
+    <string name="privacy_statement_title">
+        <!-- PRIVACY STATEMENT -->
+        PRIVACIDAD
+    </string>
+    <string name="privacy_statement_content">
+      La Biblioteca Nacional de EE.UU. de Medicina (NLM), parte del Departamento de Salud y Servicios Humanos de EE.UU., tiene en su misión el desarrollo
+      de la tecnología de los sistemas de comunicación para mejorar la difusion de información acerca de la salud. La aplicación ReUnite está diseñada para acelerar
+      el reporte de  información personal necesaria de personas desaparecidas o encontradas durante un evento catastrófico al servicio People Finder (PL) de la NLM
+      que a su vez está disponible en https://pl.nlm.nih.gov. Este servicio se proporciona con el propósito explícito de ayudar a la reunificación de
+      la familia después de un desastre, así como el estudio de la utilidad de este tipo de herramientas en la respuesta a los desastres. Más información sobre el
+      servicio PL y el People Finder de personas desaparecidas se puede encontrar en http: //lpf.nlm.nih.gov
+      \nNota:
+    </string>
+    <string name="ps_note_01">
+        El envio de información a través de esta aplicación es voluntaria.
+    </string>
+    <string name="ps_note_02">
+        Toda la información presentada es visible al público.
+    </string>
+    <string name="ps_note_03">
+        Los datos almacenados usando esta herramienta no son monitorizados y pueden  ser consultados por todos los visitantes al sitio web de PL de la NLM.
+    </string>
+    <string name="ps_note_04">
+        Los datos almacenados dentro de la aplicación no son cifrados.
+    </string>
+    <string name="ps_note_05">
+        Para el ingreso de datos los usuarios de esta aplicación deben tener una cuenta en el sitio PL
+    </string>
+    <string name="ps_note_06">
+        No es necesario ingresar al sitio PL para hacer las búsquedas.
+    </string>
+    <string name="ps_note_07">
+        Tenga en cuenta que toda la información contenida en la aplicación es difundida a otras agencias gubernamentales
+        u otras instituciones que asisten a los esfuerzos de reunificación después de cualquier desastre donde se están
+        proporcionando los esfuerzos de ayuda.
+    </string>
+    <string name="ps_note_08">
+        En casos de personas desaparecidas que son encontradas siga las instrucciones de la aplicación PL para actualizar la información.
+    </string>
+    <string name="ps_note_09">
+        Ni la aplicación, ni los funcionarios del NLM realizan seguimiento de ubicación del usuario.
+    </string>
+    <string name="ps_note_10">
+        La ubicación se detecta por la interacción del usuario con el dispositivo al activar la búsqueda por direcciones en la aplicación.
+    </string>
+
+    <!--                                        -->
+    <!-- 2nd part of translations               -->
+    <!-- Verified by Laritza                    -->
+    <!-- end                                    -->
+
+    <!--                -->
+    <!-- 3rd part start -->
+    <!--                -->
+
+    <string name="in_order_to_use_this_app_">
+        <!-- In order to use this app you must accept the Privacy Statement. Would you like to reconsider? -->
+        Para poder utilizar esta aplicación se debe aceptar la declaración de privacidad. ¿Le gustaría a reconsiderar?
+    </string>
+    <string name="saving_data_to_database_please_wait_dot">
+        <!-- Saving data to database, please wait... -->
+        Guardar datos a la base de datos, por favor espere...
+    </string>
+    <string name="update">
+        <!-- Update -->
+        Actualización
+    </string>
+
+    <!--              -->
+    <!-- 3rd part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 4th part start -->
+    <!--                -->
+
+    <string name="permission_is_granted_">Se concede permiso, ahora usted puede intentar otra vez.</string>
+    <string name="permission_is_denied_">El permiso fue denegado. Por favor considerar la concesión con el fin de acceder a los datos!</string>
+    <string name="message_checking_permission_">Comprobación de permisos...</string>
+    <string name="message_requesting_permission_">Solicitando permiso...</string>
+
+    <!--              -->
+    <!-- 4th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 5th part start -->
+    <!--              -->
+    <string name="confirmation_was_successful">
+        La confirmación fue aceptada.
+    </string>
+    <string name="click_button_to_complete_confirmation">
+        Por favor haga click en el botón para completar el proceso de confirmación.
+    </string>
+    <string name="invalid_preference_value">
+        La preferencia seleccionada es inválida
+    </string>
+    <string name="reporting_locale_dot">
+        Informando la ubicación...
+    </string>
+
+    // abuse
+    <string name="what_would_you_like_to_report">
+        Que quiere informar?
+    </string>
+    <string name="spam">
+        Información no deseada o incorrecta
+    </string>
+    <string name="sexually_explicit">
+        Contenido sexual
+    </string>
+    <string name="hate_speech">
+        El lenguaje indica odio
+    </string>
+    <string name="violence">
+        Violencia
+    </string>
+    <string name="something_else">
+        Otro tema
+    </string>
+    <string name="abuse_thanks">
+        Gracias. El informe de uso inappropiado ha sido recibido. Nuestro personal revisará este registro y retirará el contenido inappropiado.
+    </string>
+
+    <!-- forgot -->
+    <string name="enter_your_email_">
+        Escriba su correo electrónico para recibir las instrucciones para cambiar su contraseña.
+    </string>
+
+    // change password
+    <string name="old_password">
+        Contraseña anterior
+    </string>
+    <string name="new_password">
+        Contraseña nueva
+    </string>
+    <string name="new_password_again">
+        Nuevamente la contraseña nueva
+    </string>
+    <string name="your_password_must_contain_a_number_etc">
+        La contraseña debe incluir un número, letras en minúsculas, letras en mayúsculas, y de 8-16 caractéres.
+    </string>
+    <string name="change_password">
+        Cambio de Contraseña
+    </string>
+
+    <!-- error code -->
+    <string name="exceeded_authentication_failure_limit_">
+        ha excedido el límite de intentos fallidos (máximo 8 intentos fallidos en 24 horas por/ip)
+    </string>
+    <string name="user_account_is_inactive_">
+        la cuenta del usuario está inactiva; el usuario debe confirmar el correo electrónico
+    </string>
+    <string name="a_user_already_exists_with_">
+        ya existe un usuario con ese correo electrónico
+    </string>
+    <string name="invalid_email_address">
+        correo electrónico invalido
+    </string>
+    <string name="invalid_confirmation_code">
+        codigo de confirmación invalido
+    </string>
+    <!--              -->
+    <!-- 5th part end -->
+    <!--              -->
+
+    <!--                -->
+    <!-- 6th part start -->
+    <!--                -->
+    <string name="menu_settings">
+        Ajustes
+    </string>
+    <string name="ncmec_declaim">
+	    <!-- same as pl "ncmed1" -->
+        Sugerimos que envie este informe adicionalmente al Centro Nacional de Niños Desaparecidos y Explotados. (NCMEC)
+    </string>
+    <string name="do_not_show_again">
+        No mostrar de nuevo
+    </string>
+    <!--              -->
+    <!-- 6th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 7th part start -->
+    <!--              -->
+    <string name="enter_email">
+        Ingrese correo electrónico
+    </string>
+    <string name="enter_password">
+        Introducir la contraseña
+    </string>
+    <!--              -->
+    <!-- 7th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 8th part start -->
+    <!--              -->
+    <string name="pad3subStatusUnsubscribed">
+        NO SUBSCRITO
+        <!-- "This text label tells of the status of the user not being subscribed to recieve notifications."-->
+    </string>
+    <string name="pad3subStatusSubscribed">
+        SUBSCRITO
+        <!-- "This text label tells the status of the user being subscribed to recieve notifications."-->
+    </string>
+    <string name="pad3subscribeTo">
+        Subscribirse a las notificaciones
+        <!--"context": "This is the title text to the section that allows a user to opt-in to recieve push notifications."-->
+    </string>
+    <string name="pad3Time">
+        De vez en cuando, se enviarán notificaciones a los usuarios especialmente cuando se crea un nuevo evento.
+        <!-- "context": "This verbiage describes the extent to which we use the push notification subscription a user provides to send out information."-->
+    </string>
+    <!--              -->
+    <!-- 8th part end -->
+    <!--              -->
+
+    <!--              -->
+    <!-- 9th part start -->
+    <!--              -->
+    <string name="age_child_pius_unknown">
+        Niño (0-17) + Desconocido
+        <!-- "context": "This verbiage describes the extent to which we use the push notification subscription a user provides to send out information."-->
+    </string>
+    <!--              -->
+    <!-- 9th part end -->
+    <!--              -->
+    <!-- notification -->
+    <!-- 10th part start -->
+    <!--                -->
+    <string name="pad3record">
+    	Recibir actualizaciones de los registros que esta siguiendo por la siguiente via
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive messages from PL via push or email when a record they are following is updated."-->
+    </string>
+    <string name="pad3event">
+    	Recibir mensajes acerca de nuevos eventos por la siguiente via
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive messages from PL via push or email when a new event is created."-->
+    </string>
+    <string name="pad3admin">
+    	Recibir mensajes de la administración por la siguiente via
+        <!-- "context": "This verbiage describes the user settings section where a user can subscribe to receive admin messages from PL via push or email."-->
+    </string>
+    <string name="pushNotification">
+    	Notificación de inserción
+        <!-- "context": "This describes a button label for a Push Notification option."-->
+    </string>
+    <!-- notification -->
+    <!-- 10th part end -->
+    <!--              -->
+    <!-- person animal -->
+    <!-- 11th part start -->
+    <!--                -->
+    <string name="person">
+    	Persona
+    </string>
+    <string name="animal">
+        Mascota
+    </string>
+    <string name="both">
+        Both
+    </string>
+    <!-- notification -->
+    <!-- 11th part end -->
+    <!--              -->
+</resources>
